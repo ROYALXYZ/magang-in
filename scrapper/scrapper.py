@@ -63,11 +63,12 @@ def scrape_glints(page) -> list[dict]:
     for url in SOURCES["glints"]:
         try:
             page.goto(url, timeout=60000, wait_until="domcontentloaded")
-            page.wait_for_timeout(5000)
+            page.wait_for_timeout(7000)  # lebih lama biar JS selesai render
 
-            for _ in range(12):
-                page.mouse.wheel(0, 5000)
-                page.wait_for_timeout(2000)
+            # Scroll lebih dalam + jeda bervariasi agar lebih natural
+            for i in range(15):
+                page.mouse.wheel(0, 4000)
+                page.wait_for_timeout(1800 if i % 3 != 0 else 3000)
 
             selectors = [
                 '[data-cy="job-card"]',
@@ -124,6 +125,9 @@ def scrape_glints(page) -> list[dict]:
         except Exception as e:
             print(f"  [WARN] Gagal scrape Glints URL: {url[:60]}... → {e}")
             continue
+        finally:
+            # Jeda antar URL Glints — kurangi kemungkinan rate-limit
+            time.sleep(4)
 
     print(f"  ✅ Raw jobs dari Glints: {len(results)}")
     return results
@@ -136,11 +140,11 @@ def scrape_kalibrr(page) -> list[dict]:
     for url in SOURCES["kalibrr"]:
         try:
             page.goto(url, timeout=60000, wait_until="domcontentloaded")
-            page.wait_for_timeout(5000)
+            page.wait_for_timeout(6000)
 
-            for _ in range(8):
-                page.mouse.wheel(0, 5000)
-                page.wait_for_timeout(2000)
+            for i in range(10):
+                page.mouse.wheel(0, 4500)
+                page.wait_for_timeout(2000 if i % 2 == 0 else 2500)
 
             jobs_els = page.query_selector_all("a[href*='/c/']")
             url_type = url.split('/job-board/te/')[1].split('/')[0] if '/job-board/te/' in url else 'kalibrr'
@@ -172,6 +176,8 @@ def scrape_kalibrr(page) -> list[dict]:
         except Exception as e:
             print(f"  [WARN] Gagal scrape Kalibrr URL: {url[:60]}... → {e}")
             continue
+        finally:
+            time.sleep(3)
 
     print(f"  ✅ Raw jobs dari Kalibrr: {len(results)}")
     return results
@@ -188,20 +194,20 @@ def scrape_jobstreet(page) -> list[dict]:
         is_intern_url = url in INTERN_URLS
         try:
             page.goto(url, timeout=60000, wait_until="domcontentloaded")
-            page.wait_for_timeout(5000)
+            page.wait_for_timeout(6000)
 
             # Tutup modal login kalau muncul
             try:
                 close_btn = page.query_selector("button[aria-label='Close']")
                 if close_btn:
                     close_btn.click()
-                    page.wait_for_timeout(800)
+                    page.wait_for_timeout(1000)
             except Exception:
                 pass
 
-            for _ in range(8):
+            for i in range(10):
                 page.mouse.wheel(0, 5000)
-                page.wait_for_timeout(1500)
+                page.wait_for_timeout(2000 if i % 3 != 0 else 3000)
 
             jobs_els = page.query_selector_all("article")
             keyword = url.split('/id/')[-1]
@@ -235,8 +241,10 @@ def scrape_jobstreet(page) -> list[dict]:
                     loc_el     = el.query_selector("[data-automation='jobLocation']")
                     location   = loc_el.inner_text().strip() if loc_el else ""
 
-                    company_el = el.query_selector("[data-automation='jobCompany']")
-                    company    = company_el.inner_text().strip() if company_el else ""
+                    company_el  = el.query_selector("[data-automation='advertiser-name']")
+                    company_raw = company_el.inner_text().strip() if company_el else ""
+                    # Bersihkan noise "18 ulasan" yang muncul dari widget rating
+                    company     = re.sub(r'\s*\d+\s*ulasan', '', company_raw, flags=re.IGNORECASE).strip()
 
                     results.append({
                         "source":       "jobstreet",
@@ -251,6 +259,8 @@ def scrape_jobstreet(page) -> list[dict]:
 
         except Exception as e:
             print(f"  [WARN] Gagal scrape JobStreet URL: {url[:60]}... → {e}")
+        finally:
+            time.sleep(3)
 
     print(f"  ✅ Raw jobs dari JobStreet: {len(results)}")
     return results
@@ -274,7 +284,7 @@ def _try_enrich_page(browser, job: dict, attempt: int = 1) -> tuple:
         page = browser.new_page()
         try:
             page.goto(job["link"], timeout=60000, wait_until="domcontentloaded")
-            page.wait_for_timeout(4000)
+            page.wait_for_timeout(5000)
 
             # ── Priority 0: JSON-LD structured data ──
             try:
@@ -328,6 +338,7 @@ def _try_enrich_page(browser, job: dict, attempt: int = 1) -> tuple:
 
             # ── Description ──
             desc_selectors = [
+                '[data-automation="jobAdDetails"]',  # JobStreet (terkonfirmasi dari inspeksi DOM)
                 '[data-cy="job-description"]',
                 '[class*="JobDescription"]',
                 '[class*="job-description"]',
@@ -354,6 +365,7 @@ def _try_enrich_page(browser, job: dict, attempt: int = 1) -> tuple:
 
             # ── Company ──
             for sel in [
+                '[data-automation="advertiser-name"]',  # JobStreet (list & detail page)
                 '[data-cy="company-name"]',
                 '.company-name', '.CompanyName',
                 'a[href*="/company/"]',
@@ -362,8 +374,11 @@ def _try_enrich_page(browser, job: dict, attempt: int = 1) -> tuple:
                 try:
                     el = page.query_selector(sel)
                     if el:
-                        company = el.inner_text().strip()
-                        break
+                        raw = el.inner_text().strip()
+                        # Bersihkan noise "18 ulasan" yang sama seperti di scrape_jobstreet()
+                        company = re.sub(r'\s*\d+\s*ulasan', '', raw, flags=re.IGNORECASE).strip()
+                        if company:
+                            break
                 except Exception:
                     continue
 
@@ -379,7 +394,7 @@ def _try_enrich_page(browser, job: dict, attempt: int = 1) -> tuple:
     return desc, company, loc_detail, success
 
 
-MAX_ENRICH_RETRIES = 2
+MAX_ENRICH_RETRIES = 3
 
 
 def enrich(browser, job: dict) -> dict:
@@ -407,10 +422,10 @@ def enrich(browser, job: dict) -> dict:
     location_raw = job.get("location_raw", "") + " " + loc_detail
     city, region = detect_location_advanced(job["title"], location_raw, desc)
     skills       = extract_skills(desc)
-    role         = map_to_roadmap(job["title"] + " " + desc[:300])
+    role         = map_to_roadmap(job["title"] + " " + desc[:500])  # lebih banyak konteks
 
     job["company_name"]    = company or job.get("company_name") or extract_company_from_url(job["link"], job["source"])
-    job["description_raw"] = desc[:2000].strip()
+    job["description_raw"] = desc[:5000].strip()  # simpan lebih banyak teks untuk skill extraction
     job["skills"]          = skills
     job["skills_count"]    = len(skills)
     job["role"]            = role
@@ -489,7 +504,7 @@ def run_scraping() -> list[dict]:
                 enriched.append(job)
             else:
                 dropped.append(job)
-            time.sleep(0.5)  # rate limit ringan
+            time.sleep(1.5)  # jeda antar enrich — lebih manusiawi, kurangi rate-limit risk
 
         browser.close()
 

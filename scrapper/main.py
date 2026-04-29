@@ -11,8 +11,8 @@ Modul terpisah:
 import sys, os
 if __package__ is None or __package__ == "":
     sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-    from local.scrapper import run_scraping
-    from local.preprocessing import run_preprocessing
+    from scrapper.scrapper import run_scraping
+    from scrapper.preprocessing import run_preprocessing
 else:
     from .scrapper import run_scraping
     from .preprocessing import run_preprocessing

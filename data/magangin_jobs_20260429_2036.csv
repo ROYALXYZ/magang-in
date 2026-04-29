@@ -1,0 +1,2885 @@
+﻿source,title,link,location_raw,company_name,description_raw,skills,skills_count,role,location_city,region,jogja_tag,jabodetabek_tag,scraped_at,roadmap_url,is_tech,score
+jobstreet,Junior Software Engineer,https://id.jobstreet.com/id/job/91648206,Jakarta Raya,PT Technet Vision Indonesia,"Lewati ke konten
+Jobstreet
+Cari lowongan
+Cari profil
+Sumber daya karir
+Perusahaan
+Komunitas
+Bahasa
+Masuk
+Untuk perusahaan
+Junior Software Engineer
+PT Technet Vision Indonesia 
+Lihat semua lowongan kerja
+Jakarta Raya
+Developer/Programmer (Teknologi Informasi & Komunikasi)
+Full time
+Rp 6.000.000 – Rp 7.500.000 per month
+Diposting 8 hari yang lalu
+Lamaran Cepat
+Simpan
+
+Qualifications
+
+Core Requirements
+
+Bachelor’s degree in Computer Science, Software Engineering, Data Science, or related field.
+
+1–3 years of professional experience in full-stack software development. Fresh graduate is welcome to apply.
+
+Proficiency in front-end technologies: HTML, CSS, JavaScript, and frameworks such as React.js (preferred), Vue.js, or Angular.
+
+Proven experience in back-end development using Node.js (preferred), Python, Java, Ruby, or similar languages.
+
+Strong knowledge of SQL and NoSQL databases, including schema design and query optimization.
+
+Experience in RESTful API development and integration.
+
+Strong understanding of OOP principles and modern software development practices.
+
+Hands-on experience with CI/CD pipelines, Git, and deployment to production environments.
+
+Familiarity with Agile / Scrum development methodologies.
+
+
+
+
+AI & Solution Architecture Skills
+
+Experience implementing and deploying machine learning models and integrating AI into production systems.
+
+Knowledge of LLM fine-tuning, prompt engineering, and AI deployment workflows.
+
+Understanding of RAG pipelines, vector databases, and cloud-based AI architectures.
+
+Ability to design, document, and present system architectures to both technical and non-technical audiences.
+
+
+
+
+Additional Qualifications
+
+Experience building LLM-based chatbots, AI automation platforms, or intelligent SaaS products.
+
+Knowledge of LangChain, Pinecone, Weaviate, or other vector database solutions.
+
+Familiarity with containerization and orchestration (Docker, Kubernetes).
+
+Certifications such as AWS Machine Learning, Google Cloud AI Engine","agile, angular, api, aws, cicd, css, docker, gcp, git, html, java, javascript, kubernetes, node, python, react, sql, vue",18,it-general,jakarta,Jabodetabek,False,True,2026-04-29 20:29:18,https://roadmap.sh/computer-science,True,60
+jobstreet,Software Engineer Internship,https://id.jobstreet.com/id/job/91761487,Tangerang,OPPO Indonesia,"Lewati ke konten
+Jobstreet
+Cari lowongan
+Cari profil
+Sumber daya karir
+Perusahaan
+Komunitas
+Bahasa
+Masuk
+Untuk perusahaan
+Software Engineer Internship
+OPPO Indonesia 
+4.2
+185 ulasan
+·
+Lihat semua lowongan kerja
+Tangerang, Banten
+Teknik – Perangkat Lunak (Teknologi Informasi & Komunikasi)
+Kontrak/Temporer
+Rp 3.000.000 per month
+Diposting 2 hari yang lalu
+Lamaran Cepat
+Simpan
+
+Contract Duration: 3 Months (May - July 2026)
+
+Location: Jl Kawasan Industri Bayur, Tangerang (Full WFO)
+
+
+
+
+Key Responsibilities:
+
+Design and test the web-based dashboard to optimize manufacturing flow and capacity
+
+Develop lightweight Generative AI chatbots to provides step-by-step guidance from internal & external resources
+
+Deploy AI solutions on-premise integrated with production requirement databases
+
+Coordinate cross-functionally with the supply chain team to align technology solutions with business needs
+
+
+
+
+Requirements:
+
+Frontend skills: React.js (include Next.js), Tailwind CSS, shadcn/ui, Recharts & Chart.js, Axios, Three.js (3D Model Library)
+
+Backend skills: REST API, JSON Web Token, PostgreSQL, FastAPI, Web Scraping (BeautifulSoup Phyton), Data Manipulation (NumPy, Pandas), OpenPyXL, Network & Security
+
+Programming languages: Phyton, JavaScript/Typescript, SQL, Go
+
+Tools & Technologies: Git/GitHub (Version Control), Postman, TamperMonkey (Browser Script), Wireshark (Network Analysis)
+
+In-depth understanding of AI/ML, especially Machine Learning and Generative AI in manufacturing optimization
+
+Experience integrating on-premise AI solutions with production systems or internal databases
+
+Strong data analysis, cross-functional collaboration, communication, and teamwork in a multidisciplinary environment
+
+Available for a 3-month internship (Full WFO arrangement)
+
+
+
+
+Lihat peluang & kecocokan kamu
+Tingkat respons lamaran
+Kesesuaian gaji
+Jumlah pelamar
+Masuk
+Daftar
+Pertanyaan dari perusahaan
+Lamaran kamu akan mencakup pertanyaan-pertanyaan berikut:
+What's your expected monthly basic salar","api, css, fastapi, git, go, java, javascript, nextjs, numpy, pandas, postman, react, sql, typescript",14,it-general,tangerang,Jabodetabek,False,True,2026-04-29 20:23:38,https://roadmap.sh/computer-science,True,51
+jobstreet,Full Stack Software Engineer (CAD Rooms Cloud PDM),https://id.jobstreet.com/id/job/91584877,Jakarta Raya,Cavalry Collective Pte. Ltd,"Lewati ke konten
+Jobstreet
+Cari lowongan
+Cari profil
+Sumber daya karir
+Perusahaan
+Komunitas
+Bahasa
+Masuk
+Untuk perusahaan
+Full Stack Software Engineer (CAD Rooms Cloud PDM)
+Cavalry Collective Pte. Ltd 
+Lihat semua lowongan kerja
+Jakarta Raya (Jarak jauh)
+Teknik – Perangkat Lunak (Teknologi Informasi & Komunikasi)
+Full time
+Rp 25,000,000 – Rp 35,000,000 per month
+Diposting 9 hari yang lalu
+Lamaran Cepat
+Simpan
+About the Role
+
+We are looking for a talented Full Stack Software Engineer to join our engineering team. In this
+role, you will design, build, and maintain scalable web applications and services across the
+entire technology stack. You will collaborate closely with product managers, designers, and
+fellow engineers to deliver high-quality software that powers our platform and delights our users.
+
+
+Responsibilities
+
+Design, develop, and maintain full stack applications using TypeScript across frontend
+and backend services.
+
+Build and manage containerized applications and development environments with
+Docker.
+
+Design, implement, and optimize PostgreSQL database schemas, queries, and
+migrations.
+
+Collaborate with cross-functional teams to translate product requirements into robust,
+scalable technical solutions.
+
+Write clean, well-tested, and well-documented code following engineering best practices.
+
+Participate in code reviews and contribute to improving team development processes
+and tooling.
+
+Troubleshoot and resolve production issues, ensuring high availability and performance
+of services.
+
+Contribute to architectural decisions and help shape the technical direction of the
+platform.
+
+
+Required Qualifications
+
+3+ years of professional experience in full stack software development.
+
+Strong proficiency in TypeScript for both frontend (React, Next.js, or similar) and
+backend (Node.js) development.
+
+Hands-on experience with Docker for containerization, orchestration, and local
+development workflows.
+
+Solid experience designing and working with PostgreSQL, including s","api, aws, cicd, docker, git, go, java, javascript, kubernetes, nextjs, node, react, rust, sql, typescript",15,fullstack,jakarta,Remote,False,False,2026-04-29 20:29:58,https://roadmap.sh/full-stack,True,49
+jobstreet,Junior Software Engineer (JAVA),https://id.jobstreet.com/id/job/91564329,Jakarta Raya,PT Infinitium Solutions,"Lewati ke konten
+Jobstreet
+Cari lowongan
+Cari profil
+Sumber daya karir
+Perusahaan
+Komunitas
+Bahasa
+Masuk
+Untuk perusahaan
+Junior Software Engineer (JAVA)
+PT Infinitium Solutions 
+Lihat semua lowongan kerja
+Jakarta Raya
+Developer/Programmer (Teknologi Informasi & Komunikasi)
+Full time
+Tambahkan gaji yang diharapkan ke profil untuk menambah wawasan
+Diposting 9 hari yang lalu
+Lamaran Cepat
+Simpan
+
+Key Responsibilities:
+
+Participate in all aspects of development and implementation of project deliverables.
+
+Perform testing, troubleshooting, and bug fixing as necessary.
+
+Provide training, mentoring, and knowledge sharing with peers and junior team members.
+
+Follow good development practices and adhere to software development lifecycle methodologies throughout the development process.
+
+Requirements:
+
+Diploma or Degree in Information Technology or equivalent.
+
+Minimum 2 years of working experience in Java (candidates with 5 years or more experience may be considered for a senior position).
+
+Experience with frameworks such as Spring, Hibernate, MVC, or similar.
+
+Experience with JSON RESTful Web Services or other web services.
+
+Knowledge of HTML, JavaScript, jQuery, and related frontend technologies.
+
+Strong understanding of SQL and experience with DBMS such as SQL Server or Oracle DB.
+
+Experience in DevOps practices and tools such as SVN/Git, Jenkins, Sonar, and Maven is preferred.
+
+Familiarity with Agile development methodologies and tools such as Jira.
+
+Good communication skills in English are required.
+
+
+
+
+Added Advantage
+
+Knowledge in payment or related system such as Payment Gateway, Reconciliation, Fraud Detection, 3DS authentication, etc
+
+Experience with cloud platforms (AWS, Azure, or GCP).
+
+Exposure to Docker, Kubernetes, or DevOps practices.
+
+Awareness of security, compliance, or audit requirements (e.g. PCI-DSS, data protection).
+
+
+
+
+Lihat peluang & kecocokan kamu
+Tingkat respons lamaran
+Kesesuaian gaji
+Jumlah pelamar
+Masuk
+Daftar
+Pertanyaan dari perusahaan
+Lamara","agile, api, aws, azure, cicd, docker, gcp, git, html, java, javascript, kubernetes, sql",13,it-general,jakarta,Jabodetabek,False,True,2026-04-29 20:29:29,https://roadmap.sh/computer-science,True,45
+jobstreet,AI Engineer Internship,https://id.jobstreet.com/id/job/91578213,Tangerang,OPPO Indonesia,"Lewati ke konten
+Jobstreet
+Cari lowongan
+Cari profil
+Sumber daya karir
+Perusahaan
+Komunitas
+Bahasa
+Masuk
+Untuk perusahaan
+AI Engineer Internship
+OPPO Indonesia 
+4.2
+185 ulasan
+·
+Lihat semua lowongan kerja
+Tangerang, Banten
+Teknik – Perangkat Lunak (Teknologi Informasi & Komunikasi)
+Kontrak/Temporer
+Rp 3.000.000 per month
+Diposting 12 hari yang lalu
+Lamaran Cepat
+Simpan
+
+Contract Duration: 6 Months (April - October 2026)
+
+Location: Jl Kawasan Industri Bayur, Tangerang (Full WFO)
+
+
+Key Responsibilities:
+
+Develop lightweight Generative AI chatbots for production data analysis, including predictive maintenance and quality control.
+
+Implement Computer Vision systems to automate AI Detection
+
+Develop Predictive Maintenance models that leverage historical variables to forecast equipment needs, directly enhancing Industry 4.0 operational efficiency.
+
+Build and maintain secure on-premise AI/ML solutions using FastAPI, PostgreSQL, and Python.
+
+
+Requirements:
+
+Active university student
+
+Frontend Skills: React.js (including Next.js), Tailwind CSS, shadcn/ui
+
+Backend Skills: FastAPI, PostgreSQL (Database), Data manipulation (NumPy, Pandas)
+
+Programing Languages: Typescript, Phyton
+
+AI Skills: Transformers (model architecture), Anomalib (Anomaly Detection), Torch (base model, vision model, audio model), Ollama (LLM and LV) // Assuming LV refers to Large Vision models or similar, Cerebras/OpenAI API (AI API), YOLO (Computer Vision), OpenCV (Image annotation), LangChain (RAG & AI Pipeline), SentenceTransformers (RAG), xTTS (TTS model), Whisper (STT model)
+
+Tools & Technologies: Git (Version Control), Hugging Face (models repository), Label Studio (data labelling)
+
+
+
+
+Lihat peluang & kecocokan kamu
+Tingkat respons lamaran
+Kesesuaian gaji
+Jumlah pelamar
+Masuk
+Daftar
+Pertanyaan dari perusahaan
+Lamaran kamu akan mencakup pertanyaan-pertanyaan berikut:
+What's your expected monthly basic salary?
+Which of the following types of qualifications do you have?
+How many years' experience do you","cicd, css, fastapi, git, javascript, nextjs, numpy, pandas, python, react, sql, typescript",12,ai/ml,tangerang,Jabodetabek,False,True,2026-04-29 20:30:17,https://roadmap.sh/ai-data-scientist,True,45
+glints,Software Engineer (Intern),https://glints.com/id/opportunities/jobs/software-engineer-intern/f3e22085-cdae-4839-a3ca-5ef2c00d5565,,Glints Taploker,"Deskripsi pekerjaan Software Engineer (Intern) Glints Taploker
+
+At Glints, we are building the #1 tech-enabled recruitment and career discovery platform in Southeast Asia that helps people and organizations realize their human potential.
+
+Join Glints as a Software Engineer Intern and be part of our mission to help people and organizations realize their human potential. You’ll work with experienced engineers on real-world products that power job matching, hiring, and talent development in Southeast Asia.
+
+Whether your focus is frontend, backend, or full-stack, you’ll build scalable solutions, learn agile development, and gain mentorship from Glints’ high-performance engineering team.
+
+A Pathway to Your Full-Time Career
+
+Please note: This program is designed as a direct launchpad for a full-time career at Glints. Our primary goal is to mentor and develop promising talent into long-term team members.
+
+Full-Time Conversion: While not guaranteed, this internship has a strong potential for a full-time (FT) offer. Conversion is based on your performance during the program and business needs at the time of completion.
+Eligibility: Because of this, the ideal candidate is a final-year university student or a recent graduate who is able to transition into a full-time role.
+Commitment & Location: This is a full-time role. While the on-site requirement for the internship is negotiable, we expect you to work from our office upon conversion to a full-time position.
+
+What You'll Be Doing
+
+In this role, you will:
+
+- Collaborate with an agile development team to support the delivery of impactful web features and improvements.
+
+- Assist in building and testing web application features, primarily using HTML, CSS, JavaScript, TypeScript, and React or similar frameworks.
+
+- Support frontend development tasks such as fixing bugs, improving UI, or implementing small features under close guidance.
+
+- Participate in code reviews, and team discussions where you will learn industry best practi","agile, api, css, git, html, java, javascript, nextjs, react, typescript",10,it-general,jakarta,Jabodetabek,False,True,2026-04-29 20:19:04,https://roadmap.sh/computer-science,True,39
+glints,Backend Developer Intern,https://glints.com/id/opportunities/jobs/backend-developer-intern/789346dd-12fc-4f84-8911-2c6a3d0da3ea,,PT Sigma Global Teknologi,"Deskripsi pekerjaan Backend Developer Intern PT Sigma Global Teknologi
+
+Kami mencari Backend Developer Intern yang antusias dan memiliki minat tinggi di bidang pengembangan web menggunakan Python.
+
+Anda akan bekerja bersama tim engineering dalam membangun aplikasi modern dan scalable.
+
+Requirements:
+
+- Memiliki dasar yang kuat dalam HTML5, CSS3, dan JavaScript (ES6+).
+
+- Familiar dengan framework Python (Django / Flask / FastAPI) (basic)
+
+- Mengerti dasar database (PostgreSQL/MySQL atau MongoDB)
+
+- Dapat bekerja dalam tim, komunikatif, dan mau belajar hal baru.
+
+- Nilai tambah jika pernah memiliki pengalaman dengan cloud / deployment
+
+- Bersedia bekerja secara on-site (WFO) di kantor","django, fastapi, flask, html, java, javascript, mongodb, python, sql",9,backend,jakarta,Jabodetabek,False,True,2026-04-29 20:20:53,https://roadmap.sh/backend,True,36
+glints,Software Engineer - Fullstack (Laravel) Intern,https://glints.com/id/opportunities/jobs/software-engineer-fullstack-laravel-intern/bcff28ab-9c12-4202-b89a-0146b168b6f4,,GITS Indonesia,"Deskripsi pekerjaan Software Engineer - Fullstack (Laravel) Intern GITS Indonesia
+
+Kami membuka kesempatan magang sebagai SE Fullstack Engineer Intern bagi mahasiswa tingkat akhir atau fresh graduate. Pada posisi ini, intern akan berkontribusi dalam pengembangan dan pemeliharaan aplikasi web menggunakan Laravel, termasuk pembuatan RESTful API, pengelolaan database relasional (PostgreSQL/MySQL), serta pengembangan frontend menggunakan HTML, CSS, dan JavaScript. Intern akan bekerja sama dengan tim pengembang menggunakan Git, membantu proses debugging dan testing, serta berpartisipasi dalam kolaborasi tim. Kandidat diharapkan memiliki kemampuan komunikasi yang baik, bersedia menjalani magang full-time minimal 3 bulan, dan bersedia ditempatkan di Summarecon – Bandung.","api, css, git, html, java, javascript, laravel, sql",8,backend,bandung,Jawa Barat,False,False,2026-04-29 20:19:44,https://roadmap.sh/backend,True,31
+jobstreet,Fullstack Software Engineer,https://id.jobstreet.com/id/job/90967541,Jakarta Pusat,Kinobi AI,"Lewati ke konten
+Jobstreet
+Cari lowongan
+Cari profil
+Sumber daya karir
+Perusahaan
+Komunitas
+Bahasa
+Masuk
+Untuk perusahaan
+Fullstack Software Engineer
+Kinobi AI
+Lihat semua lowongan kerja
+Jakarta Pusat, Jakarta Raya (Jarak jauh)
+Developer/Programmer (Teknologi Informasi & Komunikasi)
+Full time
+Rp 14.000.000 – Rp 20.000.000 per month
+Diposting 30+ hari yang lalu
+Lamaran Cepat
+Simpan
+
+Kinobi AI is a Singapore-based company dedicated to transforming higher education by helping universities go beyond just academics. We focus on holistic student success, leveraging AI-powered solutions to ensure that students are well-prepared for their careers. We're looking for individuals who share our vision and want to make a meaningful impact in the future of education.
+
+Our purpose is to:
+
+Empower institutions to guide their beneficiaries toward meaningful employment opportunities through AI-driven solutions.
+
+Demonstrate to the world that a global AI-powered B2B SaaS enterprise can be successfully built from Southeast Asia.
+
+About the Role:
+
+As a Full Stack Software Engineer at Kinobi AI, you will play a crucial role in developing our core platform and shaping the future of our AI-driven products. You will be responsible for building scalable, maintainable, and high-quality code, while also contributing to the development of intelligent features that support holistic education and student career readiness.
+
+Key Responsibilities:
+
+Work directly with the CTO on occasions to ensure we build an intelligent, AI-powered, customer-loving product for our clients.
+
+Support the development and eventually take ownership of the application development roadmap — including AI-integrated feature planning, technical research, prioritization, and action planning.
+
+Take ownership of the full development lifecycle and operate closely like a forward-deployed engineer, especially in shaping AI-first features.
+
+Push the frontier of Kinobi’s AI capabilities and technological innovation in the era of int","cicd, express, git, go, javascript, mongodb, node, react, vue",9,fullstack,jakarta,Remote,False,False,2026-04-29 20:28:15,https://roadmap.sh/full-stack,True,31
+glints,Web Developer Intern,https://glints.com/id/opportunities/jobs/web-developer-intern/c114c5d0-616b-49c0-97ae-58f9f7700c82,,The Originote,"Deskripsi pekerjaan Web Developer Intern The Originote
+
+Responsibilities :
+
+-) Assist in developing and maintaining company websites and web applications
+
+-) Support the Commercial team in implementing digital campaigns, landing pages, and promotional features
+
+-) Write clean, efficient, and well-documented code
+
+Troubleshoot, debug, and optimize website performance
+
+-) Collaborate with cross-functional teams to improve user experience
+
+
+
+Requirements :
+
+-) Familiarity with PHP programming language
+
+-) Familiarity with MySQL or other Database Management System
+
+-) Basic understanding of web development concepts (HTML, CSS, JavaScript)
+
+-) Familiarity with Laravel framework is an advantage
+
+-) Strong willingness to learn and grow in a fast-paced environment","css, html, java, javascript, laravel, php, sql",7,frontend,jakarta,Jabodetabek,False,True,2026-04-29 20:21:38,https://roadmap.sh/frontend,True,30
+jobstreet,AI Software Developer,https://id.jobstreet.com/id/job/91564368,Jakarta Selatan,PT SPENTERA,"Lewati ke konten
+Jobstreet
+Cari lowongan
+Cari profil
+Sumber daya karir
+Perusahaan
+Komunitas
+Bahasa
+Masuk
+Untuk perusahaan
+AI Software Developer
+PT SPENTERA 
+Lihat semua lowongan kerja
+Jakarta Selatan, Jakarta Raya
+Developer/Programmer (Teknologi Informasi & Komunikasi)
+Kontrak/Temporer
+Rp 5.700.000 – Rp 6.500.000 per month
+Diposting 13 hari yang lalu
+Lamaran Cepat
+Simpan
+Kualifikasi
+
+Minimal S1 Computer Science / IT
+
+Memiliki pengalaman dengan RESTful API
+
+Menguasai salah satu bahasa backend: Python / Node.js
+
+Pengalaman menggunakan framework backend dan frontend
+
+Memahami vector database (Chroma, pgvector)
+
+Memiliki pengalaman dengan LLM framework
+
+Menguasai Git dan metodologi Agile
+
+Familiar dengan Docker dan Kubernetes
+
+Memiliki kemampuan analisis, problem solving, komunikasi, dan kerja tim yang baik
+
+Adaptif terhadap perkembangan teknologi AI
+
+Deskripsi Pekerjaan
+
+Melakukan fine-tuning dan optimasi performa model AI
+
+Mengembangkan solusi AI yang scalable dan terintegrasi
+
+Membangun dan memelihara API serta integrasi sistem AI
+
+Melakukan debugging, testing, dan optimasi aplikasi
+
+Mengimplementasikan secure SDLC
+
+
+
+
+Lihat peluang & kecocokan kamu
+Tingkat respons lamaran
+Kesesuaian gaji
+Jumlah pelamar
+Masuk
+Daftar
+Pertanyaan dari perusahaan
+Lamaran kamu akan mencakup pertanyaan-pertanyaan berikut:
+Berapa gaji bulanan yang kamu inginkan?
+Kualifikasi mana yang kamu miliki?
+How many years' experience do you have as an Artificial Intelligence Developer?
+Alat kontrol revisi apa saja di bawah ini yang bisa kamu gunakan?
+Pernahkah kamu mendapatkan pekerjaan yang membutuhkan pemahaman mendalam mengenai siklus hidup pengembangan software (software development lifecycle)?
+Berapa tahun pengalamanmu bekerja dalam lingkungan yang agile?
+Profil perusahaan
+Spentera 
+Consulting Services
+11-50 employees
+
+Who we are
+
+We are the technical experts who are experienced and internationally certified.
+
+The Company
+
+We assist customers in identifying and managing security risks. Our servic","agile, api, docker, git, javascript, kubernetes, node, python",8,it-general,jakarta,Jabodetabek,False,True,2026-04-29 20:30:04,https://roadmap.sh/computer-science,True,30
+jobstreet,AI Software Developer,https://id.jobstreet.com/id/job/91387882,Jakarta Selatan,PT Triyakom,"Lewati ke konten
+Jobstreet
+Cari lowongan
+Cari profil
+Sumber daya karir
+Perusahaan
+Komunitas
+Bahasa
+Masuk
+Untuk perusahaan
+AI Software Developer
+PT Triyakom 
+3.0
+3 ulasan
+·
+Lihat semua lowongan kerja
+Jakarta Selatan, Jakarta Raya
+Developer/Programmer (Teknologi Informasi & Komunikasi)
+Full time
+Rp 6.000.000 – Rp 9.000.000 per month
+Diposting 21 hari yang lalu
+Lamaran Cepat
+Simpan
+
+Qualification:    
+
+Bachelor's degree in computer science, Information Technology, or a related field.
+
+Experience with RESTful API.
+
+Proficiency in at least one backend programming language (Python, Node.js, Java, Go).
+
+Familiarity with vector database used in AI such as Chroma or pgvector, which are optimized for storing, indexing, and performing similarity searches.
+
+Frameworks & Libraries: Experience with LLM libraries such as langchain, langgraph
+
+Experience using Gemini API, Openai API or vertex AI API
+
+Proficient in version control systems (such as Git) and Agile development practices.
+
+Excellent analytical skills and creative approach to problem solving.
+
+Strong team collaboration and effective communication abilities.
+
+Ability to continuously learn and adapt to rapidly evolving AI technologies.
+
+
+
+
+Job Description : 
+
+Customize and fine-tune AI model parameters to optimize performance and accuracy. 
+
+Develop robust, scalable solutions that integrate machine learning models and data-driven features. 
+
+Develop and maintain APIs and integration layers that enable seamless communication between AI systems and other software components. 
+
+Conduct debugging, testing, and code optimization to enhance application performance and security. 
+
+Implement secure authentication and authorization mechanisms for API access. 
+
+
+
+
+Lihat peluang & kecocokan kamu
+Tingkat respons lamaran
+Kesesuaian gaji
+Jumlah pelamar
+Masuk
+Daftar
+Pertanyaan dari perusahaan
+Lamaran kamu akan mencakup pertanyaan-pertanyaan berikut:
+Which of the following front end development libraries and frameworks are you proficient","agile, api, git, go, java, javascript, node, python",8,it-general,jakarta,Jabodetabek,False,True,2026-04-29 20:30:41,https://roadmap.sh/computer-science,True,30
+jobstreet,Full Stack Engineer (Golang + React.JS),https://id.jobstreet.com/id/job/91752735,Jakarta Pusat,PT Sharing Vision Indonesia,"Lewati ke konten
+Jobstreet
+Cari lowongan
+Cari profil
+Sumber daya karir
+Perusahaan
+Komunitas
+Bahasa
+Masuk
+Untuk perusahaan
+Full Stack Engineer (Golang + React.JS)
+PT Sharing Vision Indonesia 
+Lihat semua lowongan kerja
+Jakarta Pusat, Jakarta Raya
+Developer/Programmer (Teknologi Informasi & Komunikasi)
+Kontrak/Temporer
+Tambahkan gaji yang diharapkan ke profil untuk menambah wawasan
+Diposting 2 hari yang lalu
+Lamaran Cepat
+Simpan
+
+PT Sharing Vision Indonesia masih membutuhkan beberapa talent minimal S1/D4/S2 dari Teknik Informatika/Sistem Teknologi Informasi/Teknik Komputer/Teknik Elektro/Engineer lainnya, untuk posisi sebagai:
+
+
+
+
+Full Stack Engineer (Golang + React.JS)
+
+(BERTUGAS UNTUK MELAKUKAN PEMROGRAMAN BACK-END DAN FRONT-END)
+
+Penempatan WFO di Jakarta
+
+Persyaratan:
+
+Mempunyai pengalaman minimal 1-2 tahun sebagai Full Stack Engineer dalam pekerjaan atau proyek.
+
+Fresh graduate yang mempunyai skill sebagai programmer dipersilahkan untuk mendaftar.
+
+Pengalaman dalam teknologi software-backend: Golang, Python
+
+Pengalaman dalam teknologi software-frontend: React.JS, Vue.JS, Next.JS, Node.JS
+
+Pengalaman dalam teknologi database: MySQL, SQL Server, Postgresql.
+
+Mempunyai portfolio pengembangan sistem yang pernah dilakukan dan dapat ditunjukkan.
+
+
+
+
+Lihat peluang & kecocokan kamu
+Tingkat respons lamaran
+Kesesuaian gaji
+Jumlah pelamar
+Masuk
+Daftar
+Pertanyaan dari perusahaan
+Lamaran kamu akan mencakup pertanyaan-pertanyaan berikut:
+Berapa gaji bulanan yang kamu inginkan?
+How many years' experience do you have as a Full Stack Software Engineer?
+Bahasa pemrograman apa saja di bawah ini yang bisa kamu gunakan?
+Library/framework front end apa saja di bawah ini yang bisa kamu gunakan?
+Berapa tahun pengalaman kerjamu di bidang pengembangan software?
+Library/framework back end apa saja di bawah ini yang bisa kamu gunakan?
+How many years' experience do you have as a Golang Backend Engineer?
+Berapa lama waktu yang kamu butuhkan untuk memberi tahu perusahaanmu saat ini?
+Profil per","go, javascript, nextjs, node, python, react, sql, vue",8,frontend,jakarta,Jabodetabek,False,True,2026-04-29 20:30:52,https://roadmap.sh/frontend,True,30
+jobstreet,Data Engineering Assistant Manager,https://id.jobstreet.com/id/job/91554536,Jakarta Raya,Pengiklan Anonim,"Lewati ke konten
+Jobstreet
+Cari lowongan
+Cari profil
+Sumber daya karir
+Perusahaan
+Komunitas
+Bahasa
+Masuk
+Untuk perusahaan
+Data Engineering Assistant Manager
+Pengiklan Anonim 
+Jakarta Raya
+Pengembangan & Administrasi Database (Teknologi Informasi & Komunikasi)
+Full time
+Tambahkan gaji yang diharapkan ke profil untuk menambah wawasan
+Diposting 13 hari yang lalu
+Lamaran Cepat
+Simpan
+
+Key Responsibilities
+
+Lead the design, implementation, and optimization of our enterprise-level Data Warehouse from scratch or through migration from legacy systems.
+
+Architect and maintain robust ETL pipelines, ensuring data quality, availability, and scalability.
+
+Implement data governance frameworks across the organization.
+
+Manage cross-functional data projects using Agile/Scrum methodologies, ensuring timely delivery and clear communication.
+
+Drive cloud data platform adoption (e.g., AWS, Google BigQuery) and optimize data workflows for near real-time analytics.
+
+Qualifications
+
+Holds a Bachelor’s degree in Computer Science, Software Engineering, or a related field.
+
+Has 3+ years of experience in Data Engineering.
+
+Proven track record in Data Warehouse architecture, ETL design, and data quality management.
+
+Experienced in Data Governance and Personally Identifiable Information Protection
+
+Strong programming skills in SQL and Python; familiarity with C/C++, Java is a plus.
+
+Hands-on experience with analytical tools (Tableau, DBT, Airflow) and cloud platforms (AWS, Google BigQuery).
+
+Exceptional skills in query optimization, process automation, and data governance SOP development.
+
+Demonstrated ability to bridge technical and business teams, ensuring alignment on data strategy.
+
+
+
+
+Lihat peluang & kecocokan kamu
+Tingkat respons lamaran
+Kesesuaian gaji
+Jumlah pelamar
+Masuk
+Daftar
+Pertanyaan dari perusahaan
+Lamaran kamu akan mencakup pertanyaan-pertanyaan berikut:
+What's your expected monthly basic salary?
+Which of the following types of qualifications do you have?
+How many years' experie","agile, aws, c, cicd, java, python, sql, tableau",8,data,jakarta,Jabodetabek,False,True,2026-04-29 20:30:59,https://roadmap.sh/data-analyst,True,30
+jobstreet,IT Programmer (Internship),https://id.jobstreet.com/id/job/91599051,Bekasi,PT Prakarsa Alam Segar,"Lewati ke konten
+Jobstreet
+Cari lowongan
+Cari profil
+Sumber daya karir
+Perusahaan
+Komunitas
+Bahasa
+Masuk
+Untuk perusahaan
+IT Programmer (Internship)
+PT Prakarsa Alam Segar 
+4.2
+133 ulasan
+·
+Lihat semua lowongan kerja
+Bekasi, Jawa Barat
+Pengembangan & Administrasi Database (Teknologi Informasi & Komunikasi)
+Kontrak/Temporer
+Tambahkan gaji yang diharapkan ke profil untuk menambah wawasan
+Diposting 11 hari yang lalu
+Lamaran Cepat
+Simpan
+
+Requirements:
+
+Bachelor’s Degree in Computer Science, Information Systems, or related fields
+
+Ready to work on-site (Mon to Fri) at Pondok Ungu, Bekasi
+
+
+
+
+Qualification:
+
+Strong understanding of fullstack programming and data processing
+
+Comfortable with basic PHP OOP
+
+Familiar with HTML, CSS, and JavaScript
+
+Basic knowledge of Laravel framework (hands-on project experience with Laravel is a strong advantage)
+
+Love exploring data & building digital solutions
+
+
+
+
+What You’ll Be Learning & Doing:
+
+Be part of our digitalization projects and make cool ideas happen
+
+
+
+
+Lihat peluang & kecocokan kamu
+Tingkat respons lamaran
+Kesesuaian gaji
+Jumlah pelamar
+Masuk
+Daftar
+Pertanyaan dari perusahaan
+Lamaran kamu akan mencakup pertanyaan-pertanyaan berikut:
+Kualifikasi mana yang kamu miliki?
+How many years' experience do you have as a Programming Intern?
+Bahasa pemrograman apa saja di bawah ini yang bisa kamu gunakan?
+Berapa tahun pengalaman kerjamu menggunakan query SQL?
+Library/framework front end apa saja di bawah ini yang bisa kamu gunakan?
+How many years' experience do you have as a PHP Laravel Developer?
+Profil perusahaan
+Prakarsa Alam Segar 
+4.2
+·
+133 ulasan
+FMCG Manufacturing
+1,001-5,000 employees
+
+PT Prakarsa Alam Segar (PAS) is a s one of the largest instant noodle Fast-Moving Consumer Goods (FMCG) manufacturing company . Established in 2003, Our well-known brands include Mie Sedaap, Mie Sedaap Cup, Mie Sukses’s, and So Yumie. As part of the Wings Group, PAS is committed to producing high-quality products by utilizing premium raw materia","css, html, java, javascript, laravel, php, sql",7,it-general,bekasi,Jabodetabek,False,True,2026-04-29 20:34:56,https://roadmap.sh/computer-science,True,30
+glints,[INTERN] Backend Developer,https://glints.com/id/opportunities/jobs/intern-backend-developer/c54071f8-2091-4846-b6f9-fa0b89b4a8e8,,Meda,"Deskripsi pekerjaan [INTERN] Backend Developer Meda
+
+Responsibilities:
+
+• Assist in building and maintaining RESTful APIs and backend services using Go (Golang).
+
+• Collaborate with frontend developers, UI/UX designers, and product teams to deliver high-quality features.
+
+• Support the integration of third-party services and databases (PostgreSQL, MongoDB, etc.).
+
+• Participate in code reviews, testing, debugging, and documentation of backend systems.
+
+• Learn and apply best practices in clean architecture, testing, version control (Git), and CI/CD processes.
+
+• Engage in agile-based project management.
+
+
+Requirements:
+
+• Active university student or fresh graduate in Computer Science, Information Systems, or related fields.
+
+• Basic understanding of Go (Golang) and backend development concepts.
+
+• Familiarity with REST APIs, HTTP methods, and JSON data structure.
+
+• Knowledge of relational or NoSQL databases (e.g., MySQL, PostgreSQL, MongoDB).
+
+• Understanding of version control systems like Git.
+
+• Eagerness to learn, adapt, and grow in a fast-paced development environment.
+
+• Minimum 6 months internship.
+
+• Available onsite in Surabaya.
+
+• Monthly sallary 500 000 s/d 1 000 000","agile, api, cicd, git, go, mongodb, sql",7,backend,surabaya,Jawa Timur,False,False,2026-04-29 20:20:59,https://roadmap.sh/backend,True,28
+glints,Data Analyst Intern,https://glints.com/id/opportunities/jobs/data-analyst-intern/a46b8dfd-fb28-4ba2-b526-bc6af69db1bf,,Serba Mulia Group,"Deskripsi pekerjaan Data Analyst Intern Serba Mulia Group
+
+Kualifikasi:
+
+Terbuka untuk fresh graduate (memiliki pengalaman kerja merupakan nilai tambah)
+Pendidikan min. S1 di bidang Matematika / Statistik / Ilmu Komputer / Sistem Informasi, atau yang relevan
+Menguasai Microsoft Excel, SQL, Python, Javascript, dan Reporting tools (Google Studio, Power BI, Tableau, dll)
+Memiliki kemampuan analitis & kuantitatif yang kuat untuk menangani data dalam jumlah besar dengan detail dan akurat
+
+Tugas dan tanggungjawab:
+
+Menganalisis, mengumpulkan, dan menyimpan data untuk memastikan bahwa data tersebut dapat diambil secara efisien sesuai kebutuhan
+
+Mengevaluasi & meninjau data untuk keakuratan dan memastikan bahwa data tersebut disajikan dengan cara yang jelas dan ringkas
+
+Membuat laporan & grafik dan menghasilkan wawasan untuk tim yang relevan untuk pengambilan keputusan","java, javascript, powerbi, python, sql, tableau",6,data,jakarta,Jabodetabek,False,True,2026-04-29 20:20:10,https://roadmap.sh/data-analyst,True,27
+glints,intern data analyst,https://glints.com/id/opportunities/jobs/intern-data-analyst/c72d4acd-4762-4376-be78-128eecdebc61,,PT Karsa Omni Teknologi Adicipta,"Deskripsi pekerjaan intern data analyst PT Karsa Omni Teknologi Adicipta
+
+we're offering an internship for aspiring Data Analysts who want to move beyond classroom theory and work with real data that drives real decisions.
+
+You'll support our analytics team by cleaning data, building dashboards, running queries, and helping uncover patterns that matter. This isn't about fetching coffee or shadowing silently — it's about doing real work, making mistakes, learning fast, and contributing to projects that impact product, marketing, and strategy.
+
+If you've played with SQL, explored a dataset in Python, or built a simple visualization just for fun — you're already on the right path.
+
+This is a hybrid internship based in West Jakarta, where mentorship meets hands-on experience.
+
+What You'll Do:
+
+✅ Assist in data cleaning, validation, and preparation for analysis
+
+✅ Write basic SQL queries to extract and explore data from databases
+
+✅ Help build and maintain dashboards (Looker Studio, Google Sheets, or similar)
+
+✅ Support ad-hoc analysis: user behavior, campaign performance, feature adoption
+
+✅ Document findings, create simple reports, and present insights to the team
+
+✅ Learn best practices in data governance, version control, and analytics workflows
+
+✅ Collaborate with analysts, engineers, and product teams to understand business context
+
+Who You Are:
+
+✅ Currently pursuing or recently completed a degree in Data Science, Statistics, Computer Science, Economics, or related field
+
+✅ Basic understanding of SQL and willingness to improve quickly
+
+✅ Familiarity with Excel/Google Sheets and curiosity about Python or R (even beginner level is fine)
+
+✅ Exposure to data visualization tools (Looker Studio, Tableau, Power BI) is a plus
+
+✅ Detail-oriented, organized, and comfortable asking questions
+
+✅ Fluent in Bahasa Indonesia; basic English is a plus
+
+✅ Eager to learn, receive feedback, and grow through real projects","git, powerbi, python, r, sql, tableau",6,data,jakarta,Jabodetabek,False,True,2026-04-29 20:20:22,https://roadmap.sh/data-analyst,True,27
+jobstreet,Software Engineer (Mandarin Speakers),https://id.jobstreet.com/id/job/91384955,Jakarta Raya,PT Trust Recruit Indonesia,"Lewati ke konten
+Jobstreet
+Cari lowongan
+Cari profil
+Sumber daya karir
+Perusahaan
+Komunitas
+Bahasa
+Masuk
+Untuk perusahaan
+Software Engineer (Mandarin Speakers)
+PT Trust Recruit Indonesia 
+Lihat semua lowongan kerja
+Jakarta Raya
+Teknik – Perangkat Lunak (Teknologi Informasi & Komunikasi)
+Full time
+Rp 10.000.000 – Rp 15.000.000 per month
+Diposting 21 hari yang lalu
+Lamaran Cepat
+Simpan
+
+Key Responsibilities:
+
+Design, develop, and maintain high-complexity software modules with optimized and maintainable code.
+
+Contribute to system architecture and detailed system design for complex functionalities.
+
+Conduct code reviews for critical components to ensure code quality, scalability, and maintainability.
+
+Enforce software development standards, best practices, and coding guidelines across the development team.
+
+Develop and execute comprehensive unit tests and integration tests.
+
+Perform module-level and system-level testing to ensure system reliability and performance.
+
+Analyze test results and recommend improvements to system architecture and design.
+
+Prepare and validate production release deliverables.
+
+Support system deployment activities including installation, configuration, and debugging.
+
+Troubleshoot user acceptance testing (UAT) issues and post-launch production incidents.
+
+Provide Level 3 technical support for critical system issues.
+
+Create and maintain technical documentation, design documents, and training materials.
+
+Support knowledge sharing through internal training sessions and mentoring activities.
+
+Contribute to system integration testing and design discussions.
+
+Mentor junior engineers and provide technical guidance.
+
+Share expertise on development tools, frameworks, and methodologies.
+
+Collaborate with cross-functional teams to ensure successful project delivery.
+
+Support end-to-end system testing and user acceptance testing processes.
+
+Contribute to the preparation of user manuals and documentation.
+
+Perform additional tasks or special assignments as","agile, c, java, linux, postman, rust, sql",7,it-general,jakarta,Jabodetabek,False,True,2026-04-29 20:31:10,https://roadmap.sh/computer-science,True,27
+jobstreet,Data Engineer,https://id.jobstreet.com/id/job/91714826,Jakarta Raya,PT Anggana Catur Prima,"Lewati ke konten
+Jobstreet
+Cari lowongan
+Cari profil
+Sumber daya karir
+Perusahaan
+Komunitas
+Bahasa
+Masuk
+Untuk perusahaan
+Data Engineer
+PT Anggana Catur Prima 
+4.5
+17 ulasan
+·
+Lihat semua lowongan kerja
+Jakarta Raya
+Matematika, Statistik & Teknik Informasi (Sains & Teknologi)
+Full time
+Tambahkan gaji yang diharapkan ke profil untuk menambah wawasan
+Diposting 5 hari yang lalu
+Lamaran Cepat
+Simpan
+
+Kualifikasi :
+
+Pendidikan minimal S1 dari jurusan Ilmu Komputer.
+
+Pengalaman kerja minimal 1-2 tahun di bidang yang sama. Lulusan baru dipersilakan melamar.
+
+Menguasai Bahasa pemograman Python & SQL
+
+Memiliki pemahaman yang baik tentang Struktur Data dan konsep Data (seperti Data Lake, Data Warehouse, Data Mart).
+
+Berpengalaman menggunakan Workflow/Orchestration tools (pengalaman dengan Airflow menjadi nilai tambah).
+
+Memahami pengoperasian dasar sistem operasi Linux.
+
+Memiliki pengalaman menggunakan Tools berikut menjadi nilai plus (Docker/Power BI)
+
+Memiliki kemampuan memecahkan masalah yang baik, berorientasi pada detail, teliti, dan mampu berkomunikasi dengan pihak non-teknis.
+
+Memiliki kemampuan interpersonal yang baik.
+
+Memiliki keingintahuan yang tinggi, suka belajar hal baru, serta memiliki fleksibilitas dan kemampuan beradaptasi.
+
+Memiliki kemampuan microsoft excel advance
+
+Memiliki kemampuan validasi data, memberikan data yg akurat
+
+
+
+
+Tanggung jawab :
+
+Merancang, membangun, dan memelihara data pipeline yang skalabel
+
+Mengembangkan dan mengoptimalkan data warehouse dan sistem database
+
+Memastikan kualitas, konsistensi, dan validasi data dari berbagai sumber
+
+Kolaborasi dengan data analysts dan cross-functional teams untuk memahami kebutuhan data.
+
+Memberikan bantuan untuk permintaan ad-hoc SQL queries atau ekspor data
+
+Memelihara dan mengembangkan server yang digunakan oleh tim data.
+
+Project Automasi
+
+
+
+
+Lihat peluang & kecocokan kamu
+Tingkat respons lamaran
+Kesesuaian gaji
+Jumlah pelamar
+Masuk
+Daftar
+Pertanyaan dari perusahaan
+Lamaran kamu akan mencakup pertanya","cicd, docker, linux, powerbi, python, rust, sql",7,data,jakarta,Jabodetabek,False,True,2026-04-29 20:31:34,https://roadmap.sh/data-analyst,True,27
+jobstreet,ERP Developer Intern,https://id.jobstreet.com/id/job/91261232,Jakarta Selatan,PT Pratesis,"Lewati ke konten
+Jobstreet
+Cari lowongan
+Cari profil
+Sumber daya karir
+Perusahaan
+Komunitas
+Bahasa
+Masuk
+Untuk perusahaan
+ERP Developer Intern
+PT Pratesis 
+3.7
+25 ulasan
+·
+Lihat semua lowongan kerja
+Jakarta Selatan, Jakarta Raya
+Developer/Programmer (Teknologi Informasi & Komunikasi)
+Full time
+Tambahkan gaji yang diharapkan ke profil untuk menambah wawasan
+Diposting 29 hari yang lalu
+Lamaran Cepat
+Simpan
+
+Key Responsibilities
+
+Assist in the development, customization, and enhancement of ERP systems based on business requirements
+
+Support system configuration, testing, and deployment activities
+
+Collaborate with functional teams (Finance, HR, Operations) to understand business processes and translate them into technical solutions
+
+Help troubleshoot and resolve system issues or bugs
+
+Participate in the documentation of system design, technical specifications, and user guides
+
+Support data migration, validation, and system integration tasks
+
+Assist in maintaining system performance and ensuring data integrity
+
+
+
+
+Requirements
+
+Final-year student or fresh graduate in Information Technology, Computer Science, Software Engineering, or related field
+
+Basic understanding of programming languages (e.g., Java, Python, C#, or JavaScript)
+
+Familiarity with databases (SQL) and basic query writing
+
+Strong interest in ERP systems and business process integration
+
+Willingness to learn and adapt in a fast-paced environment
+
+Good analytical thinking and problem-solving skills
+
+Able to work independently as well as in a team
+
+Basic communication skills in English (written and spoken)
+
+
+
+
+Lihat peluang & kecocokan kamu
+Tingkat respons lamaran
+Kesesuaian gaji
+Jumlah pelamar
+Masuk
+Daftar
+Pertanyaan dari perusahaan
+Lamaran kamu akan mencakup pertanyaan-pertanyaan berikut:
+What's your expected monthly basic salary?
+Which of the following types of qualifications do you have?
+How many years' experience do you have as an Enterprise Resource Planning Developer?
+Profil perusahaan
+Pratesis 
+3.7","c, java, javascript, python, sql",5,it-general,jakarta,Jabodetabek,False,True,2026-04-29 20:35:45,https://roadmap.sh/computer-science,True,24
+jobstreet,Software Engineering Talent Day - Surabaya,https://id.jobstreet.com/id/job/91287780,Jawa Tengah,PT Formulatrix Indonesia,"Lewati ke konten
+Jobstreet
+Cari lowongan
+Cari profil
+Sumber daya karir
+Perusahaan
+Komunitas
+Bahasa
+Masuk
+Untuk perusahaan
+Software Engineering Talent Day - Surabaya
+PT Formulatrix Indonesia 
+4.5
+45 ulasan
+·
+Lihat semua lowongan kerja
+Jawa Tengah
+Developer/Programmer (Teknologi Informasi & Komunikasi)
+Full time
+Tambahkan gaji yang diharapkan ke profil untuk menambah wawasan
+Diposting 28 hari yang lalu
+Lamaran Cepat
+Simpan
+Software Engineers, we’re coming to Surabaya!
+
+Join to our Software Engineer Talent Day, a walk-in interview where you can meet the expert, talk tech, and show what you’ve got.
+
+Event Details:
+
+• Location: Aria Centra Hotel, Surabaya
+
+• Date: Sunday, May 24, 2026
+
+What will you do:
+
+• Design and develop scalable software solutions while translating business requirements into technical implementations
+
+• Resolve complex technical issues and improve system reliability and performance
+
+• Contribute to system architecture and technical decision-making
+
+• Ensure code quality and follow best practices across development
+
+• Collaborate with teams and support knowledge sharing to improve development processes
+
+What we are looking for:
+
+Education
+
+• Bachelor’s degree in Electronics Engineering, Computer Science, Information Technology, or equivalent practical experience
+
+
+
+
+Experience
+
+• Open to candidates across all levels (Junior, Mid-Level, and Senior), with relevant experience in software development
+
+• Hands-on experience with the full software development lifecycle
+
+
+
+
+Technical Skills
+
+• Strong proficiency in at least one object-oriented programming language (C#, C++, Python, or Java)
+
+• Solid understanding of software architecture and design patterns
+
+• Familiarity with unit testing, debugging, and version control systems
+
+• Good understanding of software performance, scalability, and maintainability
+
+
+
+
+Soft Skills
+
+• Self-driven team player with good communication skills in English
+
+• Strong analytical thinking and problem-solving skills
+
+• High at","c, git, java, python, r",5,it-general,surabaya,Jawa Timur,False,False,2026-04-29 20:29:11,https://roadmap.sh/computer-science,True,19
+jobstreet,Software Engineer,https://id.jobstreet.com/id/job/91448510,Semarang,PT Norxel Teknologi Indonesia,"Lewati ke konten
+Jobstreet
+Cari lowongan
+Cari profil
+Sumber daya karir
+Perusahaan
+Komunitas
+Bahasa
+Masuk
+Untuk perusahaan
+Software Engineer
+PT Norxel Teknologi Indonesia 
+Lihat semua lowongan kerja
+Semarang, Jawa Tengah
+Developer/Programmer (Teknologi Informasi & Komunikasi)
+Kontrak/Temporer
+Rp 3.500.000 – Rp 4.000.000 per month
+Diposting 7 hari yang lalu
+Lamaran Cepat
+Simpan
+
+Kesempatan
+PT Norxel Teknologi Indonesia, sebuah perusahaan teknologi inovatif yang berbasis di Jakarta Utara, Kelapa Gading sedang mencari Software Engineer yang berbakat dan berpengalaman untuk bergabung dengan tim kami. Dalam peran ini, Anda akan menjadi bagian integral dari pengembangan produk dan aplikasi terkemuka kami, serta berkolaborasi dengan tim lintas-fungsional untuk menghadirkan solusi teknologi yang andal dan canggih.
+
+Tanggung Jawab Utama
+
+Membantu dalam perancangan, pengembangan, dan pemeliharaan aplikasi perangkat lunak
+
+Mendukung implementasi algoritma dan arsitektur sistem sederhana
+
+Membantu mengidentifikasi serta menyelesaikan permasalahan teknis di bawah bimbingan tim senior
+
+Berkolaborasi dengan tim desain, produk, dan engineer dalam pengembangan fitur aplikasi
+
+Menerapkan praktik dasar pengembangan perangkat lunak, termasuk pengujian dan dokumentasi kode
+
+Mempelajari dan mengadopsi teknologi baru yang digunakan dalam pengembangan produk
+
+Keterampilan, Kualifikasi, dan Pengalaman yang Dibutuhkan
+
+Mahasiswa tingkat akhir atau fresh graduate dari jurusan Ilmu Komputer, Teknik Informatika, atau bidang terkait
+
+Memiliki pemahaman dasar bahasa pemrograman seperti Java, Python, PHP, atau C++
+
+Memahami dasar pemrograman Java dan pengembangan aplikasi mobile menjadi nilai tambah
+
+Memahami dasar penggunaan database MySQL dan PostgreSQL
+
+Mampu bekerja dalam tim, memiliki komunikasi yang baik, dan mampu beradaptasi dengan teknologi baru
+
+
+
+
+Tentang PT Norxel Teknologi Indonesia
+PT Norxel Teknologi Indonesia adalah perusahaan teknologi terkemuka yang berfokus pada pengembangan solu","c, java, php, python, sql",5,it-general,semarang,Jawa Tengah,False,False,2026-04-29 20:31:40,https://roadmap.sh/computer-science,True,19
+jobstreet,Business Intelligence Analyst Intern,https://id.jobstreet.com/id/job/91277951,Jakarta Selatan,Halodoc,"Lewati ke konten
+Jobstreet
+Cari lowongan
+Cari profil
+Sumber daya karir
+Perusahaan
+Komunitas
+Bahasa
+Masuk
+Untuk perusahaan
+Business Intelligence Analyst Intern
+Halodoc 
+3.7
+17 ulasan
+·
+Lihat semua lowongan kerja
+Jakarta Selatan, Jakarta Raya (Hibrid)
+Analis Bisnis/Sistem (Teknologi Informasi & Komunikasi)
+Kontrak/Temporer
+Tambahkan gaji yang diharapkan ke profil untuk menambah wawasan
+Diposting 28 hari yang lalu
+Lamaran Cepat
+Simpan
+
+Job Description:
+
+- Collecting and interpreting data into meaningful reports or dashboards
+
+- Analyzing results to provide impactful business insights
+
+- Reporting the results back to the relevant members of the business
+
+- Identifying patterns and trends in data sets
+
+- Working alongside teams within the business or the management team to establish business needs
+
+- Defining new data collection and analysis processes
+
+
+
+
+Requirements:
+
+- You are in your final year of university or a fresh graduate from System Information, Computer Science, Mathematics, Statistics, or related studies.
+
+- Strong comprehension of the English language
+
+- Outstanding analytical and logical skill
+
+- Basic knowledge of SQL 
+
+- Basic knowledge in BI tools such as GSD / Looker / Metabase is a plus.
+
+Lihat peluang & kecocokan kamu
+Tingkat respons lamaran
+Kesesuaian gaji
+Jumlah pelamar
+Masuk
+Daftar
+Pertanyaan dari perusahaan
+Lamaran kamu akan mencakup pertanyaan-pertanyaan berikut:
+Berapa gaji bulanan yang kamu inginkan?
+Kualifikasi mana yang kamu miliki?
+How many years' experience do you have as a Business Intelligence Analyst?
+Bahasa apa saja di bawah ini yang fasih kamu gunakan?
+Berapa lama waktu yang kamu butuhkan untuk memberi tahu perusahaanmu saat ini?
+Berapa tahun pengalaman kerjamu menggunakan query SQL?
+Bagaimana kamu menilai kemampuan bahasa Inggrismu?
+Profil perusahaan
+Halodoc 
+3.7
+·
+17 ulasan
+Healthcare Services
+1,001-5,000 employees
+
+Halodoc is a health-tech platform with a mission to simplify access to healthcare by connecting millions of patients w","agile, rust, sql",3,data,jakarta,Jabodetabek,False,True,2026-04-29 20:33:20,https://roadmap.sh/data-analyst,True,18
+jobstreet,Data Engineer,https://id.jobstreet.com/id/job/91486751,Jakarta Raya,PT Sharing Vision Indonesia,"Lewati ke konten
+Jobstreet
+Cari lowongan
+Cari profil
+Sumber daya karir
+Perusahaan
+Komunitas
+Bahasa
+Masuk
+Untuk perusahaan
+Data Engineer
+PT Sharing Vision Indonesia 
+Lihat semua lowongan kerja
+Jakarta Raya
+Pengembangan & Administrasi Database (Teknologi Informasi & Komunikasi)
+Kontrak/Temporer
+Tambahkan gaji yang diharapkan ke profil untuk menambah wawasan
+Diposting 16 hari yang lalu
+Lamaran Cepat
+Simpan
+
+PT Sharing Vision Indonesia masih membutuhkan beberapa orang minimal S1/D4/S2 dari Teknik Informatika/Sistem Teknologi Informasi/Teknik Elektro/Teknik Telekomunikasi/Sistem Informasi/Fisika/ Matematika/Statistika/Ilmu Komputer/Engineer lainnya, untuk posisi sebagai: Data Engineer Penempatan WFO di Jakarta
+
+Persyaratan:
+
+Berpengalaman minimal 1-2 tahun dalam pekerjaan terkait Data Engineer
+
+Minimal lulusan S1
+
+Berpengalaman dalam ETL, data quality, data management
+
+Advance dalam bahasa pemrosesan SQL, Python, Java
+
+Advance dalam database management system, Oracle, postgree SQL, MySQL, Microsoft SQL, dan lain lain
+
+Advance dalam crawling data dari medsos
+
+Diutamakan pengalaman dengan big data tools untuk data ingestion seperti Sqoop, Kafka, dan lain lain
+
+Pengalaman dalam menggunakan Tableau/Google Analytics/tools dashboard lainnya diutamakan
+
+Pengalaman dalam teknologi big data (Spark, Hive, Impala) lebih diutamakan
+
+
+
+
+Lihat peluang & kecocokan kamu
+Tingkat respons lamaran
+Kesesuaian gaji
+Jumlah pelamar
+Masuk
+Daftar
+Pertanyaan dari perusahaan
+Lamaran kamu akan mencakup pertanyaan-pertanyaan berikut:
+Berapa gaji bulanan yang kamu inginkan?
+Bahasa pemrograman apa saja di bawah ini yang bisa kamu gunakan?
+How many years' experience do you have as a Data Engineer?
+Sistem Relational Database Management (RDBMS) apa saja yang bisa kamu gunakan?
+Berapa lama waktu yang kamu butuhkan untuk memberi tahu perusahaanmu saat ini?
+Berapa tahun pengalaman kerjamu menggunakan query SQL?
+Alat analisis data apa saja di bawah ini yang bisa kamu gunakan?
+Pernahkah kamu mendapatkan pekerj","java, python, sql, tableau",4,data,jakarta,Jabodetabek,False,True,2026-04-29 20:35:33,https://roadmap.sh/data-analyst,True,18
+glints,Frontend Developer Intern,https://glints.com/id/opportunities/jobs/frontend-developer-intern/ce82b8d7-3677-469b-beaa-681132d3e4ee,,Yayasan Maqdis,"Deskripsi pekerjaan Frontend Developer Intern Yayasan Maqdis
+
+Cara Melamar:
+
+Seluruh proses pendaftaran dan filtrasi awal dilakukan melalui tautan eksternal berikut:
+
+bit.ly/internshipit
+
+Pay: 20,000.00 (IDR) - 200,000.00 (IDR) per week
+
+Panjang kontrak: 3 bulan
+
+Lokasi: Kota Bandung (Diwajibkan)
+
+Lokasi Kerja: Kombinasi di kantor dan jarak jauh di Kota Bandung
+
+Posisi yang Dibutuhkan:
+
+2 Mobile Developer (Flutter).
+
+2 Backend Developer.
+
+1 UI/UX Designer.
+
+1 Frontend Developer.
+
+
+Tanggung Jawab Utama:
+
+Berkontribusi dalam pengembangan dan penyelesaian aplikasi utama dan proyek internal lainnya.
+Menyusun dan mempresentasikan laporan progres tugas secara rutin melalui platform Jira.
+Menyelesaikan program hingga tahap Presentasi Akhir sebagai syarat kelulusan dan pengambilan sertifikat.
+
+
+Kualifikasi:
+
+Mahasiswa aktif atau fresh graduate di bidang Informatika, Sistem Informasi, atau bidang terkait di kota bandung.
+Memiliki pemahaman dasar sesuai posisi yang dilamar (Flutter, Express, atau UI/UX desain).
+Mampu bekerja secara mandiri maupun dalam tim dengan sistem kerja yang fleksibel (WFO atau WFH berbasis proyek).
+Memiliki disiplin tinggi dalam manajemen waktu dan pelaporan tugas melalui alat kolaborasi tim.
+Berkomitmen untuk mengikuti seluruh rangkaian kegiatan magang selama durasi program.
+
+
+Benefit:
+
+Sertifikat resmi dari MAQDIS Academy (setelah memenuhi syarat kelulusan).
+Merchandise eksklusif bagi peserta yang menyelesaikan presentasi akhir.
+Pengalaman kerja nyata dengan proyek aplikasi yang digunakan oleh pengguna luas.
+Kesempatan membangun networking dan bonding antar talenta IT.
+Kesempatan untuk terpilih menjadi pemateri dalam webinar IT di MAQDIS Academy.
+
+
+Alur Rekrutmen:
+
+Pendaftaran & Screening Portofolio: 20 April - 02 Mei 2026.
+Tes Teknis & Wawancara (via Zoom): 05 Mei - 08 Mei 2026.
+Onboarding: 18 Mei 2026","agile, express, flutter",3,frontend,bandung,Remote,False,False,2026-04-29 20:20:47,https://roadmap.sh/frontend,True,16
+glints,Backend Developer Intern,https://glints.com/id/opportunities/jobs/backend-developer-intern/d6ef1f8f-3360-41e6-b314-686ba8e1f0cf,,Yayasan Maqdis,"Deskripsi pekerjaan Backend Developer Intern Yayasan Maqdis
+
+Cara Melamar:
+
+Seluruh proses pendaftaran dan filtrasi awal dilakukan melalui tautan eksternal berikut:
+
+bit.ly/internshipit
+
+Domisili: Kota Bandung (Diwajibkan)
+
+Lokasi Kerja: Kombinasi di kantor dan jarak jauh di Kota Bandung
+
+Pay: 20,000.00 (IDR) - 200,000.00 (IDR) per week
+
+Panjang kontrak: 3 bulan
+
+Posisi yang Dibutuhkan:
+
+2 Mobile Developer (Flutter).
+
+2 Backend Developer.
+
+1 UI/UX Designer.
+
+1 Frontend Developer.
+
+
+Tanggung Jawab Utama:
+
+Berkontribusi dalam pengembangan dan penyelesaian aplikasi utama dan proyek internal lainnya.
+Menyusun dan mempresentasikan laporan progres tugas secara rutin melalui platform Jira.
+Menyelesaikan program hingga tahap Presentasi Akhir sebagai syarat kelulusan dan pengambilan sertifikat.
+
+
+Kualifikasi:
+
+Mahasiswa aktif atau fresh graduate di bidang Informatika, Sistem Informasi, atau bidang terkait.
+Memiliki pemahaman dasar sesuai posisi yang dilamar (Flutter, Express, atau UI/UX desain).
+Mampu bekerja secara mandiri maupun dalam tim dengan sistem kerja yang fleksibel (WFO atau WFH berbasis proyek).
+Memiliki disiplin tinggi dalam manajemen waktu dan pelaporan tugas melalui alat kolaborasi tim.
+Berkomitmen untuk mengikuti seluruh rangkaian kegiatan magang selama durasi program.
+
+
+Benefit:
+
+Sertifikat resmi dari MAQDIS Academy (setelah memenuhi syarat kelulusan).
+Merchandise eksklusif bagi peserta yang menyelesaikan presentasi akhir.
+Pengalaman kerja nyata dengan proyek aplikasi yang digunakan oleh pengguna luas.
+Kesempatan membangun networking dan bonding antar talenta IT.
+Kesempatan untuk terpilih menjadi pemateri dalam webinar IT di MAQDIS Academy.
+
+Alur Rekrutmen:
+
+Pendaftaran & Screening Portofolio: 20 April - 02 Mei 2026.
+Tes Teknis & Wawancara (via Zoom): 05 Mei - 08 Mei 2026.
+Onboarding: 18 Mei 2026","agile, express, flutter",3,backend,bandung,Remote,False,False,2026-04-29 20:21:13,https://roadmap.sh/backend,True,16
+jobstreet,Junior Data Engineer,https://id.jobstreet.com/id/job/91231545,Bandung,PT Scada Prima Cipta,"Lewati ke konten
+Jobstreet
+Cari lowongan
+Cari profil
+Sumber daya karir
+Perusahaan
+Komunitas
+Bahasa
+Masuk
+Untuk perusahaan
+Junior Data Engineer
+PT Scada Prima Cipta 
+Lihat semua lowongan kerja
+Bandung, Jawa Barat
+Matematika, Statistik & Teknik Informasi (Sains & Teknologi)
+Full time
+Tambahkan gaji yang diharapkan ke profil untuk menambah wawasan
+Diposting 30+ hari yang lalu
+Lamaran Cepat
+Simpan
+
+Pendidikan D3/D4/S1 Teknik Elektro, Teknik Informatika
+
+Menguasai PLC, HMI & Dasboard
+
+Menguasai dasar pemrograman JavaScript, Python, SQL
+
+Memahami dasar SCADA System
+
+Berpengalaman minimal 1 tahun dibidang Automation (freshgraduate boleh melamar)
+
+Komunikatif & Inisiatif
+
+Mampu bekerja secara tim dan/ataupun Individu
+
+Fast Learner
+
+
+
+
+Lihat peluang & kecocokan kamu
+Tingkat respons lamaran
+Kesesuaian gaji
+Jumlah pelamar
+Masuk
+Daftar
+Pertanyaan dari perusahaan
+Lamaran kamu akan mencakup pertanyaan-pertanyaan berikut:
+Berapa gaji bulanan yang kamu inginkan?
+Kualifikasi mana yang kamu miliki?
+How many years' experience do you have as an Automation Engineer?
+Bahasa pemrograman apa saja di bawah ini yang bisa kamu gunakan?
+Berapa tahun pengalaman kerjamu menggunakan query SQL?
+Berapa lama waktu yang kamu butuhkan untuk memberi tahu perusahaanmu saat ini?
+Profil perusahaan
+PT Scada Prima Cipta 
+Consulting Services
+11-50 employees
+
+PT SCADA PRIMA CIPTA (SPC) is System Integration and Application Development Company, established 2001 in Bandung, Indonesia. SPC has expert employees during project implementation.SPC has professional skill set encompassing in Industrial Automation, System Integration and Application Development for Production Data Management.
+
+PT SCADA PRIMA CIPTA (SPC) is System Integration and Application Development Company, established 2001 in Bandung, Indonesia. SPC has expert employees during project implementation.SPC has professional skill set encompassing in Industrial Automation, System Integration and Application Development for Production Data Management.","java, javascript, python, sql",4,data,bandung,Jawa Barat,False,False,2026-04-29 20:34:03,https://roadmap.sh/data-analyst,True,16
+glints,Software Engineer - Intern (Paid Internship),https://glints.com/id/opportunities/jobs/software-engineer-intern-paid-internship/a96c1900-96ac-4efe-84ce-496119e00c9b,,HiThink Technology Indonesia,"Deskripsi pekerjaan Software Engineer - Intern (Paid Internship) HiThink Technology Indonesia
+
+About the position
+
+Join our team at HITHINK TECHNOLOGY INDONESIA as Software Engineer - Intern (Paid Internship). This is a full-time internship position based in South Jakarta, Jakarta, offering you the opportunity to develop your skills and gain valuable experience in a dynamic, fast-paced technology environment.
+
+What you'll be doing and What we're looking for
+
+Main Responsibilities:
+
+- Assist in developing software systems according to project requirements for Japanese clients, including but not limited to programming code writing, unit module testing, system integration testing, etc.
+
+Educational Requirements:
+
+- Full-time undergraduate or master's degree graduates of the class of 2025
+
+- Majors related to science and engineering, such as computer science, software engineering, big data, cloud computing, Internet of Things, network engineering, information, communication, electronics, etc.
+
+Required Skills:
+
+- Proficiency in at least one programming language, such as Java, VB.NET, C, COBOL, etc.
+
+Language Requirements:
+
+- Good English language command, with the ability to communicate in writing or verbally with Indonesian colleagues in English; Or Japanese N4 or above, with the ability to read Japanese documents, students who are able to communicate with Chinese language are welcome too.
+
+Other Requirements:
+
+- Decent attitude, no criminal record, excellent academic performance, eligibility for graduation and degree certificates, willingness to engage in software development work, ability to handle work pressure, attention to work quality, and a responsible attitude towards job responsibilities.
+
+Work Location: South Jakarta, Indonesia.
+
+Job Responsibilities:
+
+- Coding: Under the guidance of others, complete the code writing and defect modification of simple modules.
+
+- Testing: Under the guidance of others, complete the writing of the unit test project table and uni","c, java",2,it-general,jakarta,Jabodetabek,False,True,2026-04-29 20:19:19,https://roadmap.sh/computer-science,True,15
+jobstreet,Software Engineer Intern (Paid Internship),https://id.jobstreet.com/id/job/91574175,Jakarta Selatan,HITHINK TECHNOLOGY INDONESIA,"Lewati ke konten
+Jobstreet
+Cari lowongan
+Cari profil
+Sumber daya karir
+Perusahaan
+Komunitas
+Bahasa
+Masuk
+Untuk perusahaan
+Software Engineer Intern (Paid Internship)
+HITHINK TECHNOLOGY INDONESIA 
+Lihat semua lowongan kerja
+Jakarta Selatan, Jakarta Raya
+Developer/Programmer (Teknologi Informasi & Komunikasi)
+Full time
+Tambahkan gaji yang diharapkan ke profil untuk menambah wawasan
+Diposting 12 hari yang lalu
+Lamaran Cepat
+Simpan
+
+About the position
+
+Join our team at HITHINK TECHNOLOGY INDONESIA as Software Engineer - Intern (Paid Internship). This is a full-time internship position based in South Jakarta, Jakarta, offering you the opportunity to develop your skills and gain valuable experience in a dynamic, fast-paced technology environment.
+
+What you'll be doing and What we're looking for
+
+Main Responsibilities: 
+
+Assist in developing software systems according to project requirements for Japanese clients, including but not limited to programming code writing, unit module testing, system integration testing, etc.
+
+Educational Requirements:
+
+Full-time undergraduate or master's degree graduates of the class of 2025
+
+Majors related to science and engineering, such as computer science, software engineering, big data, cloud computing, Internet of Things, network engineering, information, communication, electronics, etc.
+
+Required Skills: 
+
+Proficiency in at least one programming language, such as Java, VB.NET, C, COBOL, etc.
+
+Language Requirements: 
+
+Good English language command, with the ability to communicate in writing or verbally with Indonesian colleagues in English; Or Japanese N4 or above, with the ability to read Japanese documents, students who are able to communicate with Chinese language are welcome too.
+
+Other Requirements: 
+
+Decent attitude, no criminal record, excellent academic performance, eligibility for graduation and degree certificates, willingness to engage in software development work, ability to handle work pressure, attention to work quality, and","c, java",2,it-general,jakarta,Jabodetabek,False,True,2026-04-29 20:25:24,https://roadmap.sh/computer-science,True,15
+jobstreet,Data Analyst,https://id.jobstreet.com/id/job/91783675,Jakarta Barat,PT Nusantara Sakti Group (JAKARTA),"Lewati ke konten
+Jobstreet
+Cari lowongan
+Cari profil
+Sumber daya karir
+Perusahaan
+Komunitas
+Bahasa
+Masuk
+Untuk perusahaan
+Data Analyst
+PT Nusantara Sakti Group (JAKARTA) 
+4.2
+522 ulasan
+·
+Lihat semua lowongan kerja
+Jakarta Barat, Jakarta Raya
+Matematika, Statistik & Teknik Informasi (Sains & Teknologi)
+Full time
+Rp 7.000.000 – Rp 10.000.000 per month
+Diposting 1 hari yang lalu
+Lamaran Cepat
+Simpan
+
+Kualifikasi:
+
+Pendidikan minimal S1 jurusan Accounting, Matematika, Aktuaria, Statistika, Sistem Informasi
+
+Pengalaman minimal 1–3 tahun sebagai Data Analyst / Business Intelligance Analyst (fresh graduate dipersilakan melamar jika memiliki background pengalaman internship sebagai Data Analyst / Business Intelligance Analyst)
+
+Diutamakan pernah menjadi Analyst yang handle divisi Finance / Accounting
+
+Menguasai Excel minimal intermediate , kemampuan SQL / Power BI / Tableu menjadi nilai tambah
+
+Memiliki kemampuan analisis dan problem solving yang baik
+
+Mampu menganalisa data dalam jumlah besar dan membuat forecasting
+
+Inisiatif, Komunikatif dan Detail-oriented
+
+Memiliki ketertarikan dan pemahaman tentang dunia bisnis
+
+Memahami Business Process Management menjadi nilai tambah
+
+Penempatan Jakarta Barat
+
+
+
+
+
+Deskripsi Pekerjaan:
+
+Mengumpulkan, mengolah, dan menganalisis data dari berbagai sumber untuk mendukung kebutuhan bisnis
+
+Mengidentifikasi tren, pola, dan insight dari data untuk membantu pengambilan keputusan
+
+Mampu mengolah, menganalisa, mengintepretasi, dan memvisualisasi data sesuai bisnis/divisi yang menjadi tanggung jawab
+
+Memberikan rekomendasi strategis berdasarkan hasil analisis
+
+Menerjemahkan konsep improvement bisnis menjadi kebutuhan sistem (system requirement)
+
+Berkoordinasi dengan tim IT untuk memastikan pemahaman kebutuhan sistem sesuai dengan konsep bisnis
+
+Melakukan analisa ulang apabila hasil penerapan belum sesuai ekspektasi, sehingga terbentuk pola continuous development / continuous improvement agar sistem dan proses terus berkembang secara berkelanj","express, powerbi, sql",3,data,jakarta,Jabodetabek,False,True,2026-04-29 20:32:46,https://roadmap.sh/data-analyst,True,15
+jobstreet,Senior Data Scientist (Analytics) - GFin,https://id.jobstreet.com/id/job/91595491,Kebayoran Lama,PT Solusi Transportasi Indonesia,"Lewati ke konten
+Jobstreet
+Cari lowongan
+Cari profil
+Sumber daya karir
+Perusahaan
+Komunitas
+Bahasa
+Masuk
+Untuk perusahaan
+Senior Data Scientist (Analytics) - GFin
+PT Solusi Transportasi Indonesia
+4.2
+116 ulasan
+·
+Lihat semua lowongan kerja
+Kebayoran Lama, Jakarta Raya
+Matematika, Statistik & Teknik Informasi (Sains & Teknologi)
+Full time
+Tambahkan gaji yang diharapkan ke profil untuk menambah wawasan
+Diposting 11 hari yang lalu
+Daftar⁠
+Simpan
+
+Company Description
+
+
+About Grab and Our Workplace
+
+Grab is Southeast Asia's leading superapp. From getting your favourite meals delivered to helping you manage your finances and getting around town hassle-free, we've got your back with everything. In Grab, purpose gives us joy and habits build excellence, while harnessing the power of Technology and AI to deliver the mission of driving Southeast Asia forward by economically empowering everyone, with heart, hunger, honour, and humility.
+
+Job Description
+
+
+Get to Know the Team
+
+The GFin Analytics team serves as the intelligence engine driving data-informed decisions across our payments and financial services products. As part of the Payments Tech Family, we're instrumental in accelerating cashless payments across all Grab verticals.
+
+We're looking for analytically rigorous data analysts who have embraced AI as a force multiplier. If you excel at experimentation and behavioral analysis while leveraging LLMs to work smarter, and if you think in terms of scalable solutions rather than one-off analyses, we want to talk to you.
+
+Get to Know the Role
+
+We're looking for a Senior Data Scientist (Analytics) to lead critical analytical projects for the GFin Analytics team at Grab. Our mission centers on understanding user experiences at a granular level and collaborating with Business, Product, Design, and Engineering to deliver the right outcomes and features. You will directly report to the manager. You will be based onsite.
+
+The Critical Tasks You Will Perform
+
+Design, measure, and re","python, r, sql",3,data,jakarta,Jabodetabek,False,True,2026-04-29 20:33:34,https://roadmap.sh/data-analyst,True,15
+jobstreet,Data Engineer,https://id.jobstreet.com/id/job/91610707,Setiabudi,PT Digdaya Duta Digital,"Lewati ke konten
+Jobstreet
+Cari lowongan
+Cari profil
+Sumber daya karir
+Perusahaan
+Komunitas
+Bahasa
+Masuk
+Untuk perusahaan
+Data Engineer
+PT Digdaya Duta Digital 
+Lihat semua lowongan kerja
+Setiabudi, Jakarta Raya
+Pengembangan & Administrasi Database (Teknologi Informasi & Komunikasi)
+Full time
+Tambahkan gaji yang diharapkan ke profil untuk menambah wawasan
+Diposting 9 hari yang lalu
+Lamaran Cepat
+Simpan
+
+We are looking for a motivated Data Engineer to support data pipeline development, workflow automation, and data-related initiatives. This role is ideal for fresh graduates with a strong technical foundation and a passion for working with data.
+
+Responsibilities :
+
+Manage end-to-end data pipeline automation and workflow
+
+Build data strategy and data transformation
+
+Collaborate with cross-functional teams to ensure data quality and accessibility
+
+Contribute to documentation, best practices, and knowledge sharing
+
+Continuously learn and apply data engineering concepts in real use cases
+
+
+
+
+Requirements :
+
+Fresh graduate (S1) in Computer Science, Data Science, Engineering, or a related field
+
+Strong foundation in programming (e.g., Python) and data handling
+
+Basic understanding of data modelling and data processing concepts
+
+Familiarity with databases (SQL or NoSQL) is a plus
+
+Strong willingness to learn, proactive attitude, and openness to feedback
+
+
+
+
+Lihat peluang & kecocokan kamu
+Tingkat respons lamaran
+Kesesuaian gaji
+Jumlah pelamar
+Masuk
+Daftar
+Pertanyaan dari perusahaan
+Lamaran kamu akan mencakup pertanyaan-pertanyaan berikut:
+Which of the following programming languages are you experienced in?
+What's your expected monthly basic salary?
+Which of the following types of qualifications do you have?
+How many years' experience do you have as a Data Engineer?
+How many years' experience do you have using SQL queries?
+Which of the following data analytics tools are you experienced with?
+How much notice are you required to give your current employer?
+Which of the followin","cicd, python, sql",3,data,jakarta,Jabodetabek,False,True,2026-04-29 20:33:40,https://roadmap.sh/data-analyst,True,15
+kalibrr,IT Security Internship,https://www.kalibrr.com/id-ID/c/pt-asuransi-allianz-life-indonesia/jobs/264260/it-security-internship,,Pt Asuransi Allianz Life Indonesia,"IT Security Internship  
+PT Asuransi Allianz Life Indonesia
+ 
+South Jakarta, Indonesia
+Penuh waktu
+Hibrida
+
+Lowongan dipasang 13 days ago dan batas waktu lamaran adalah 31 Jul
+
+Rekruter terakhir aktif 10 hours ago
+
+Lamar Sekarang
+Simpan
+Bagikan
+Deskripsi Pekerjaan
+This internship program will be held for 3 months period under Digital - IT Security Team
+During this program, candidate will support administrative tasks in
+Information Security such as review and update SOP,
+documentation of IS Peer Review action items, IAM, etc
+Candidate will expose in multinational culture and agile environment
+Will provide pocket money that will paid per each month
+Kualifikasi Minimum
+Currently pursuing or recently completed a degree in Information Technology, Cybersecurity, Computer Science, or a related field
+Basic knowledge of IT security principles and practices is often preferred
+Familiarity with IT security concepts, such as data protection, access controls, and risk management
+Profision to use Ms. Office (Word, Excel, PPT)
+Good communication and presentation skills
+Excellent problem-solving skills
+Good iniciative and able to work independently
+Ringkasan Perkerjaan
+TINGKAT POSISI
+Magang / OJT
+SPESIALISASI
+IT and Software
+PERSYARATAN TINGKAT PENDIDIKAN
+Lulus program Sarjana (S1)
+RESPON REKRUTER KE LAMARAN
+Once in a while
+ALAMAT KANTOR
+WTC 3
+INDUSTRI
+Insurance
+LOWONGAN
+1 lowongan dibuka
+SITUS
+https://www.allianz.co.id/
+
+Agar merasa aman saat melamar: carilah ikon verifikasi  dan selalu lakukan riset terhadap Perusahaan yang Anda lamar. Hindari dan laporkan situasi dimana Perusahaan membutuhkan bayaran dalam proses rekrutmen mereka.
+
+Laporkan lowongan pekerjaan ini
+Tentang PT Asuransi Allianz Life Indonesia
+Allianz Group is one of the most trusted insurance and asset management companies in the world. Caring for our employees, their ambitions, dreams and challenges, is
+what makes us a unique employer. Together we can build an environment where everyone feels empowered and has the c","agile, rust",2,cyber,jakarta,Jabodetabek,False,True,2026-04-29 20:22:45,https://roadmap.sh/cyber-security,True,13
+jobstreet,UI / UX Designer Internship,https://id.jobstreet.com/id/job/91774586,Tangerang,OPPO Indonesia,"Lewati ke konten
+Jobstreet
+Cari lowongan
+Cari profil
+Sumber daya karir
+Perusahaan
+Komunitas
+Bahasa
+Masuk
+Untuk perusahaan
+UI / UX Designer Internship
+OPPO Indonesia 
+4.2
+185 ulasan
+·
+Lihat semua lowongan kerja
+Tangerang, Banten
+Desain Web & Interaksi (Desain & Arsitektur)
+Kontrak/Temporer
+Rp 3.000.000 per month
+Diposting 1 hari yang lalu
+Lamaran Cepat
+Simpan
+
+Contract Duration: 6 Months (May - Nov 2026)
+
+Location: Jl Kawasan Industri Bayur, Tangerang (Full WFO)
+
+
+
+
+Job Description
+
+Support the end-to-end UI/UX design process, including wireframing, prototyping, and design iteration
+
+Create interactive wireframes and prototypes that clearly illustrate user flows and app functionality
+
+Assist in developing sitemap and information architecture for intuitive and logical navigation
+
+Contribute to moodboard creation and define visual direction aligned with product goals
+
+Apply basic UX principles to improve usability and user experience
+
+Collaborate with team members and stakeholders to understand project requirements and goals
+
+Participate & support in other project related to UI/UX
+
+
+
+
+Requirements
+
+Currently pursuing or recently graduated in UI/UX Design, Graphic Design, Information Systems, or related field
+
+Basic understanding of UI/UX principles and design thinking
+
+Able to create wireframes and interactive prototypes (Figma, Adobe XD, or similar tools)
+
+Understanding of sitemap and information architecture
+
+Strong sense of visual design and layout
+
+Good communication skills and willingness to learn
+
+Able to work in a team and adapt in a dynamic environment
+
+
+
+
+Lihat peluang & kecocokan kamu
+Tingkat respons lamaran
+Kesesuaian gaji
+Jumlah pelamar
+Masuk
+Daftar
+Pertanyaan dari perusahaan
+Lamaran kamu akan mencakup pertanyaan-pertanyaan berikut:
+What's your expected monthly basic salary?
+Which of the following types of qualifications do you have?
+How many years' experience do you have as a User Experience and Interface Designer?
+How many years of graphic design experien","adobexd, figma",2,ui/ux,tangerang,Jabodetabek,False,True,2026-04-29 20:23:56,https://roadmap.sh/ux-design,True,13
+glints,Data Analyst Intern,https://glints.com/id/opportunities/jobs/data-analyst-intern/34387d92-80da-4686-9ae0-b4a74538a40c,,PT Magenta Indopack Sejahtera,"Deskripsi pekerjaan Data Analyst Intern PT Magenta Indopack Sejahtera
+
+Mengumpulkan, membersihkan, dan mengolah data dari berbagai sumber.
+
+Melakukan input data serta memastikan keakuratan dan kelengkapan data.
+
+Membantu proses analisis data untuk kebutuhan laporan perusahaan.
+
+Mengelola database dan melakukan pembaruan data secara berkala.
+
+Mendukung kebutuhan administrasi yang berkaitan dengan pengolahan data.
+
+Kualifikasi:
+
+Mahasiswa aktif atau fresh graduate dari jurusan Statistik, Matematika, Sistem Informasi, Teknik Informatika, Akuntansi, atau bidang terkait.
+
+Memahami dasar pengolahan dan analisis data.
+
+Mampu mengoperasikan Microsoft Excel / Google Spreadsheet (pivot, rumus dasar, dll).
+
+Teliti, detail, dan memiliki kemampuan analisis yang baik.
+
+Bersedia menjalani program magang sesuai ketentuan perusahaan",,0,data,yogyakarta,Yogyakarta,True,False,2026-04-29 20:20:16,https://roadmap.sh/data-analyst,True,12
+jobstreet,Software Engineer Java Developer,https://id.jobstreet.com/id/job/91382769,Jakarta Selatan,PT Structured Services,"Lewati ke konten
+Jobstreet
+Cari lowongan
+Cari profil
+Sumber daya karir
+Perusahaan
+Komunitas
+Bahasa
+Masuk
+Untuk perusahaan
+Software Engineer Java Developer
+PT Structured Services 
+Lihat semua lowongan kerja
+Jakarta Selatan, Jakarta Raya
+Developer/Programmer (Teknologi Informasi & Komunikasi)
+Full time
+Tambahkan gaji yang diharapkan ke profil untuk menambah wawasan
+Diposting 21 hari yang lalu
+Lamaran Cepat
+Simpan
+
+How You’ll Make a Difference
+
+Participate in the complete software development life cycle.
+
+Design, develop test, implement custom develop application, applying knowledge of programming techniques and methodologies.
+
+Write robust code that adheres to defined standards and raise the bar with respect to quality.
+
+Specify and manage Java enhancements to be implemented under change management control.
+
+Develop and maintain client relationships, requiring deep technical and functional expertise.
+
+Provide assistance on production support on a regular basis.
+
+You will able to provide 1st and 2nd level of support across all supported applications, developing a resolution for customer issues based on product and industry knowledge.
+
+Able to adopt existing support processes and ensure that production systems remain operational.
+
+Incident management, problem management and problem resolution.
+
+Troubleshooting application issues in production environment.
+
+Able to work 24 x 7 standby support (rotating basis).
+
+Be able to travel locally and overseas.
+
+
+Requirements
+
+Possesses a Bachelor’s Degree in Computer Science or any relevant fields.
+
+Minimum 1-2 years of development experience.
+
+Proficiency in modern application frameworks using the Java language.
+
+Good knowledge in programming fundamentals (Java, Hibernate, SQL, RDBMS and etc)
+
+Good communication (written and spoken) and interpersonal skills.
+
+Able to work independently and in a team.
+
+Knowledge in banking solutions will be an added advantage
+
+
+
+
+Lihat peluang & kecocokan kamu
+Tingkat respons lamaran
+Kesesuaian ga","java, sql",2,it-general,jakarta,Jabodetabek,False,True,2026-04-29 20:28:27,https://roadmap.sh/computer-science,True,12
+jobstreet,K2 Developer (Project Based),https://id.jobstreet.com/id/job/91486028,Jakarta Pusat,PT Lawencon Internasional,"Lewati ke konten
+Jobstreet
+Cari lowongan
+Cari profil
+Sumber daya karir
+Perusahaan
+Komunitas
+Bahasa
+Masuk
+Untuk perusahaan
+K2 Developer (Project Based)
+PT Lawencon Internasional 
+4.6
+62 ulasan
+·
+Lihat semua lowongan kerja
+Jakarta Pusat, Jakarta Raya
+Developer/Programmer (Teknologi Informasi & Komunikasi)
+Full time
+Tambahkan gaji yang diharapkan ke profil untuk menambah wawasan
+Diposting 16 hari yang lalu
+Lamaran Cepat
+Simpan
+
+Job Description:
+
+Develop, maintain, and optimize applications using K2 Workflow and Smart Forms to support business processes.
+
+Analyze business requirements and translate them into technical solutions through workflow automation.
+
+Design and implement business process flows using Flowcharts and Data Flow Diagrams (DFD).
+
+Integrate K2 solutions with other systems using C# .NET (ASP.NET).
+
+Manage and optimize databases using Microsoft SQL Server.
+
+Perform troubleshooting, debugging, and system performance tuning.
+
+Collaborate with IT teams and business users to ensure solutions meet operational needs.
+
+Prepare technical documentation and user guides for developed systems.
+
+Requirement:
+
+Bachelor’s degree in Computer Science, Information Technology, or related field.
+
+Minimum 2 years of experience in software development, preferably with: K2 Workflow & Smart Forms Development
+
+Application development using C# .NET (ASP.NET)
+
+Strong experience with Microsoft SQL Server.
+
+Solid understanding of system analysis and design, including Flowcharts and Data Flow Diagrams (DFD).
+
+Good problem-solving skills and ability to work independently as well as in a team.
+
+Strong communication skills and ability to collaborate with non-technical stakeholders.
+
+Willing to be placed in Taman Jatibaru, Cideng.
+
+Open to 4-6 months project-based contract
+
+
+
+
+Lihat peluang & kecocokan kamu
+Tingkat respons lamaran
+Kesesuaian gaji
+Jumlah pelamar
+Masuk
+Daftar
+Pertanyaan dari perusahaan
+Lamaran kamu akan mencakup pertanyaan-pertanyaan berikut:
+Berapa gaji bulanan yang kamu i","c, sql",2,it-general,jakarta,Jabodetabek,False,True,2026-04-29 20:31:29,https://roadmap.sh/computer-science,True,12
+jobstreet,Japanese Software Engineer - IT services,https://id.jobstreet.com/id/job/91507308,Jakarta Selatan,PT Trust Recruit Indonesia,"Lewati ke konten
+Jobstreet
+Cari lowongan
+Cari profil
+Sumber daya karir
+Perusahaan
+Komunitas
+Bahasa
+Masuk
+Untuk perusahaan
+Japanese Software Engineer - IT services
+PT Trust Recruit Indonesia 
+Lihat semua lowongan kerja
+Jakarta Selatan, Jakarta Raya
+Teknik – Perangkat Lunak (Teknologi Informasi & Komunikasi)
+Full time
+Rp 15.000.000 – Rp 21.000.000 per month
+Diposting 15 hari yang lalu
+Lamaran Cepat
+Simpan
+
+Industry: IT Services, focusing on software and digital solutions for business clients
+
+Responsibilities:
+
+Manage end-to-end software projects including planning, execution, monitoring, and closure
+
+Define project scope, timelines, deliverables, and ensure alignment with stakeholders
+
+Develop schedules, track progress, and ensure timely project delivery
+
+Manage budgets, control costs, and monitor financial performance
+
+Oversee resources, vendors, and team allocation for optimal productivity
+
+Lead, coach, and develop project teams while ensuring performance delivery
+
+Communicate with clients and stakeholders, including reporting, risk management, and project closeout
+
+Requirements:
+
+JLPT N3 Minimum is a MUST
+
+Bachelor’s or Master’s Degree in Computer Science, Software Engineering, Big Data, Cloud Computing, Internet of Things, Network Engineering, Information Technology, Electronics, or related fields.
+
+Minimum 3–6 years of experience in software development or IT project management roles.
+
+Experience managing large-scale projects (cumulative project size exceeding 300 person-months) or leading teams of 20+ members.
+
+Familiarity with company-level software development process standards and PMO frameworks.
+
+Strong understanding of the IT industry landscape, emerging technologies, and digital trends.
+
+Willing to travel for business trips based on project requirements.
+
+
+
+
+Lihat peluang & kecocokan kamu
+Tingkat respons lamaran
+Kesesuaian gaji
+Jumlah pelamar
+Masuk
+Daftar
+Pertanyaan dari perusahaan
+Lamaran kamu akan mencakup pertanyaan-pertanyaan berikut:
+What's your expe","java, rust",2,it-general,jakarta,Jabodetabek,False,True,2026-04-29 20:31:52,https://roadmap.sh/computer-science,True,12
+jobstreet,QA Engineer,https://id.jobstreet.com/id/job/91340159,Jakarta Barat,PT Jasa Cepat Internasional,"Lewati ke konten
+Jobstreet
+Cari lowongan
+Cari profil
+Sumber daya karir
+Perusahaan
+Komunitas
+Bahasa
+Masuk
+Untuk perusahaan
+QA Engineer
+PT Jasa Cepat Internasional 
+Lihat semua lowongan kerja
+Jakarta Barat, Jakarta Raya
+Uji Coba & Penjaminan Mutu (Teknologi Informasi & Komunikasi)
+Full time
+Rp 6.000.000 – Rp 7.500.000 per month
+Diposting 23 hari yang lalu
+Lamaran Cepat
+Simpan
+
+What you'll do:
+
+Execute manual and automated test cases to identify, document, and track bugs.
+
+Assist in preparing test plans, test scripts, and test data.
+
+Work closely with developers and product managers to understand requirements and acceptance criteria.
+
+Participate in sprint planning, daily stand-ups, and review sessions (Agile/Scrum).
+
+Validate bug fixes and perform regression testing.
+
+Report issues clearly using issue-tracking tools (e.g., Jira).
+
+Contribute to test documentation and QA best practices.
+
+Continuously learn and adopt new testing tools and techniques.
+
+
+
+
+Qualification:
+
+Bachelor's degree in Computer Science, IT, Engineering or related field.
+
+Min 2 - 4 years experience
+
+Basic knowledge of software testing concepts, SDLC, and STLC.
+
+Familiar with bug-tracking systems and version control (e.g., Git).
+
+Actively uses AI tools (e.g., ChatGPT, Copilot, or similar) to support daily work such as writing test cases, debugging, documentation, or test automation.
+
+Strong analytical and problem-solving skills with attention to detail.
+
+Good communication skills and ability to work in a team environment.
+
+
+
+
+Lihat peluang & kecocokan kamu
+Tingkat respons lamaran
+Kesesuaian gaji
+Jumlah pelamar
+Masuk
+Daftar
+Pertanyaan dari perusahaan
+Lamaran kamu akan mencakup pertanyaan-pertanyaan berikut:
+Do you have experience automating functional and non-functional tests?
+What's your expected monthly basic salary?
+Which of the following types of qualifications do you have?
+How many years' experience do you have as a quality assurance engineer?
+Do you have experience working within a scrum agile t","agile, git",2,qa,jakarta,Jabodetabek,False,True,2026-04-29 20:32:29,https://roadmap.sh/qa,True,12
+jobstreet,Data Science Intern,https://id.jobstreet.com/id/job/91488384,Jakarta Raya,PT GOTO GOJEK TOKOPEDIA TBK,"Lewati ke konten
+Jobstreet
+Cari lowongan
+Cari profil
+Sumber daya karir
+Perusahaan
+Komunitas
+Bahasa
+Masuk
+Untuk perusahaan
+Data Science Intern
+PT GOTO GOJEK TOKOPEDIA TBK
+4.4
+294 ulasan
+·
+Lihat semua lowongan kerja
+Jakarta Raya
+Developer/Programmer (Teknologi Informasi & Komunikasi)
+Full time
+Tambahkan gaji yang diharapkan ke profil untuk menambah wawasan
+Diposting 15 hari yang lalu
+Daftar⁠
+Simpan
+
+About the Team
+
+You’ll join the GoTo Data Science team—a group dedicated to building machine learning solutions that keep GoTo’s digital payment ecosystem safe and reliable. Our team combines expertise in math, statistics, and machine learning to solve real business challenges for GoPay. We work collaboratively, learn from each other, and share ideas through team discussions, internal forums, and regular knowledge-sharing sessions.
+
+About GoTo Group
+
+GoTo is the largest digital ecosystem in Indonesia. GoTo's mission is to 'empower progress' by offering technology infrastructure and solutions that help everyone to access and thrive in the digital economy.
+
+The GoTo ecosystem provides a wide range of services, including mobility, delivery, payments, financial services, and technology solutions for merchants. The ecosystem also provides e-commerce services through Tokopedia and banking services through its partnership with Bank Jago.
+
+About Gojek 
+
+Gojek is Southeast Asia’s leading on-demand platform and pioneer of the multi-service ecosystem with over 2.5 million driver partners across the regions offering a wide range of services such as transportation, food delivery, logistics and more. With its mission to create impact at scale, Gojek is committed to resolving consumer problems and raising standards of living by connecting consumers to the best providers of goods and services in the market.
+
+About GoTo Financial
+
+GoTo Financial accelerates financial inclusion through its leading financial services and merchants solutions. Its consumer services include GoPay and GoPayLater",rust,1,it-general,jakarta,Jabodetabek,False,True,2026-04-29 20:32:57,https://roadmap.sh/computer-science,True,12
+jobstreet,Information Technology Project Manager,https://id.jobstreet.com/id/job/91485964,Bandung,PT Kurasi Media Nusantara,"Lewati ke konten
+Jobstreet
+Cari lowongan
+Cari profil
+Sumber daya karir
+Perusahaan
+Komunitas
+Bahasa
+Masuk
+Untuk perusahaan
+Information Technology Project Manager
+PT Kurasi Media Nusantara 
+Lihat semua lowongan kerja
+Bandung, Jawa Barat (Hibrid)
+Manajemen Program & Proyek (Teknologi Informasi & Komunikasi)
+Full time
+Rp 7.000.000 – Rp 9.000.000 per month
+Diposting 16 hari yang lalu
+Lamaran Cepat
+Simpan
+
+Kualifikasi
+
+Minimal S1 Teknik Informatika / Ilmu Komputer / Sistem Informasi atau bidang terkait
+
+Memiliki pengalaman pada:
+
+Minimal 3 project go-live sebagai tim teknis, seperti Programmer / Business Analyst / Tech Lead
+
+Minimal 2 project sebagai Team Leader
+
+Pengalaman di sektor pemerintahan menjadi nilai tambah
+
+
+Memahami:
+
+Software Development Lifecycle (SDLC)
+
+Project Management Process Group
+
+Agile / Scrum methodology
+
+Memiliki pemahaman terhadap AI / artificial intelligence dan mampu berkolaborasi dengan tim R&D dalam pengembangan solusi berbasis teknologi
+
+
+Tanggung Jawab
+
+Menyusun perencanaan project sesuai target dan timeline
+
+Mengelola serta mengakomodasi kebutuhan klien / user sesuai scope project
+
+Mengkoordinasikan tim selama pelaksanaan project, termasuk tim teknis dan R&D
+
+Memastikan project berjalan efektif, efisien, dan sesuai target
+
+Mengawal kolaborasi antara kebutuhan bisnis, pelaksanaan project, dan arah pengembangan teknologi
+
+Mendukung proses pengembangan inovasi, termasuk project yang berkaitan dengan AI
+
+
+
+
+Fasilitas & Benefit
+
+Gaji tetap + variabel
+
+Tunjangan lembur fleksibel
+
+Tunjangan perjalanan dinas
+
+Makan siang di kantor
+
+BPJS Ketenagakerjaan
+
+Asuransi kesehatan (Swasta / BPJS)
+
+Jam kerja fleksibel
+
+Free-flow espresso & cappuccino
+
+
+
+
+Bersedia
+
+Melakukan perjalanan dinas ke seluruh Indonesia
+
+
+
+
+Lihat peluang & kecocokan kamu
+Tingkat respons lamaran
+Kesesuaian gaji
+Jumlah pelamar
+Masuk
+Daftar
+Pertanyaan dari perusahaan
+Lamaran kamu akan mencakup pertanyaan-pertanyaan berikut:
+What's your expected monthly basic salary?
+Which of the followi","agile, go, r",3,it-general,bandung,Jawa Barat,False,False,2026-04-29 20:32:23,https://roadmap.sh/computer-science,True,11
+glints,Intern-Data Analyst,https://glints.com/id/opportunities/jobs/intern-data-analyst/e6dd90c7-0e4e-4db6-a23b-503c10996b08,,AHA Commerce,"Deskripsi pekerjaan Intern-Data Analyst AHA Commerce
+
+Persyaratan:
+
+- Menguasai Microsoft Excel (advanced)
+
+- Memiliki kemampuan analisis yang baik
+
+- Memiliki kemampuan komunikasi dan presentasi yang baik
+
+- Mampu bekerja secara mandiri maupun bersama team.
+
+- Teliti dalam pengolahan data.
+
+- Proaktif, detail-oriented, dan memiliki kemampuan problem-solving yang baik.
+
+
+Job Desc:
+- Pelajari produk dan kategori setiap Brand demi mendukung pertumbuhan Brand.
+
+- Analisa data dan membuat laporan Brand.
+
+- Mendukung dan mengikuti arahan dari leader.
+
+- Wajib hadir di internal meeting mingguan.
+
+- Wajib Memiliki keterampilan dalam mengoperasikan formula Excel atau paham logika bahasa programming/coding untuk memproses data secara efisien.
+
+
+Ketentuan kerja:
+
+•⁠ ⁠Jadwal kerja 8 jam kerja / hari (5 hari / minggu), pilihan jam & hari fleksibel
+
+•⁠ ⁠Upah Lembur 1.5x dari harian / jam (akumulatif per menit)
+
+•⁠ ⁠Upah Lembur tanggal Merah 2x dari harian
+
+keuntungan menjadi staff FULL TIME AHA:
+
+✅ Jaminan kenaikan gaji setiap tahun
+
+✅ Waktu kerja 8 jam sehari dan waktu absensi fleksibel
+
+✅ Jenjang karir jelas
+
+✅ Jatah cuti 12-24 hari (tergantung posisi, setelah bekerja 1 tahun)
+
+✅ Tunjangan Hari Raya (THR)
+
+✅ Kegiatan kebersamaan tim
+
+✅ Vitamin / Suplemen setiap minggu
+
+✅ BONUS & Insentif",,0,data,jakarta,Jabodetabek,False,True,2026-04-29 20:19:58,https://roadmap.sh/data-analyst,True,9
+jobstreet,Software Developer,https://id.jobstreet.com/id/job/91677128,Jakarta Selatan,PT System Ever Indonesia,"Lewati ke konten
+Jobstreet
+Cari lowongan
+Cari profil
+Sumber daya karir
+Perusahaan
+Komunitas
+Bahasa
+Masuk
+Untuk perusahaan
+Software Developer
+PT System Ever Indonesia 
+Lihat semua lowongan kerja
+Jakarta Selatan, Jakarta Raya
+Developer/Programmer (Teknologi Informasi & Komunikasi)
+Kontrak/Temporer
+Rp 7.500.000 – Rp 9.500.000 per month
+Diposting 7 hari yang lalu
+Lamaran Cepat
+Simpan
+
+Job Description : 
+
+Collaborate with other developers and cross-functional teams to understand project requirements.
+
+Write clean, efficient, and maintainable code
+
+Develop projects that within project timelines and deadlines
+
+Debug and troubleshoot issues in the development, testing, and production environment
+
+Requirements : 
+
+Graduated from Computer Science, Software Engineering, or related
+
+Having 1-3 years experience in the same field. Fresh graduate are welcome
+
+Able to speak english both speaking & writting
+
+Proficient in database programming such as MS SQL or MySql
+
+Willingness to learn and adapt to new technologies and mobile development practices.
+
+Understand ERP System Flow and mobile application more preferable
+
+Skills :
+
+Database Programming (MS SQL and/or MySql)
+
+UI/UX Basic
+
+Analyze & Problem-Solving Skills 
+
+
+
+
+Lihat peluang & kecocokan kamu
+Tingkat respons lamaran
+Kesesuaian gaji
+Jumlah pelamar
+Masuk
+Daftar
+Pertanyaan dari perusahaan
+Lamaran kamu akan mencakup pertanyaan-pertanyaan berikut:
+Which of the following types of qualifications do you have?
+What's your expected monthly basic salary?
+How would you rate your English language skills?
+How many years' experience do you have as a software developer?
+Which of the following Relational Database Management Systems (RDBMS) are you experienced with?
+Which of the following languages are you fluent in?
+Which of the following ERP products do you have experience using?
+Which of the following programming languages are you experienced in?
+Profil perusahaan
+System Ever Indonesia 
+Computer Software & Networking
+11-50 employees
+
+Young",sql,1,it-general,jakarta,Jabodetabek,False,True,2026-04-29 20:28:52,https://roadmap.sh/computer-science,True,9
+jobstreet,Software Engineer - RA,https://id.jobstreet.com/id/job/91643815,Jakarta Raya,PT XL Axiata Tbk,"Lewati ke konten
+Jobstreet
+Cari lowongan
+Cari profil
+Sumber daya karir
+Perusahaan
+Komunitas
+Bahasa
+Masuk
+Untuk perusahaan
+Software Engineer - RA
+PT XL Axiata Tbk
+4.3
+275 ulasan
+·
+Lihat semua lowongan kerja
+Jakarta Raya
+Teknik – Perangkat Lunak (Teknologi Informasi & Komunikasi)
+Full time
+Tambahkan gaji yang diharapkan ke profil untuk menambah wawasan
+Diposting 8 hari yang lalu
+Daftar⁠
+Simpan
+
+Key Responsibilities
+
+Follow best coding practices and standards defined by software management
+Adhere to secure coding practices aligned with OWASP guidelines
+Perform unit testing with preference for Test-Driven Development (TDD)
+Identify, troubleshoot, and fix software defects efficiently
+Continuously improve code quality, performance, and maintainability
+Participate in System Integration Testing (SIT) to ensure end-to-end functionality
+Prepare and maintain accurate technical documentation
+Follow Agile methodologies throughout the development lifecycle
+Ensure on-time delivery of assigned development tasks
+Maintain clear visibility of progress and proactively communicate and escalate roadblocks
+
+Person Specifications
+
+Bachelors degree in Computer Science, Software Engineering, or related field, or equivalent BSc qualification with 3+ years of experience
+Minimum 1+ year of experience in Software Engineering
+Strong analytical, problem-solving, teamwork, and communication skills
+Good understanding of programming fundamentals, concepts, and algorithms
+Ability to code using at least one programming language and willingness to learn others
+Good understanding of Database Management Systems (DBMS)
+Good knowledge of Scrum and Agile practices, including sprint planning, daily stand-ups, backlog grooming, reviews, and retrospectives
+
+﻿Vendor submissions - 06/07/10 months
+
+Lihat peluang & kecocokan kamu
+Tingkat respons lamaran
+Kesesuaian gaji
+Jumlah pelamar
+Masuk
+Daftar
+Profil perusahaan
+XL Axiata
+4.3
+·
+275 ulasan
+Telecommunications & Internet Service Providers
+1,001-5,000 employees
+
+PT X",agile,1,it-general,jakarta,Jabodetabek,False,True,2026-04-29 20:31:16,https://roadmap.sh/computer-science,True,9
+jobstreet,Clinical Data Intern (Medical Background),https://id.jobstreet.com/id/job/91415488,Karawaci,Siloam Hospitals Group (Tbk),"Lewati ke konten
+Jobstreet
+Cari lowongan
+Cari profil
+Sumber daya karir
+Perusahaan
+Komunitas
+Bahasa
+Masuk
+Untuk perusahaan
+Clinical Data Intern (Medical Background)
+Siloam Hospitals Group (Tbk) 
+4.2
+121 ulasan
+·
+Lihat semua lowongan kerja
+Karawaci, Banten
+Penelitian Klinis/Medis (Kesehatan & Medis)
+Full time
+Tambahkan gaji yang diharapkan ke profil untuk menambah wawasan
+Diposting 20 hari yang lalu
+Lamaran Cepat
+Simpan
+Job Description
+
+Assist the Clinical Program team in collecting and extracting data from Electronic Medical Records (EMR) for clinical outcome analysis
+
+Ensure accuracy, completeness, and consistency of collected data
+
+Support data cleaning, validation, and basic analysis for clinical reporting purposes
+
+Collaborate with doctors and internal stakeholders to understand data requirements
+
+Maintain confidentiality and security of patient data in compliance with hospital policies
+
+Prepare simple reports, summaries, and documentation related to clinical outcomes
+
+Provide administrative support for ongoing clinical programs and initiatives
+
+
+
+
+Job Qualifications
+
+Final-year student or fresh graduate from Faculty of Medicine (Fakultas Kedokteran)
+
+Strong attention to detail and high level of accuracy
+
+Good analytical thinking and ability to work with data
+
+Familiarity with Electronic Medical Records (EMR) systems is a plus
+
+Proficient in Microsoft Excel (basic functions, data organization)
+
+Good communication skills and able to work collaboratively with medical professionals
+
+High level of integrity and understanding of patient data confidentiality
+
+Willing to work in Head Office (HO) - Karawaci, WFO setting for 6 months
+
+
+
+
+Lihat peluang & kecocokan kamu
+Tingkat respons lamaran
+Kesesuaian gaji
+Jumlah pelamar
+Masuk
+Daftar
+Pertanyaan dari perusahaan
+Lamaran kamu akan mencakup pertanyaan-pertanyaan berikut:
+What's your expected monthly basic salary?
+Which of the following types of qualifications do you have?
+How much notice are you required to give your current",,0,data,tangerang,Jabodetabek,False,True,2026-04-29 20:33:03,https://roadmap.sh/data-analyst,True,9
+jobstreet,Data Trainer Intern,https://id.jobstreet.com/id/job/91594580,Jakarta Raya,PT Indocyber Global Teknologi,"Lewati ke konten
+Jobstreet
+Cari lowongan
+Cari profil
+Sumber daya karir
+Perusahaan
+Komunitas
+Bahasa
+Masuk
+Untuk perusahaan
+Data Trainer Intern
+PT Indocyber Global Teknologi
+2.7
+30 ulasan
+·
+Lihat semua lowongan kerja
+Jakarta Raya
+Entri Data & Pengolahan Kata (Administrasi & Dukungan Perkantoran)
+Full time
+Tambahkan gaji yang diharapkan ke profil untuk menambah wawasan
+Diposting 12 hari yang lalu
+Daftar⁠
+Simpan
+
+Job Description:
+
+* Melakukan anotasi data gambar dengan membuat bounding box sesuai panduan
+
+* Mengidentifikasi dan mengelompokkan objek pada gambar secara akurat
+
+* Memastikan hasil anotasi rapi, konsisten, dan sesuai standar
+
+* Melakukan pengecekan ulang terhadap hasil pekerjaan
+
+* Menyelesaikan tugas sesuai target harian
+
+Requirements:
+
+* Fresh graduate dipersilakan melamar
+
+* Teliti, rapi, dan memiliki perhatian tinggi terhadap detail
+
+* Mampu bekerja dengan konsentrasi dalam waktu yang cukup lama
+
+* Sabar dan nyaman dengan pekerjaan yang repetitif
+
+* Mampu mengikuti instruksi dengan baik
+
+* Terbiasa menggunakan laptop/komputer
+
+* Bersedia menjalani periode internship
+
+Nice to Have:
+
+* Pernah melakukan data labeling / annotasi gambar
+
+* Terbiasa dengan pekerjaan yang membutuhkan ketelitian tinggi
+
+* Memiliki ketertarikan pada bidang AI / Machine Learning (tidak wajib)
+
+Lihat peluang & kecocokan kamu
+Tingkat respons lamaran
+Kesesuaian gaji
+Jumlah pelamar
+Masuk
+Daftar
+Profil perusahaan
+Indocyber Global Technology
+2.7
+·
+30 ulasan
+Information Technology Services
+101-1,000 employees
+
+Indocyber established in 2001 that focuses in providing IT Services and Digital Marketing for its enterprise clients in retail and financial services industries.
+
+Our Group Companies have engaged with technology leaders such as Oracle, Microsoft, IBM, SAP, K2, Tibco, Lenddo, Pitney Bowes and Indonesia telco carrier leader Telkomsel.
+
+Our main services included:
+
+Mobile Solution
+
+Managed Services
+
+Cloud Apps Services
+
+Custom Solution
+
+Business Intelligence
+
+Business Process Manageme",,0,cyber,jakarta,Jabodetabek,False,True,2026-04-29 20:36:25,https://roadmap.sh/cyber-security,True,9
+jobstreet,Software & PLC Programmer,https://id.jobstreet.com/id/job/91736026,Karawang,PT TCT AUTOMATION ENGINEERING,"Lewati ke konten
+Jobstreet
+Cari lowongan
+Cari profil
+Sumber daya karir
+Perusahaan
+Komunitas
+Bahasa
+Masuk
+Untuk perusahaan
+Software & PLC Programmer
+PT TCT AUTOMATION ENGINEERING 
+Lihat semua lowongan kerja
+Karawang, Jawa Barat
+Teknik Elektro/Elektronik (Teknik)
+Full time
+Tambahkan gaji yang diharapkan ke profil untuk menambah wawasan
+Diposting 4 hari yang lalu
+Lamaran Cepat
+Simpan
+
+Deskripsi pekerjaan:
+
+
+Bertanggung jawab atas pemrograman PLC/HMI mesin untuk proyek otomasi dan sistem yang di kembangkan.
+
+Bertanggung jawab untuk pemasangan dan commisioning ke lokasi mesin bersama dengan anggota tim mekanik.
+
+
+Persyaratan:
+
+Berpengalaman di bidangnya minimal 5 Tahun
+
+Lulusan D3 atau S1 Jurusan Electrical / electronic.
+
+Bisa membuat Wiring Diagram Mesin sesuai permintaan customer ( SPM )
+
+Bisa membuat Ladder Diagram ( Program Mesin ).
+
+Familiar dengan PLC ( Omron, Mitsubishi, HMI Program ).
+
+Pengalaman pembuatan Control Panel Mesin ( SPM ).
+
+Mengerti Flow Konsep yang di minta Customer.
+
+Bisa bekerja dengan Team.
+
+Bisa bekerja di bawah tekanan.
+
+Bisa berkomunikasi dengan baik (Komunikatif).
+
+Bersedia di tempatkan di Karawang / Kelapa Gading.
+
+
+
+
+Lihat peluang & kecocokan kamu
+Tingkat respons lamaran
+Kesesuaian gaji
+Jumlah pelamar
+Masuk
+Daftar
+Pertanyaan dari perusahaan
+Lamaran kamu akan mencakup pertanyaan-pertanyaan berikut:
+Berapa gaji bulanan yang kamu inginkan?
+Kualifikasi mana yang kamu miliki?
+How many years' experience do you have as a Programmable Logic Controller Programmer?
+Profil perusahaan
+TCT Automation 
+Machinery & Automation
+11-50 employees
+
+PT TCT Automation Engineering adalah perusahaan bergerak di bidang Spesial Mesin-Mesin Industri Otomotif.
+
+Seperti : Washing Mesin, Press Mesin, Line Conveyor, JIG dan Fixture, dll.
+
+Berdiri sejak tahun 2012, Perusahaan terus berkembang dengan adanya proyek-proyek baru serta bertambahnya Klien. Untuk menunjang operasional, saat ini perusahaan membutuhkan sumber daya manusia yang tepat dan profesional di divisi-divisi",java,1,it-general,karawang,Jawa Barat,False,False,2026-04-29 20:29:35,https://roadmap.sh/computer-science,True,7

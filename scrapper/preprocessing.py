@@ -9,7 +9,7 @@ import csv
 from collections import Counter
 from datetime import datetime
 
-from local.config import (
+from scrapper.config import (
     ROADMAP_ROLES,
     SKILLS_DB, NORMALIZATION_MAP, SHORT_SKILL_KEYWORDS,
     TARGET_CITIES, JABODETABEK, JOGJA, JAWA_BARAT, JAWA_TENGAH, JAWA_TIMUR,
