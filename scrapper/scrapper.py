@@ -463,13 +463,13 @@ def run_scraping() -> list[dict]:
     import os
 
     print("=" * 65)
-    print("MAGANG-IN Scraper v2.3 — Glints + Kalibrr + JobStreet")
+    print("MAGANG-IN Scraper v3.0 — Glints + Kalibrr + JobStreet")
     print("=" * 65)
 
     with sync_playwright() as p:
         browser = p.chromium.launch(headless=False)
         page    = browser.new_page()
-
+        
         # 1. SCRAPE
         raw_jobs  = []
         raw_jobs += scrape_glints(page)

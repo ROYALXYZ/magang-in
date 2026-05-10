@@ -10,9 +10,9 @@ from collections import Counter
 from datetime import datetime
 
 from scrapper.config import (
-    ROADMAP_ROLES,
+    ROADMAP_ROLES, TITLE_SKILL_HINTS,
     SKILLS_DB, NORMALIZATION_MAP, SHORT_SKILL_KEYWORDS,
-    TARGET_CITIES, JABODETABEK, JOGJA, JAWA_BARAT, JAWA_TENGAH, JAWA_TIMUR,
+    TARGET_CITIES, JABODETABEK, JOGJA, JAWA_BARAT, JAWA_TENGAH, JAWA_TIMUR, BANTEN,
     TECH_SIGNALS, TECH_ROLES, JAWA_REGIONS,
 )
 
@@ -75,18 +75,38 @@ def extract_skills(text: str) -> list[str]:
     return sorted(normalized)
 
 
+def infer_from_title(title: str, role: str) -> list[str]:
+    """
+    Infer skills based on job title and detected role if extraction from desc failed.
+    """
+    inferred = set()
+    title_lower = title.lower()
+
+    # Match role specific hints
+    if role in TITLE_SKILL_HINTS:
+        inferred.update(TITLE_SKILL_HINTS[role])
+
+    # Direct match in title using existing extractor
+    title_skills = extract_skills(title_lower)
+    inferred.update(title_skills)
+
+    return sorted(list(inferred))
+
+
 # =========================
 # LOCATION DETECTION
 # =========================
 
 def detect_location(text: str) -> tuple[str, str]:
-    """Return (city, region) — region: Jabodetabek/Jawa Barat/Jawa Tengah/Jawa Timur/Yogyakarta/Indonesia"""
+    """Return (city, region) — region: Jabodetabek/Banten/Jawa Barat/Jawa Tengah/Jawa Timur/Yogyakarta/Indonesia"""
     text = text.lower()
     for city, hints in TARGET_CITIES.items():
         for hint in hints:
             if hint in text:
                 if city in JABODETABEK:
                     region = "Jabodetabek"
+                elif city in BANTEN:
+                    region = "Banten"
                 elif city in JOGJA:
                     region = "Yogyakarta"
                 elif city in JAWA_BARAT:
@@ -247,9 +267,15 @@ def run_preprocessing(raw_jobs: list[dict]) -> list[dict]:
     # 2. Filter Jawa-only
     jobs = filter_jawa(jobs)
 
-    # 3. Scoring & sorting
+    # 3. Enrichment & Scoring
     for job in jobs:
+        # Fallback: jika skill kosong, coba infer dari title
+        if not job.get("skills"):
+            job["skills"] = infer_from_title(job["title"], job["role"])
+            job["skills_count"] = len(job["skills"])
+            
         job["score"] = compute_score(job)
+    
     jobs = sorted(jobs, key=lambda x: x["score"], reverse=True)
 
     # 4. Summary & preview

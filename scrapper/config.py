@@ -14,17 +14,40 @@ SOURCES = {
         "https://glints.com/id/opportunities/jobs/explore?keyword=data+intern&locationName=Indonesia",
         "https://glints.com/id/opportunities/jobs/explore?keyword=frontend+intern&locationName=Indonesia",
         "https://glints.com/id/opportunities/jobs/explore?keyword=backend+intern&locationName=Indonesia",
+        "https://glints.com/id/opportunities/jobs/explore?keyword=fullstack+intern&locationName=Indonesia",
         "https://glints.com/id/opportunities/jobs/explore?keyword=mobile+developer+intern&locationName=Indonesia",
+        "https://glints.com/id/opportunities/jobs/explore?keyword=qa+intern&locationName=Indonesia",
+        "https://glints.com/id/opportunities/jobs/explore?keyword=ui+ux+intern&locationName=Indonesia",
+        "https://glints.com/id/opportunities/jobs/explore?keyword=machine+learning+intern&locationName=Indonesia",
+        "https://glints.com/id/opportunities/jobs/explore?keyword=devops+intern&locationName=Indonesia",
+        "https://glints.com/id/opportunities/jobs/explore?keyword=cybersecurity+intern&locationName=Indonesia",
+        "https://glints.com/id/opportunities/jobs/explore?keyword=web+developer+intern&locationName=Indonesia",
+        "https://glints.com/id/opportunities/jobs/explore?keyword=it+intern&locationName=Indonesia",
     ],
     "kalibrr": [
         "https://www.kalibrr.com/job-board/te/tech-internship/1",
         "https://www.kalibrr.com/job-board/te/data-internship/1",
         "https://www.kalibrr.com/job-board/te/it-internship/1",
+        "https://www.kalibrr.com/job-board/te/engineering-internship/1",
+        "https://www.kalibrr.com/job-board/te/software-engineering-internship/1",
+        "https://www.kalibrr.com/job-board/te/design-internship/1",
+        "https://www.kalibrr.com/job-board/te/it-software-internship/1",
+        "https://www.kalibrr.com/job-board/te/data-science-internship/1",
+        "https://www.kalibrr.com/job-board/te/quality-assurance-internship/1",
     ],
     "jobstreet": [
         "https://id.jobstreet.com/id/internship-jobs",
         "https://id.jobstreet.com/id/software-engineer-intern-jobs",
         "https://id.jobstreet.com/id/data-intern-jobs",
+        "https://id.jobstreet.com/id/frontend-intern-jobs",
+        "https://id.jobstreet.com/id/backend-intern-jobs",
+        "https://id.jobstreet.com/id/fullstack-intern-jobs",
+        "https://id.jobstreet.com/id/devops-intern-jobs",
+        "https://id.jobstreet.com/id/cyber-security-intern-jobs",
+        "https://id.jobstreet.com/id/machine-learning-intern-jobs",
+        "https://id.jobstreet.com/id/qa-intern-jobs",
+        "https://id.jobstreet.com/id/ui-ux-intern-jobs",
+        "https://id.jobstreet.com/id/it-intern-jobs",
     ],
 }
 
@@ -108,7 +131,22 @@ TECH_ROLES = {
 # =========================
 
 # Keywords pendek (≤ 4 char) yang butuh word boundary agar tidak false positive
-SHORT_SKILL_KEYWORDS = {"go", "ios", "r", "c", "ts", "js", "qa", "s3"}
+SHORT_SKILL_KEYWORDS = {
+    "go", "ios", "r", "c", "ts", "js", "qa", "s3", "aws", "gcp", "sql", "php", "c#", "c++", "git", "npm"
+}
+
+# Hints untuk inferensi skill dari Job Title (jika deskripsi minim)
+TITLE_SKILL_HINTS = {
+    "data analyst": ["sql", "excel", "python", "tableau", "powerbi"],
+    "frontend": ["html", "css", "javascript", "react", "vue", "tailwind"],
+    "backend": ["python", "nodejs", "sql", "api", "docker", "laravel"],
+    "fullstack": ["javascript", "react", "nodejs", "sql", "git"],
+    "mobile": ["flutter", "android", "ios", "kotlin", "swift"],
+    "ui/ux": ["figma", "adobexd", "design system", "user research"],
+    "devops": ["docker", "kubernetes", "aws", "cicd", "linux"],
+    "qa": ["selenium", "appium", "testing", "automation", "quality assurance"],
+    "cyber": ["security", "penetration", "network security", "wireshark"],
+}
 
 SKILLS_DB = {
     # Languages
@@ -186,6 +224,29 @@ SKILLS_DB = {
     "api":          ["rest api", "restful", "graphql", "webhook"],
     "agile":        ["agile", "scrum", "kanban", "jira"],
     "postman":      ["postman"],
+    
+    # Roadmap.sh Enriched Skills
+    "accessibility": ["accessibility"],
+    "ansible":      ["ansible"],
+    "apollo":       ["apollo"],
+    "astro":        ["astro"],
+    "bash":         ["bash", "shell"],
+    "bitbucket":    ["bitbucket"],
+    "ci/cd":        ["jenkins", "github actions", "gitlab ci", "circleci", "travis ci"],
+    "cloud":        ["cloud computing", "serverless"],
+    "css":          ["css", "scss", "sass", "tailwind", "bootstrap", "material ui"],
+    "database":     ["mysql", "postgresql", "mongodb", "redis", "elasticsearch", "sqlite", "oracle", "sql server"],
+    "graphql":      ["graphql", "apollo"],
+    "jest":         ["jest"],
+    "kubernetes":   ["kubernetes", "k8s", "helm"],
+    "linux":        ["linux", "ubuntu", "debian", "centos", "redhat"],
+    "monitoring":   ["prometheus", "grafana", "new relic", "datadog"],
+    "networking":   ["tcp/ip", "dns", "http", "https", "ssh"],
+    "nosql":        ["nosql", "mongodb", "cassandra", "dynamodb"],
+    "react":        ["react", "reactjs", "hooks", "redux", "context api"],
+    "security":     ["security", "cybersecurity", "encryption", "ssl", "oauth", "jwt"],
+    "testing":      ["unit test", "integration test", "e2e testing", "cypress", "playwright"],
+    "typescript":   ["typescript", "ts"],
 }
 
 # Normalization map — gabungkan variasi nama skill yang sama
@@ -205,40 +266,121 @@ NORMALIZATION_MAP = {
 # =========================
 
 TARGET_CITIES = {
-    # Jabodetabek (Top priority for tech)
+    # Jabodetabek (Banten & DKI & Jabar parts)
     "jakarta":    ["jakarta", "dki jakarta", "jkt"],
-    "bogor":      ["bogor", "bgr"],
+    "kepulauan seribu": ["kepulauan seribu"],
+    "bogor":      ["bogor", "bgr", "cibinong"],
     "depok":      ["depok", "dpk"],
     "tangerang":  ["tangerang", "tangsel", "banten", "tgr"],
     "bekasi":     ["bekasi", "bks", "cikarang"],
+    
+    # Banten (Non-Jabodetabek)
+    "serang":     ["serang"],
+    "cilegon":    ["cilegon"],
+    "pandeglang": ["pandeglang"],
+    "lebak":      ["lebak", "rangkasbitung"],
 
     # DI Yogyakarta
-    "yogyakarta": ["yogyakarta", "jogja", "sleman", "bantul", "gunung kidul", "kulon progo", "diy"],
+    "yogyakarta": ["yogyakarta", "jogja", "diy"],
+    "sleman":     ["sleman"],
+    "bantul":     ["bantul"],
+    "gunungkidul": ["gunungkidul", "gunung kidul", "wonosari"],
+    "kulon progo": ["kulon progo", "wates"],
 
-    # Jawa Barat & Banten
-    "bandung":    ["bandung", "bdg", "cimahi"],
-    "cirebon":    ["cirebon"],
+    # Jawa Barat
+    "bandung":    ["bandung", "bdg", "cimahi", "soreang", "ngamprah"],
+    "cirebon":    ["cirebon", "sumber"],
     "karawang":   ["karawang"],
+    "sukabumi":   ["sukabumi", "pelabuhanratu"],
+    "tasikmalaya": ["tasikmalaya", "singaparna"],
+    "banjar":     ["banjar"],
+    "ciamis":     ["ciamis"],
+    "cianjur":    ["cianjur"],
+    "garut":      ["garut"],
+    "indramayu":  ["indramayu"],
+    "kuningan":   ["kuningan"],
+    "majalengka": ["majalengka"],
+    "pangandaran": ["pangandaran"],
+    "purwakarta": ["purwakarta"],
+    "subang":     ["subang"],
+    "sumedang":   ["sumedang"],
 
     # Jawa Tengah
-    "semarang":   ["semarang", "smg"],
-    "surakarta":  ["surakarta", "solo", "sukoharjo"],
-    "purwokerto": ["purwokerto", "banyumas"],
+    "semarang":   ["semarang", "smg", "ungkaran"],
+    "surakarta":  ["surakarta", "solo"],
+    "salatiga":   ["salatiga"],
+    "magelang":   ["magelang", "mungkid"],
+    "pekalongan": ["pekalongan", "kajen"],
+    "tegal":      ["tegal", "slawi"],
+    "banjarnegara": ["banjarnegara"],
+    "banyumas":   ["banyumas", "purwokerto"],
+    "batang":     ["batang"],
+    "blora":      ["blora"],
+    "boyolali":   ["boyolali"],
+    "brebes":     ["brebes"],
+    "cilacap":    ["cilacap"],
+    "demak":      ["demak"],
+    "grobogan":   ["grobogan", "purwodadi"],
+    "jepara":     ["jepara"],
+    "karanganyar": ["karanganyar"],
+    "kebumen":    ["kebumen"],
+    "kendal":     ["kendal"],
+    "klaten":     ["klaten"],
+    "kudus":      ["kudus"],
+    "pati":       ["pati"],
+    "pemalang":   ["pemalang"],
+    "purbalingga": ["purbalingga"],
+    "purworejo":  ["purworejo"],
+    "rembang":    ["rembang"],
+    "sragen":     ["sragen"],
+    "sukoharjo":  ["sukoharjo"],
+    "temanggung": ["temanggung"],
+    "wonogiri":   ["wonogiri"],
+    "wonosobo":   ["wonosobo"],
 
     # Jawa Timur
     "surabaya":   ["surabaya", "sby"],
-    "malang":     ["malang", "mlg", "batu"],
+    "malang":     ["malang", "mlg", "kepanjen"],
     "sidoarjo":   ["sidoarjo"],
+    "batu":       ["batu"],
+    "blitar":     ["blitar", "kanigoro"],
+    "kediri":     ["kediri", "pare"],
+    "madiun":     ["madiun", "caruban"],
+    "mojokerto":  ["mojokerto", "mojosari"],
+    "pasuruan":   ["pasuruan", "bangil"],
+    "probolinggo": ["probolinggo", "kraksaan"],
+    "bangkalan":  ["bangkalan"],
+    "banyuwangi": ["banyuwangi"],
+    "bojonegoro": ["bojonegoro"],
+    "bondowoso":  ["bondowoso"],
+    "gresik":     ["gresik"],
+    "jember":     ["jember"],
+    "jombang":    ["jombang"],
+    "lamongan":   ["lamongan"],
+    "lumajang":   ["lumajang"],
+    "magetan":    ["magetan"],
+    "nganjuk":    ["nganjuk"],
+    "ngawi":      ["ngawi"],
+    "pacitan":    ["pacitan"],
+    "pamekasan":  ["pamekasan"],
+    "ponorogo":   ["ponorogo"],
+    "sampang":    ["sampang"],
+    "situbondo":  ["situbondo"],
+    "sumenep":    ["sumenep"],
+    "trenggalek": ["trenggalek"],
+    "tuban":      ["tuban"],
+    "tulungagung": ["tulungagung"],
 }
 
-JABODETABEK  = {"jakarta", "bogor", "depok", "tangerang", "bekasi"}
-JAWA_BARAT   = {"bandung", "cirebon", "karawang"}
-JAWA_TENGAH  = {"semarang", "surakarta", "purwokerto"}
-JAWA_TIMUR   = {"surabaya", "malang", "sidoarjo"}
-JOGJA        = {"yogyakarta"}
-ALL_JAWA     = JABODETABEK | JAWA_BARAT | JAWA_TENGAH | JAWA_TIMUR | JOGJA
+JABODETABEK  = {"jakarta", "kepulauan seribu", "bogor", "depok", "tangerang", "bekasi"}
+BANTEN       = {"serang", "cilegon", "pandeglang", "lebak"}
+JAWA_BARAT   = {"bandung", "cirebon", "karawang", "sukabumi", "tasikmalaya", "banjar", "ciamis", "cianjur", "garut", "indramayu", "kuningan", "majalengka", "pangandaran", "purwakarta", "subang", "sumedang"}
+JAWA_TENGAH  = {"semarang", "surakarta", "salatiga", "magelang", "pekalongan", "tegal", "banjarnegara", "banyumas", "batang", "blora", "boyolali", "brebes", "cilacap", "demak", "grobogan", "jepara", "karanganyar", "kebumen", "kendal", "klaten", "kudus", "pati", "pemalang", "purbalingga", "purworejo", "rembang", "sragen", "sukoharjo", "temanggung", "wonogiri", "wonosobo"}
+JAWA_TIMUR   = {"surabaya", "malang", "sidoarjo", "batu", "blitar", "kediri", "madiun", "mojokerto", "pasuruan", "probolinggo", "bangkalan", "banyuwangi", "bojonegoro", "bondowoso", "gresik", "jember", "jombang", "lamongan", "lumajang", "magetan", "nganjuk", "ngawi", "pacitan", "pamekasan", "ponorogo", "sampang", "situbondo", "sumenep", "trenggalek", "tuban", "tulungagung"}
+JOGJA        = {"yogyakarta", "sleman", "bantul", "gunungkidul", "kulon progo"}
+ALL_JAWA     = JABODETABEK | BANTEN | JAWA_BARAT | JAWA_TENGAH | JAWA_TIMUR | JOGJA
 
-JAWA_REGIONS = {"Jabodetabek", "Jawa Barat", "Jawa Tengah", "Jawa Timur", "Yogyakarta", "Remote"}
+JAWA_REGIONS = {"Jabodetabek", "Banten", "Jawa Barat", "Jawa Tengah", "Jawa Timur", "Yogyakarta", "Remote"}
 
 # =========================
 # POST-ENRICH FILTER

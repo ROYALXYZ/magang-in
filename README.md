@@ -24,57 +24,77 @@ Dataset Indonesia berisi **lowongan magang**, sedangkan dataset global berisi **
 
 ### Alur Pipeline (Dataset Indonesia)
 ```
-Scraping Playwright
+Scraping Playwright (scrapper.py)
   ├── Glints
   ├── Kalibrr
   └── JobStreet
         ↓
-  Enrichment (buka halaman detail)
+  Enrichment (buka halaman detail per job)
         ↓
-  Preprocessing & Scoring otomatis
+  Preprocessing otomatis (preprocessing.py)
+  ├── Skill extraction  ← SKILLS_DB + roadmap.sh terms
+  ├── Role mapping      ← ROADMAP_ROLES
+  ├── Location detection (3-layer fallback)
+  └── Scoring + filtering
         ↓
-  magangin_jobs_YYYYMMDD_HHMM.csv
+  magangin_jobs_YYYYMMDD_HHMM.csv   ← raw output scraper
+        ↓
+  Local_cleaning.ipynb              ← cleaning pipeline
+  ├── Fix company_name
+  ├── Drop kolom tidak diperlukan
+  ├── Handle missing skills (roadmap mapping + fallback)
+  └── Drop baris yang tidak bisa di-handle
+        ↓
+  magangin_jobs_cleaned.csv         ← dataset siap analisis
 ```
+
+### Roadmap Skill Enrichment
+Skills diekstrak dari dua sumber:
+1. **`SKILLS_DB`** di `scrapper/config.py` — keyword-based extraction dari deskripsi lowongan
+2. **`skills_per_role.json`** di `scrapper/roadmap/output/` — skill terms dari roadmap.sh (diambil via GitHub API oleh `fetch_roadmap.py`)
+
+Untuk baris dengan `skills` null, pipeline cleaning mengisi skills berdasarkan `role` → roadmap lookup. Role `ai/ml` menggunakan hardcoded fallback karena roadmap.sh `ai-data-scientist` berisi nama paper/course, bukan tech skill terms.
 
 ### Dua Dataset yang Digunakan
 | Dataset | Sumber | Isi | Jumlah |
 |---|---|---|---|
-| **Dataset Indo** | Scraping (Glints, Kalibrr, JobStreet) | Lowongan magang tech di Jawa | 57 baris |
+| **Dataset Indo** | Scraping (Glints, Kalibrr, JobStreet) | Lowongan magang tech di Jawa | 189 baris |
 | **Dataset Global** | Kaggle — *Job Descriptions 2025: Tech & Non-Tech Roles* | Job posting tech global | ~ribuan baris |
 
-### File yang Diserahkan
+### File Kunci
 | File | Deskripsi |
 |---|---|
-| `magangin_jobs_20260420_2310.csv` | Dataset Indo hasil scraping |
-| `all_scrapers.py` | Kode scraper + preprocessing lengkap |
-| `eda_simpel.ipynb` | EDA awal — perlu dikembangkan |
+| `data/magangin_jobs_20260510_1527.csv` | Dataset Indo **raw** hasil scraping (189 baris, 17 kolom) |
+| `data/magangin_jobs_cleaned.csv` | Dataset Indo **cleaned** siap analisis (189 baris, 10 kolom) |
+| `data/global_jobs_cleaned.csv` | Dataset Global setelah cleaning |
+| `scrapper/scrapper.py` | Scraper utama (Playwright) |
+| `scrapper/preprocessing.py` | Logic skill extraction, role mapping, scoring |
+| `scrapper/config.py` | Semua konstanta: SKILLS_DB, ROADMAP_ROLES, lokasi |
+| `scrapper/roadmap/fetch_roadmap.py` | Fetch skill terms dari roadmap.sh via GitHub API |
+| `local/Local_cleaning.ipynb` | Pipeline cleaning dataset Indo (9 sections) |
+| `local/Local_EDA.ipynb` | EDA dataset Indo |
 
 ---
 
-## 3. Data Dictionary — Dataset Indo
+## 3. Data Dictionary — Dataset Indo (Cleaned)
 
-**File:** `magangin_jobs_20260420_2310.csv`  
-**Jumlah baris:** 57 | **Jumlah kolom:** 17
+**File:** `data/magangin_jobs_cleaned.csv`
+**Jumlah baris:** 189 | **Jumlah kolom:** 10
 
 | # | Kolom | Tipe | Contoh Nilai | Deskripsi |
 |---|---|---|---|---|
 | 1 | `source` | string | `jobstreet`, `glints`, `kalibrr` | Platform asal lowongan |
 | 2 | `title` | string | `Data Analyst Intern` | Judul posisi lowongan |
-| 3 | `link` | string | `https://id.jobstreet.com/...` | URL halaman detail (sudah di-clean, tanpa query params) |
-| 4 | `location_raw` | string | `Yogyakarta, DI Yogyakarta` | Teks lokasi mentah dari halaman. Bisa null — lihat Data Issues |
-| 5 | `company_name` | string | `Tokopedia` | Nama perusahaan. Bisa null atau dirty — lihat Data Issues |
-| 6 | `description_raw` | string | *(teks panjang)* | Deskripsi mentah dari halaman detail, dibatasi 2000 karakter. Masih mengandung boilerplate — lihat Data Issues |
-| 7 | `skills` | string | `python, sql, pandas, git` | Skill yang terdeteksi dari deskripsi, dipisahkan koma. Diambil dari `SKILLS_DB` di scraper. Null jika tidak ada yang cocok |
-| 8 | `skills_count` | integer | `5` | Jumlah skill terdeteksi. Range: 0–14 |
-| 9 | `role` | string | `data` | Kategori roadmap IT hasil mapping otomatis dari judul. Lihat tabel role di bawah |
-| 10 | `location_city` | string | `jakarta`, `yogyakarta`, `unknown` | Kota terdeteksi (lowercase). `unknown` jika gagal dideteksi |
-| 11 | `region` | string | `Jabodetabek` | Wilayah hasil klasifikasi: `Jabodetabek`, `Yogyakarta`, `Jawa Barat`, `Jawa Tengah`, `Jawa Timur`, `Remote` |
-| 12 | `jogja_tag` | boolean | `True` / `False` | `True` jika lokasi di wilayah DI Yogyakarta |
-| 13 | `jabodetabek_tag` | boolean | `True` / `False` | `True` jika lokasi di wilayah Jabodetabek |
-| 14 | `scraped_at` | datetime string | `2026-04-20 23:02:18` | Timestamp saat data diambil |
-| 15 | `roadmap_url` | string | `https://roadmap.sh/data-analyst` | URL roadmap.sh relevan berdasarkan `role` |
-| 16 | `is_tech` | boolean | `True` / `False` | `True` jika terklasifikasi sebagai posisi teknologi. Berbasis `role`, `skills_count`, dan keyword judul |
-| 17 | `score` | integer | `42` | Skor relevansi. Range: 5–51. Formula: `skills_count × 3` + bonus role IT (+2) + bonus keyword teknis (+2) + bonus internship (+3) + bonus Yogyakarta (+5) / Jabodetabek (+2) |
+| 3 | `link` | string | `https://id.jobstreet.com/...` | URL halaman detail |
+| 4 | `company_name` | string | `Tokopedia` | Nama perusahaan. Null → diisi `"Unknown"` |
+| 5 | `skills` | string | `python, sql, pandas, git` | Skill terdeteksi, dipisahkan koma. Null diisi dari roadmap mapping |
+| 6 | `skills_count` | integer | `5` | Jumlah skill terdeteksi |
+| 7 | `role` | string | `data` | Kategori roadmap IT hasil mapping dari judul |
+| 8 | `location_city` | string | `jakarta`, `yogyakarta` | Kota terdeteksi (lowercase) |
+| 9 | `region` | string | `Jabodetabek` | Wilayah: `Jabodetabek`, `Yogyakarta`, `Jawa Barat`, `Jawa Tengah`, `Jawa Timur`, `Banten`, `Remote` |
+| 10 | `roadmap_url` | string | `https://roadmap.sh/data-analyst` | URL roadmap.sh relevan berdasarkan `role` |
+
+> **Kolom yang di-drop saat cleaning:** `location_raw`, `description_raw`, `jogja_tag`, `jabodetabek_tag`, `is_tech`, `score`
 
 ### Nilai `role` yang mungkin
 | Role | Contoh Judul |
@@ -93,55 +113,87 @@ Scraping Playwright
 
 ---
 
-## 4. Data Issues — Dataset Indo (Wajib Dibaca)
+## 4. Data Issues — Dataset Indo
 
-### ⚠️ Issue 1: `company_name` — Dirty Data (28 baris)
-**Masalah:** Sebagian besar data dari JobStreet memiliki `company_name` berisi jumlah ulasan perusahaan (contoh: `"18 ulasan"`, `"185 ulasan"`) karena selector scraper menangkap elemen rating, bukan nama perusahaan.
+### Cleaning yang Sudah Dilakukan (per `Local_cleaning.ipynb`)
 
-**Rekomendasi:** Nilai yang mengandung kata `"ulasan"` diperlakukan sebagai null. Nama perusahaan asli bisa di-retrieve manual atau scraping ulang jika diperlukan untuk analisis company-level.
-
-### ⚠️ Issue 2: `description_raw` — Masih Ada Boilerplate
-**Masalah:** Kolom deskripsi masih mengandung elemen UI web seperti `"Lewati ke konten"`, `"JobStreet"`, `"Masuk"`, `"Simpan"`.
-
-**Rekomendasi:** Lakukan text cleaning sebelum analisis NLP atau skill extraction tambahan.
-
-### ⚠️ Issue 3: Missing Values
-| Kolom | Jumlah Null | Penjelasan |
+| Issue | Status | Penanganan |
 |---|---|---|
-| `location_raw` | 15 (26%) | Kalibrr tidak menyediakan lokasi di halaman list. Gunakan `location_city` sebagai fallback |
-| `company_name` | 6 | Selector gagal, tidak ada fallback |
-| `skills` | 3 | Tidak ada keyword dari `SKILLS_DB` yang cocok di deskripsi |
+| `company_name` noise (pola "ulasan" dari JobStreet) | ✅ Fixed | Regex strip + fallback ekstrak dari URL |
+| `company_name` null (4 baris) | ✅ Fixed | Ekstrak dari URL Kalibrr/Glints, fallback `"Unknown"` |
+| `location_raw` null (42 baris) | ✅ Fixed | Diisi string kosong (sudah ada `location_city`) |
+| `skills` null (23 baris) | ✅ Fixed | 20 diisi dari roadmap mapping, 0 di-drop |
+| Kolom redundan/raw | ✅ Dropped | 6 kolom dihapus |
 
-### ℹ️ Issue 4: `score` Bukan Metrik Absolut
-`score` adalah sistem ranking internal untuk mengurutkan lowongan — **bukan** ground truth kualitas. Jangan digunakan sebagai label untuk modeling tanpa validasi lebih lanjut.
+### ⚠️ Issue Tersisa: `skills` dari Roadmap Mapping
+Skills yang diisi dari roadmap mapping bersifat **representatif role**, bukan dari deskripsi lowongan asli. Tag ini perlu dibedakan saat analisis jika diperlukan akurasi sumber skill.
+
+### ⚠️ Issue: `ai-data-scientist` Roadmap Terms
+Roadmap.sh untuk `ai-data-scientist` berisi nama paper, course, dan artikel (bukan tech skill terms). Skills untuk role `ai/ml` menggunakan fallback hardcoded: `python, tensorflow, pytorch, sklearn, pandas, numpy, sql, git`.
 
 ---
 
-## 5. Alur Kerja yang Diharapkan
+## 5. Distribusi Dataset Indo (Cleaned)
+
+### Per Source
+| Source | Jumlah |
+|---|---|
+| jobstreet | 147 |
+| glints | 41 |
+| kalibrr | 1 |
+
+### Per Role
+| Role | Jumlah |
+|---|---|
+| `backend` | 40 |
+| `it-general` | 35 |
+| `cyber` | 20 |
+| `frontend` | 19 |
+| `qa` | 19 |
+| `data` | 14 |
+| `ai/ml` | 13 |
+| `ui/ux` | 10 |
+| `fullstack` | 9 |
+| `devops` | 8 |
+| `mobile` | 2 |
+
+### Per Region
+| Region | Jumlah |
+|---|---|
+| Jabodetabek | 129 |
+| Jawa Timur | 20 |
+| Remote | 14 |
+| Yogyakarta | 11 |
+| Jawa Barat | 9 |
+| Jawa Tengah | 6 |
+
+---
+
+## 6. Alur Kerja yang Diharapkan
 
 ```
-Dataset Indo (CSV)              Dataset Global (Kaggle CSV)
-       ↓                                  ↓
-  Cleaning Indo                   Cleaning Global
-  - fix company_name              - filter hanya tech roles
-  - clean description_raw         - normalisasi skill
-  - handle nulls                  - mapping ke role yang sama
-       ↓                                  ↓
-       └──────── Feature Alignment ───────┘
-          (samakan: title, skills, role,
-           location, dataset_source)
-                    ↓
-           EDA per Dataset
-           - EDA Indo
-           - EDA Global
-                    ↓
-           Comparative EDA
-           - skill demand Indo vs Global
-           - role distribution Indo vs Global
-                    ↓
-           Insight & Visualisasi Explanatory
-                    ↓
-           Dashboard Streamlit
+Dataset Indo (cleaned CSV)         Dataset Global (Kaggle CSV)
+       ↓                                      ↓
+  Local_cleaning.ipynb ✅            Cleaning Global
+  (sudah selesai)                    - filter hanya tech roles
+                                     - normalisasi skill
+                                     - mapping ke role yang sama
+       ↓                                      ↓
+       └──────────── Feature Alignment ───────┘
+             (samakan: title, skills, role,
+              location, dataset_source)
+                       ↓
+              EDA per Dataset
+              - Local_EDA.ipynb (Indo)
+              - EDA Global
+                       ↓
+              Comparative EDA
+              - skill demand Indo vs Global
+              - role distribution Indo vs Global
+                       ↓
+              Insight & Visualisasi Explanatory
+                       ↓
+              Dashboard Streamlit
 ```
 
 ### Target Kolom Setelah Feature Alignment
@@ -150,14 +202,14 @@ Dataset Indo (CSV)              Dataset Global (Kaggle CSV)
 | `dataset_source` | `indo` atau `global` — pembeda utama antar dataset |
 | `title` | Judul posisi (raw) |
 | `role` | Kategori tech: `frontend`, `backend`, `data`, `ai/ml`, dll |
-| `skills` | Daftar skill, dipisahkan koma, sudah dinormalisasi (contoh: `ReactJS → react`) |
+| `skills` | Daftar skill, dipisahkan koma, sudah dinormalisasi |
 | `skills_count` | Jumlah skill |
 | `location` | Nama kota/negara |
 | `is_internship` | `True` untuk dataset Indo (semua magang), perlu di-flag untuk global |
 
 ---
 
-## 6. Pertanyaan Bisnis yang Disarankan
+## 7. Pertanyaan Bisnis yang Disarankan
 
 ### Per Dataset Indo
 1. Role apa yang paling banyak tersedia untuk magang tech di Jawa?
@@ -179,12 +231,13 @@ Dataset Indo (CSV)              Dataset Global (Kaggle CSV)
 
 ---
 
-## 7. Checklist Task untuk Data Scientist
+## 8. Checklist Task untuk Data Scientist
 
-### Dataset Indo
-- [ ] Cleaning `company_name` — nilai dengan kata `"ulasan"` → null
-- [ ] Cleaning `description_raw` — buang boilerplate web
-- [ ] Handle missing values (`location_raw`, `skills`)
+### Dataset Indo ✅ Selesai
+- [x] Cleaning `company_name` — pola "ulasan" + fallback dari URL
+- [x] Drop kolom tidak diperlukan (`location_raw`, `description_raw`, dll)
+- [x] Handle missing `skills` — roadmap mapping + hardcoded fallback
+- [x] Drop baris yang tidak bisa di-handle
 
 ### Dataset Global (Kaggle)
 - [ ] Download dataset: [Job Descriptions 2025 – Tech & Non-Tech Roles](https://www.kaggle.com/datasets/adityarajsrv/job-descriptions-2025-tech-and-non-tech-roles)
@@ -199,7 +252,7 @@ Dataset Indo (CSV)              Dataset Global (Kaggle CSV)
 - [ ] Gabungkan kedua dataset menjadi satu dataframe dengan kolom `dataset_source`
 
 ### EDA & Analisis
-- [ ] EDA Dataset Indo (kembangkan dari `eda_simpel.ipynb`)
+- [ ] EDA Dataset Indo (`Local_EDA.ipynb`)
 - [ ] EDA Dataset Global
 - [ ] Comparative EDA: Indo vs Global
 - [ ] Insight per dataset + comparative insight
@@ -211,35 +264,48 @@ Dataset Indo (CSV)              Dataset Global (Kaggle CSV)
 
 ---
 
-## 8. Referensi: Top 10 Skills Dataset Indo
+## 9. Referensi: Top 10 Skills Dataset Indo (Cleaned)
 
 | Rank | Skill | Frekuensi |
 |---|---|---|
-| 1 | sql | 31 |
-| 2 | java | 27 |
-| 3 | javascript | 22 |
-| 4 | excel | 20 |
-| 5 | python | 16 |
-| 6 | git | 14 |
-| 7 | react | 12 |
-| 8 | css | 10 |
-| 9 | html | 10 |
-| 10 | php | 10 |
+| 1 | sql | 69 |
+| 2 | database | 58 |
+| 3 | javascript | 57 |
+| 4 | python | 55 |
+| 5 | java | 52 |
+| 6 | git | 51 |
+| 7 | css | 50 |
+| 8 | security | 47 |
+| 9 | api | 37 |
+| 10 | react | 37 |
 
 ---
 
-## 9. Cara Menjalankan Scraper (Jika Perlu Tambah Data Indo)
+## 10. Cara Menjalankan Scraper (Jika Perlu Tambah Data Indo)
 
 ```bash
+# Install dependencies
 pip install playwright pandas
+
+# Install browser chromium
 playwright install chromium
-python all_scrapers.py
+
+# Jalankan scraper
+cd scrapper
+python main.py
 ```
 
-Output: file CSV baru dengan nama `magangin_jobs_YYYYMMDD_HHMM.csv`
+Output: file CSV baru di `data/magangin_jobs_YYYYMMDD_HHMM.csv`
 
-> **Note:** Scraper berjalan dengan mode `headless=False` — browser akan terbuka. Pastikan koneksi internet stabil. Estimasi waktu: ~15–30 menit untuk 57+ lowongan.
+> **Note:** Scraper berjalan dengan mode `headless=False` — browser akan terbuka. Pastikan koneksi internet stabil. Estimasi waktu: ~15–30 menit tergantung jumlah lowongan.
+
+### Cara Update Roadmap Skills (Opsional)
+```bash
+cd scrapper/roadmap
+python fetch_roadmap.py
+```
+Output: update `skills_per_role.json` di `scrapper/roadmap/output/`
 
 ---
 
-*Dokumen ini dibuat berdasarkan analisis kode `all_scrapers.py` dan dataset `magangin_jobs_20260420_2310.csv` per 20 April 2026.*
+*Dokumen ini diupdate berdasarkan state pipeline per 10 Mei 2026 — dataset `magangin_jobs_20260510_1527.csv` (189 lowongan) + cleaning via `Local_cleaning.ipynb`.*
