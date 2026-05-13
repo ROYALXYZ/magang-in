@@ -4,6 +4,30 @@ Semua konstanta & konfigurasi terpusat di sini.
 Tidak ada logic bisnis, tidak ada I/O.
 """
 
+import csv
+import os
+
+# =========================
+# SKILL VOCABULARY (single source of truth)
+# =========================
+
+def _load_skill_vocabulary() -> set:
+    """Load daftar valid skills dari skill_vocabulary.csv."""
+    vocab_path = os.path.join(os.path.dirname(__file__), "skill_vocabulary.csv")
+    skills = set()
+    try:
+        with open(vocab_path, newline="", encoding="utf-8") as f:
+            reader = csv.DictReader(f)
+            for row in reader:
+                skill = row["skill"].strip().lower()
+                if skill:
+                    skills.add(skill)
+    except FileNotFoundError:
+        print(f"[WARNING] skill_vocabulary.csv tidak ditemukan di {vocab_path}")
+    return skills
+
+VALID_SKILLS: set = _load_skill_vocabulary()
+
 # =========================
 # SOURCE URLS
 # =========================
@@ -129,124 +153,133 @@ TECH_ROLES = {
 # =========================
 # SKILLS DATABASE
 # =========================
+# Catatan: Semua skill key HARUS ada di skill_vocabulary.csv.
+# VALID_SKILLS (di-load dari CSV) adalah single source of truth.
+# Skill yang tidak ada di vocabulary akan difilter otomatis di extract_skills().
 
 # Keywords pendek (≤ 4 char) yang butuh word boundary agar tidak false positive
 SHORT_SKILL_KEYWORDS = {
-    "go", "ios", "r", "c", "ts", "js", "qa", "s3", "aws", "gcp", "sql", "php", "c#", "c++", "git", "npm"
+    "go", "ios", "r", "c", "ts", "js", "qa", "aws", "gcp", "sql", "php", "c", "git"
 }
 
 # Hints untuk inferensi skill dari Job Title (jika deskripsi minim)
+# Semua nilai di sini HARUS ada di skill_vocabulary.csv
 TITLE_SKILL_HINTS = {
-    "data analyst": ["sql", "excel", "python", "tableau", "powerbi"],
+    "data": ["sql", "python", "tableau", "powerbi", "pandas", "numpy", "r"],
     "frontend": ["html", "css", "javascript", "react", "vue", "tailwind"],
-    "backend": ["python", "nodejs", "sql", "api", "docker", "laravel"],
-    "fullstack": ["javascript", "react", "nodejs", "sql", "git"],
-    "mobile": ["flutter", "android", "ios", "kotlin", "swift"],
+    "backend": ["python", "node", "sql", "api", "docker", "laravel"],
+    "fullstack": ["javascript", "react", "node", "sql", "git"],
+    "mobile": ["flutter", "android", "ios", "kotlin", "swift", "react native"],
     "ui/ux": ["figma", "adobexd", "design system", "user research"],
-    "devops": ["docker", "kubernetes", "aws", "cicd", "linux"],
+    "devops": ["docker", "kubernetes", "aws", "cicd", "linux", "ansible", "terraform"],
     "qa": ["selenium", "appium", "testing", "automation", "quality assurance"],
-    "cyber": ["security", "penetration", "network security", "wireshark"],
+    "cyber": ["security", "penetration", "network security", "wireshark", "networking"],
+    "ai/ml": ["python", "tensorflow", "pytorch", "sklearn", "pandas", "numpy"],
 }
 
 SKILLS_DB = {
-    # Languages
-    "python":       ["python"],
-    "javascript":   ["javascript", "js", "es6"],
-    "typescript":   ["typescript"],
-    "java":         ["java"],
-    "kotlin":       ["kotlin"],
-    "swift":        ["swift"],
-    "php":          ["php"],
-    "go":           ["golang", "go"],
-    "rust":         ["rust"],
-    "cpp":          ["c++", "cpp"],
-    "c":            ["c"],
-    "r":            ["r", "rstudio", "r programming"],
+    # Languages (semua ada di vocabulary)
+    "python":           ["python"],
+    "javascript":       ["javascript", "js", "es6", "vanilla js", "ecmascript"],
+    "typescript":       ["typescript", "ts"],
+    "java":             ["java", "java se", "java ee", "java spring"],
+    "kotlin":           ["kotlin"],
+    "swift":            ["swift", "swiftui"],
+    "php":              ["php", "php8", "php7"],
+    "go":               ["golang", "go"],
+    "rust":             ["rust"],
+    "cpp":              ["c++", "cpp", "c plus plus"],
+    "c":                ["\bc\b"],   # handled via word boundary in extract_skills
+    "r":                ["rstudio", "r programming", "tidyverse", "ggplot"],
+    "scala":            ["scala", "akka"],
 
     # Web Frontend
-    "html":         ["html"],
-    "css":          ["css", "scss", "sass", "tailwind"],
-    "react":        ["react", "reactjs", "react.js"],
-    "vue":          ["vue", "vuejs", "vue.js"],
-    "angular":      ["angular"],
-    "nextjs":       ["next.js", "nextjs"],
+    "html":             ["html", "html5", "html/css", "semantic html"],
+    "css":              ["css", "scss", "sass", "css3", "bootstrap", "material ui", "material design"],
+    "tailwind":         ["tailwind", "tailwindcss", "tailwind css"],
+    "react":            ["react", "reactjs", "react.js", "hooks", "redux", "react hooks", "react context", "react query"],
+    "vue":              ["vue", "vuejs", "vue.js", "vuex", "pinia", "nuxt"],
+    "angular":          ["angular", "angularjs", "angular.js", "rxjs", "ngrx"],
+    "nextjs":           ["next.js", "nextjs", "next js"],
+    "astro":            ["astro"],
 
     # Web Backend
-    "node":         ["node", "nodejs", "node.js"],
-    "django":       ["django"],
-    "fastapi":      ["fastapi", "fast api"],
-    "flask":        ["flask"],
-    "laravel":      ["laravel"],
-    "springboot":   ["spring boot", "springboot"],
-    "express":      ["express", "expressjs"],
+    "node":             ["node", "nodejs", "node.js", "bun", "deno"],
+    "django":           ["django", "django rest framework", "drf"],
+    "fastapi":          ["fastapi", "fast api"],
+    "flask":            ["flask"],
+    "laravel":          ["laravel", "lumen"],
+    "springboot":       ["spring boot", "springboot", "spring framework", "spring mvc", "spring security"],
+    "express":          ["express", "expressjs", "express.js"],
+    "aspnet":           ["asp.net", "aspnet", ".net", "dotnet", "c# asp", "asp.net core", ".net core"],
+    "ruby on rails":    ["ruby on rails", "rails", "ruby"],
 
     # Data & ML
-    "sql":          ["sql", "mysql", "postgresql", "sqlite"],
-    "pandas":       ["pandas"],
-    "numpy":        ["numpy"],
-    "tensorflow":   ["tensorflow", "keras"],
-    "pytorch":      ["pytorch"],
-    "sklearn":      ["scikit-learn", "sklearn"],
-    "spark":        ["apache spark", "pyspark"],
-    "tableau":      ["tableau"],
-    "powerbi":      ["power bi", "powerbi"],
-    # "excel" removed — too common, pollutes tech filtering
-    "jupyter":      ["jupyter", "notebook"],
+    "sql":              ["sql", "mysql", "postgresql", "postgres", "sqlite", "mariadb", "oracle", "sql server", "ms sql", "t-sql", "pl/sql"],
+    "nosql":            ["nosql", "cassandra", "dynamodb", "couchdb", "hbase"],
+    "pandas":           ["pandas", "dataframe"],
+    "numpy":            ["numpy"],
+    "tensorflow":       ["tensorflow", "keras", "tf", "tensorflow lite"],
+    "pytorch":          ["pytorch", "torch"],
+    "sklearn":          ["scikit-learn", "sklearn", "scikit learn"],
+    "spark":            ["apache spark", "pyspark", "spark streaming", "databricks"],
+    "tableau":          ["tableau", "tableau desktop", "tableau server"],
+    "powerbi":          ["power bi", "powerbi", "power business intelligence", "microsoft power bi"],
 
     # Mobile
-    "flutter":      ["flutter"],
-    "android":      ["android", "android studio"],
-    "ios":          ["ios", "xcode"],
-    "reactnative":  ["react native"],
+    "flutter":          ["flutter", "dart"],
+    "android":          ["android", "android studio", "android sdk", "android development"],
+    "ios":              ["ios", "xcode", "swiftui", "uikit", "ios development"],
+    "react native":     ["react native", "react-native", "expo"],
 
     # DevOps & Cloud
-    "docker":       ["docker", "dockerfile", "container"],
-    "kubernetes":   ["kubernetes", "k8s"],
-    "git":          ["git", "github", "gitlab", "version control"],
-    "linux":        ["linux", "ubuntu", "bash", "shell"],
-    "aws":          ["aws", "amazon web services", "ec2", "s3"],
-    "gcp":          ["gcp", "google cloud"],
-    "azure":        ["azure", "microsoft azure"],
-    "cicd":         ["ci/cd", "github actions", "jenkins", "pipeline"],
+    "docker":           ["docker", "dockerfile", "docker compose", "docker-compose", "container", "containerization", "podman"],
+    "kubernetes":       ["kubernetes", "k8s", "helm", "kubectl", "openshift", "container orchestration"],
+    "git":              ["git", "github", "gitlab", "version control", "bitbucket", "source control", "git flow", "git branching"],
+    "linux":            ["linux", "ubuntu", "debian", "centos", "redhat", "unix", "fedora", "bash scripting"],
+    "bash":             ["bash", "shell script", "shell scripting", "zsh", "powershell", "command line"],
+    "aws":              ["aws", "amazon web services", "ec2", "s3", "lambda", "ecs", "eks", "rds", "sqs", "cloudwatch", "aws cloud"],
+    "gcp":              ["gcp", "google cloud", "google cloud platform", "bigquery", "cloud run", "gke", "pubsub", "vertex ai"],
+    "azure":            ["azure", "microsoft azure", "azure devops", "aks", "azure functions", "azure cloud"],
+    "cicd":             ["ci/cd", "github actions", "jenkins", "gitlab ci", "circleci", "travis ci", "argocd", "continuous integration", "continuous deployment", "continuous delivery", "pipeline automation"],
+    "terraform":        ["terraform", "infrastructure as code", "iac", "pulumi"],
+    "ansible":          ["ansible", "playbook", "configuration management"],
+    "cloud":            ["cloud computing", "serverless", "cloud native", "hybrid cloud", "multi cloud", "cloud infrastructure"],
 
-    # Design
-    "figma":        ["figma"],
-    "adobexd":      ["adobe xd"],
-    "canva":        ["canva"],
+    # Design & UX
+    "figma":            ["figma", "figma design"],
+    "adobexd":          ["adobe xd", "adobe experience design", "xd"],
+    "design system":    ["design system", "component library", "storybook", "atomic design", "design token"],
+    "user research":    ["user research", "usability testing", "ux research", "user interview", "user testing", "persona", "user journey"],
+    "accessibility":    ["accessibility", "wcag", "a11y", "screen reader", "inclusive design"],
 
     # Database
-    "mongodb":      ["mongodb", "mongo"],
-    "redis":        ["redis"],
-    "firebase":     ["firebase"],
-    "elasticsearch":["elasticsearch"],
+    "mongodb":          ["mongodb", "mongo", "mongoose", "mongodb atlas"],
+    "redis":            ["redis", "redis cache", "memcached", "redis cluster"],
+    "firebase":         ["firebase", "firestore", "firebase realtime", "firebase auth"],
+    "elasticsearch":    ["elasticsearch", "elastic search", "kibana", "elk stack", "opensearch", "logstash"],
+    "database":         ["database design", "database management", "dbms", "relational database", "rdbms", "db design", "data modeling", "erd"],
 
-    # General
-    "api":          ["rest api", "restful", "graphql", "webhook"],
-    "agile":        ["agile", "scrum", "kanban", "jira"],
-    "postman":      ["postman"],
-    
-    # Roadmap.sh Enriched Skills
-    "accessibility": ["accessibility"],
-    "ansible":      ["ansible"],
-    "apollo":       ["apollo"],
-    "astro":        ["astro"],
-    "bash":         ["bash", "shell"],
-    "bitbucket":    ["bitbucket"],
-    "ci/cd":        ["jenkins", "github actions", "gitlab ci", "circleci", "travis ci"],
-    "cloud":        ["cloud computing", "serverless"],
-    "css":          ["css", "scss", "sass", "tailwind", "bootstrap", "material ui"],
-    "database":     ["mysql", "postgresql", "mongodb", "redis", "elasticsearch", "sqlite", "oracle", "sql server"],
-    "graphql":      ["graphql", "apollo"],
-    "jest":         ["jest"],
-    "kubernetes":   ["kubernetes", "k8s", "helm"],
-    "linux":        ["linux", "ubuntu", "debian", "centos", "redhat"],
-    "monitoring":   ["prometheus", "grafana", "new relic", "datadog"],
-    "networking":   ["tcp/ip", "dns", "http", "https", "ssh"],
-    "nosql":        ["nosql", "mongodb", "cassandra", "dynamodb"],
-    "react":        ["react", "reactjs", "hooks", "redux", "context api"],
-    "security":     ["security", "cybersecurity", "encryption", "ssl", "oauth", "jwt"],
-    "testing":      ["unit test", "integration test", "e2e testing", "cypress", "playwright"],
-    "typescript":   ["typescript", "ts"],
+    # Networking & Security
+    "security":         ["cybersecurity", "encryption", "ssl", "tls", "oauth", "jwt", "information security", "infosec", "siem", "soc", "iam", "zero trust", "it security"],
+    "network security": ["network security", "firewall", "ids", "ips", "intrusion detection", "nmap", "packet analysis"],
+    "networking":       ["tcp/ip", "dns", "ssh", "vpn", "networking", "network protocol", "lan", "wan", "network administration"],
+    "penetration":      ["penetration testing", "pentest", "ethical hacking", "vulnerability assessment", "kali linux", "burp suite", "metasploit"],
+    "wireshark":        ["wireshark", "tcpdump", "network analysis", "packet capture"],
+
+    # General & Practices
+    "api":              ["rest api", "restful", "restful api", "webhook", "api integration", "api design", "openapi", "swagger", "api development"],
+    "graphql":          ["graphql", "graph ql"],
+    "apollo":           ["apollo graphql", "apollo client", "apollo server"],
+    "agile":            ["agile", "scrum", "kanban", "jira", "sprint", "backlog", "standup", "retrospective", "agile methodology", "safe agile"],
+    "postman":          ["postman", "insomnia", "api client", "api testing tool"],
+    "jest":             ["jest", "vitest", "mocha", "jasmine", "chai"],
+    "selenium":         ["selenium", "selenium webdriver", "selenium grid"],
+    "appium":           ["appium", "mobile automation"],
+    "testing":          ["unit test", "integration test", "e2e testing", "cypress", "playwright", "end-to-end", "test driven", "tdd", "bdd", "test case", "regression testing", "functional testing"],
+    "automation":       ["test automation", "automation testing", "robotic process", "rpa", "automated testing", "automation framework", "qa automation"],
+    "quality assurance":["quality assurance", "qa testing", "software testing", "qc", "quality control", "test planning", "test strategy"],
+    "bitbucket":        ["bitbucket", "bitbucket pipeline"],
 }
 
 # Normalization map — gabungkan variasi nama skill yang sama

@@ -11,7 +11,7 @@ from datetime import datetime
 
 from scrapper.config import (
     ROADMAP_ROLES, TITLE_SKILL_HINTS,
-    SKILLS_DB, NORMALIZATION_MAP, SHORT_SKILL_KEYWORDS,
+    SKILLS_DB, NORMALIZATION_MAP, SHORT_SKILL_KEYWORDS, VALID_SKILLS,
     TARGET_CITIES, JABODETABEK, JOGJA, JAWA_BARAT, JAWA_TENGAH, JAWA_TIMUR, BANTEN,
     TECH_SIGNALS, TECH_ROLES, JAWA_REGIONS,
 )
@@ -72,7 +72,8 @@ def extract_skills(text: str) -> list[str]:
     for skill in found:
         normalized.add(NORMALIZATION_MAP.get(skill, skill))
 
-    return sorted(normalized)
+    # Hard filter: hanya kembalikan skill yang ada di skill_vocabulary.csv
+    return sorted(s for s in normalized if s in VALID_SKILLS)
 
 
 def infer_from_title(title: str, role: str) -> list[str]:
@@ -90,7 +91,8 @@ def infer_from_title(title: str, role: str) -> list[str]:
     title_skills = extract_skills(title_lower)
     inferred.update(title_skills)
 
-    return sorted(list(inferred))
+    # Hard filter: hanya kembalikan skill yang ada di skill_vocabulary.csv
+    return sorted(s for s in inferred if s in VALID_SKILLS)
 
 
 # =========================
