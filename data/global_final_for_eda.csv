@@ -1,0 +1,735 @@
+job_title,role_standard,skills_cleaned,skills_count
+Cybersecurity,Cyber Security,"docker, r, node, go, pandas, c, mongodb",7
+Cybersecurity,Cyber Security,"css, javascript, r, sql, java, c",6
+DevOps,DevOps Engineer,"css, javascript, r, go, java, c, mongodb, kubernetes, tensorflow",9
+Web Dev,Web Developer,"javascript, r, sql, java, c",5
+Cybersecurity,Cyber Security,"python, docker, r, node, go, pandas, c, mongodb, kubernetes",9
+Data Science,Data Scientist,"docker, html, r, go, sql, pandas, c, mongodb",8
+Web Dev,Web Developer,"python, docker, r, go, sql, pandas, c, mongodb, tensorflow",9
+Web Dev,Web Developer,"javascript, r, node, react, sql, java, c",7
+Cybersecurity,Cyber Security,"css, html, node, go, sql, pandas, c, mongodb",8
+Cybersecurity,Cyber Security,"docker, r, node, react, pandas, c, tensorflow",7
+AI/ML,Software Engineer (General),"python, r, go, c, mongodb, kubernetes",6
+Data Science,Data Scientist,"css, docker, r, node, sql, c",6
+Data Science,Data Scientist,"python, css, html, r, react, pandas, c",7
+AI/ML,Software Engineer (General),"html, javascript, r, java, c, kubernetes",6
+AI/ML,Software Engineer (General),"css, javascript, r, go, java, c, mongodb",7
+Data Science,Data Scientist,"r, go, react, c, mongodb",5
+AI/ML,Software Engineer (General),"python, docker, r, node, react, java, pandas, c",8
+Cybersecurity,Cyber Security,"python, docker, r, go, java, c, mongodb",7
+AI/ML,Software Engineer (General),"docker, javascript, r, java, pandas, c",6
+Data Science,Data Scientist,"r, node, go, react, c, mongodb, kubernetes, tensorflow",8
+Data Science,Data Scientist,"javascript, r, java, c, tensorflow",5
+Cybersecurity,Cyber Security,"r, go, pandas, c, mongodb, kubernetes",6
+Web Dev,Web Developer,"css, c, sql",3
+Cybersecurity,Cyber Security,"python, node, java",3
+Web Dev,Web Developer,"docker, r, react, sql, java, pandas, c",7
+AI/ML,Software Engineer (General),"html, r, node, sql, java, kubernetes",6
+Web Dev,Web Developer,"html, r, sql, pandas, kubernetes",5
+Data Science,Data Scientist,"python, javascript, r, node, go, java, c, mongodb",8
+Web Dev,Web Developer,"python, css, html, r, react, pandas, c",7
+Web Dev,Web Developer,"r, go, react, java, pandas, sql, c, mongodb, kubernetes",9
+Cybersecurity,Cyber Security,"css, docker, r, node, pandas, c",6
+Web Dev,Web Developer,"css, docker, r, node, c",5
+Cybersecurity,Cyber Security,"javascript, r, node, go, java, pandas, c, mongodb",8
+DevOps,DevOps Engineer,"python, r, node, java, tensorflow",5
+Web Dev,Web Developer,"javascript, r, node, sql, java, c, tensorflow",7
+AI/ML,Software Engineer (General),"css, r, node, go, react, pandas, c, mongodb",8
+DevOps,DevOps Engineer,"r, node, react, pandas, c, kubernetes",6
+DevOps,DevOps Engineer,"css, docker, javascript, r, node, java, c",7
+Data Science,Data Scientist,"python, docker, javascript, r, java, c, tensorflow",7
+Web Dev,Web Developer,"css, c, java, pandas",4
+DevOps,DevOps Engineer,"go, sql, java, mongodb",4
+Web Dev,Web Developer,"css, html, javascript, r, go, java, pandas, c, mongodb, kubernetes",10
+Data Science,Data Scientist,"css, docker, r, go, sql, java, c, mongodb",8
+DevOps,DevOps Engineer,"react, c, sql, r",4
+AI/ML,Software Engineer (General),"css, python, html, r, react, c, kubernetes",7
+Cybersecurity,Cyber Security,"docker, javascript, r, node, react, java, c, tensorflow",8
+Data Science,Data Scientist,"python, go, html, mongodb",4
+Data Science,Data Scientist,"css, r, go, sql, c, mongodb, kubernetes, tensorflow",8
+Web Dev,Web Developer,"javascript, r, go, java, c, mongodb, kubernetes, tensorflow",8
+Web Dev,Web Developer,"docker, r, go, react, java, c, mongodb",7
+AI/ML,Software Engineer (General),"css, python, html, javascript, r, java, pandas, c, kubernetes",9
+AI/ML,Software Engineer (General),"css, r, pandas, c, kubernetes",5
+Web Dev,Web Developer,"html, r, javascript, java, c",5
+Web Dev,Web Developer,"css, javascript, r, java, c",5
+Cybersecurity,Cyber Security,"node, c, java",3
+AI/ML,Software Engineer (General),"r, node, sql, java, tensorflow",5
+AI/ML,Software Engineer (General),"css, html, r, react, c, kubernetes, tensorflow",7
+DevOps,DevOps Engineer,"css, docker, r, sql, c, tensorflow",6
+Cybersecurity,Cyber Security,"python, c, java, pandas",4
+Web Dev,Web Developer,"r, node, react, sql, java, pandas, c",7
+AI/ML,Software Engineer (General),"css, r, go, java, pandas, c, mongodb, kubernetes, tensorflow",9
+Web Dev,Web Developer,"css, docker, html, javascript, r, react, java, pandas, c",9
+Cybersecurity,Cyber Security,"docker, javascript, r, go, sql, java, c, mongodb",8
+Cybersecurity,Cyber Security,"python, javascript, r, sql, java, c, kubernetes, tensorflow",8
+Cybersecurity,Cyber Security,"javascript, r, node, react, java, c, tensorflow",7
+Cybersecurity,Cyber Security,"python, docker, r, java, c",5
+Cybersecurity,Cyber Security,"python, docker, r, node, react, pandas, c, tensorflow",8
+Cybersecurity,Cyber Security,"javascript, r, go, sql, java, pandas, c, mongodb",8
+Web Dev,Web Developer,"docker, r, sql, pandas, c",5
+Cybersecurity,Cyber Security,"javascript, r, go, react, java, pandas, c, mongodb",8
+Cybersecurity,Cyber Security,"html, r, c, kubernetes, tensorflow",5
+Web Dev,Web Developer,"kubernetes, r, java, pandas",4
+Data Science,Data Scientist,"r, node, go, react, c, mongodb, kubernetes, tensorflow",8
+DevOps,DevOps Engineer,"javascript, r, react, java, c, tensorflow",6
+Web Dev,Web Developer,"docker, r, react, sql, pandas, c, kubernetes",7
+AI/ML,Software Engineer (General),"python, css, javascript, r, sql, java, c",7
+DevOps,DevOps Engineer,"docker, r, node, sql, pandas, c",6
+AI/ML,Software Engineer (General),"javascript, r, node, sql, java, c",6
+Cybersecurity,Cyber Security,"html, r, node, react, sql, pandas, c",7
+DevOps,DevOps Engineer,"html, javascript, r, go, sql, java, c, mongodb, kubernetes",9
+AI/ML,Software Engineer (General),"python, css, sql, pandas, c",5
+Data Science,Data Scientist,"python, docker, r, java, c",5
+AI/ML,Software Engineer (General),"python, docker, javascript, r, java, c, tensorflow",7
+DevOps,DevOps Engineer,"sql, tensorflow, html, r",4
+Data Science,Data Scientist,"python, css, r, react, java, c, tensorflow",7
+AI/ML,Software Engineer (General),"react, c, tensorflow, r",4
+AI/ML,Software Engineer (General),"r, node, go, react, java, pandas, sql, c, mongodb",9
+Cybersecurity,Cyber Security,"python, docker, r, node, c",5
+Web Dev,Web Developer,"python, r, go, c, mongodb, kubernetes",6
+Cybersecurity,Cyber Security,"docker, html, r, node, react, c, tensorflow",7
+Web Dev,Web Developer,"r, node, go, sql, c, mongodb, tensorflow",7
+Web Dev,Web Developer,"css, javascript, r, node, go, java, c, mongodb, kubernetes",9
+Cybersecurity,Cyber Security,"css, docker, html, javascript, r, java, c",7
+DevOps,DevOps Engineer,"docker, javascript, r, go, java, c, mongodb, kubernetes",8
+Web Dev,Web Developer,"docker, javascript, r, java, c, tensorflow",6
+Web Dev,Web Developer,"css, javascript, r, node, java, pandas, c",7
+Data Science,Data Scientist,"python, docker, html, r, react, c, tensorflow",7
+Web Dev,Web Developer,"css, sql, java, pandas, c",5
+Cybersecurity,Cyber Security,"html, javascript, r, sql, java, pandas, c, kubernetes, tensorflow",9
+Web Dev,Web Developer,"css, python, r, node, go, react, c, mongodb, kubernetes",9
+AI/ML,Software Engineer (General),"r, go, sql, pandas, mongodb, tensorflow",6
+Web Dev,Web Developer,"r, node, react, java, pandas, c",6
+AI/ML,Software Engineer (General),"r, go, pandas, mongodb, tensorflow",5
+DevOps,DevOps Engineer,"python, docker, html, r, node, java, c, tensorflow",8
+AI/ML,Software Engineer (General),"css, html, r, go, react, c, mongodb, kubernetes",8
+AI/ML,Software Engineer (General),"docker, r, react, c, kubernetes, tensorflow",6
+Data Science,Data Scientist,"css, r, react, c, kubernetes",5
+Data Science,Data Scientist,"python, docker, r, java, pandas, c",6
+Data Science,Data Scientist,"docker, r, go, react, sql, c, mongodb",7
+Web Dev,Web Developer,"css, docker, html, r, go, react, c, mongodb",8
+Data Science,Data Scientist,"python, r, node, go, sql, java, mongodb, kubernetes",8
+Web Dev,Web Developer,"python, docker, javascript, r, react, java, c, tensorflow",8
+Data Science,Data Scientist,"docker, javascript, r, java, pandas, c",6
+DevOps,DevOps Engineer,"javascript, r, node, go, java, c, mongodb",7
+AI/ML,Software Engineer (General),"python, css, r, pandas, c, tensorflow",6
+Cybersecurity,Cyber Security,"javascript, r, react, java, c, kubernetes, tensorflow",7
+Cybersecurity,Cyber Security,"docker, javascript, r, react, java, c",6
+DevOps,DevOps Engineer,"python, javascript, r, go, react, java, c, mongodb, kubernetes",9
+Data Science,Data Scientist,"docker, r, pandas, c, tensorflow",5
+Cybersecurity,Cyber Security,"python, javascript, r, go, react, java, pandas, c, mongodb, tensorflow",10
+Web Dev,Web Developer,"css, docker, html, r, go, sql, c, mongodb",8
+Data Science,Data Scientist,"javascript, r, react, java, c, kubernetes",6
+AI/ML,Software Engineer (General),"css, r, node, go, react, java, c, mongodb, kubernetes",9
+DevOps,DevOps Engineer,"r, go, react, java, pandas, sql, c, mongodb",8
+Data Science,Data Scientist,"css, python, javascript, r, sql, java, c, kubernetes",8
+AI/ML,Software Engineer (General),"python, c, pandas",3
+AI/ML,Software Engineer (General),"css, r, react, sql, c, kubernetes",6
+AI/ML,Software Engineer (General),"docker, html, r, go, react, sql, pandas, c, mongodb",9
+Web Dev,Web Developer,"r, go, react, c, mongodb, tensorflow",6
+AI/ML,Software Engineer (General),"html, javascript, r, sql, java, pandas, c, tensorflow",8
+Data Science,Data Scientist,"css, docker, python, html, r, pandas, c, tensorflow",8
+Cybersecurity,Cyber Security,"python, docker, javascript, r, react, sql, java, c, kubernetes",9
+AI/ML,Software Engineer (General),"css, r, node, react, sql, pandas, c",7
+Cybersecurity,Cyber Security,"css, docker, r, node, sql, c",6
+AI/ML,Software Engineer (General),"python, css, c, java",4
+Data Science,Data Scientist,"r, go, react, java, c, mongodb",6
+Data Science,Data Scientist,"css, node, c",3
+Web Dev,Web Developer,"docker, html, javascript, r, react, java, c, kubernetes",8
+DevOps,DevOps Engineer,"r, react, pandas, c, kubernetes",5
+AI/ML,Software Engineer (General),"node, go, java, mongodb",4
+Cybersecurity,Cyber Security,"html, r, react, pandas, c, kubernetes, tensorflow",7
+Web Dev,Web Developer,"docker, html, r, node, sql, java, c",7
+AI/ML,Software Engineer (General),"python, docker, html, r, node, c, kubernetes",7
+Web Dev,Web Developer,"r, react, java, pandas, c, kubernetes",6
+Cybersecurity,Cyber Security,"css, r, sql, pandas, c, kubernetes, tensorflow",7
+Data Science,Data Scientist,"python, css, r, sql, java, c, tensorflow",7
+Data Science,Data Scientist,"css, c, sql, pandas",4
+Cybersecurity,Cyber Security,"r, go, react, pandas, c, mongodb, kubernetes",7
+Cybersecurity,Cyber Security,"javascript, r, go, java, c, mongodb",6
+AI/ML,Software Engineer (General),"docker, html, javascript, r, react, java, pandas, c",8
+DevOps,DevOps Engineer,"css, docker, html, javascript, r, go, react, java, c, mongodb",10
+Data Science,Data Scientist,"r, node, react, pandas, c",5
+Web Dev,Web Developer,"r, node, react, c, kubernetes",5
+Data Science,Data Scientist,"css, docker, python, html, javascript, r, java, c",8
+AI/ML,Software Engineer (General),"python, css, r, go, c, mongodb, tensorflow",7
+AI/ML,Software Engineer (General),"docker, r, node, go, c, mongodb, tensorflow",7
+AI/ML,Software Engineer (General),"r, go, sql, java, c, mongodb, kubernetes",7
+AI/ML,Software Engineer (General),"css, python, html, javascript, r, sql, java, c, tensorflow",9
+Web Dev,Web Developer,"html, go, sql, c, mongodb",5
+AI/ML,Software Engineer (General),"css, docker, r, c, kubernetes",5
+Web Dev,Web Developer,"css, javascript, r, java, pandas, c, kubernetes",7
+DevOps,DevOps Engineer,"python, r, sql, java, kubernetes, tensorflow",6
+Data Science,Data Scientist,"sql, c, html",3
+DevOps,DevOps Engineer,"pandas, node, go, mongodb",4
+AI/ML,Software Engineer (General),"css, node, go, c, mongodb",5
+Web Dev,Web Developer,"docker, html, javascript, r, java, c",6
+Data Science,Data Scientist,"javascript, r, node, java, c, kubernetes",6
+Web Dev,Web Developer,"javascript, r, react, java, pandas, c, kubernetes",7
+Web Dev,Web Developer,"css, docker, r, node, c, kubernetes",6
+AI/ML,Software Engineer (General),"html, javascript, r, node, java, c, tensorflow",7
+AI/ML,Software Engineer (General),"css, html, go, c, mongodb",5
+Data Science,Data Scientist,"python, r, node, react, java, c, kubernetes",7
+Web Dev,Web Developer,"css, python, go, java, pandas, c, mongodb",7
+DevOps,DevOps Engineer,"html, r, react, java, c",5
+Web Dev,Web Developer,"javascript, r, node, react, java, c, tensorflow",7
+DevOps,DevOps Engineer,"css, javascript, r, node, go, sql, java, pandas, c, mongodb",10
+AI/ML,Software Engineer (General),"docker, c, tensorflow, r",4
+DevOps,DevOps Engineer,"docker, html, r, node, react, c, tensorflow",7
+Data Science,Data Scientist,"css, python, html, javascript, r, node, java, c",8
+AI/ML,Software Engineer (General),"css, html, r, react, sql, pandas, c",7
+Data Science,Data Scientist,"docker, html, r, node, java, pandas, c, kubernetes",8
+DevOps,DevOps Engineer,"python, html, javascript, r, node, java, c, tensorflow",8
+AI/ML,Software Engineer (General),"python, html, r, c, tensorflow",5
+AI/ML,Software Engineer (General),"python, r, go, mongodb, kubernetes",5
+AI/ML,Software Engineer (General),"python, css, r, react, c",5
+DevOps,DevOps Engineer,"css, docker, python, html, r, node, c",7
+DevOps,DevOps Engineer,"python, css, docker, r, node, sql, c, tensorflow",8
+Data Science,Data Scientist,"css, docker, r, go, react, pandas, c, mongodb",8
+Cybersecurity,Cyber Security,"javascript, r, react, java, pandas, c",6
+DevOps,DevOps Engineer,"html, javascript, r, go, react, java, c, mongodb, tensorflow",9
+Web Dev,Web Developer,"python, c, tensorflow, r",4
+DevOps,DevOps Engineer,"go, c, html, mongodb",4
+DevOps,DevOps Engineer,"python, javascript, r, go, sql, java, pandas, c, mongodb, kubernetes",10
+Web Dev,Web Developer,"css, html, r, node, java, pandas, c, tensorflow",8
+Cybersecurity,Cyber Security,"html, r, react, sql, java, c, tensorflow",7
+DevOps,DevOps Engineer,"docker, html, r, node, c",5
+AI/ML,Software Engineer (General),"css, python, r, node, go, react, c, mongodb, kubernetes",9
+DevOps,DevOps Engineer,"css, node, go, java, c, mongodb",6
+Data Science,Data Scientist,"css, python, javascript, r, go, java, c, mongodb, kubernetes",9
+AI/ML,Software Engineer (General),"docker, r, pandas, c, tensorflow",5
+DevOps,DevOps Engineer,"css, python, r, node, go, react, pandas, c, mongodb",9
+Data Science,Data Scientist,"css, html, r, react, java, c, kubernetes",7
+Web Dev,Web Developer,"python, c, tensorflow, r",4
+Cybersecurity,Cyber Security,"css, docker, javascript, r, go, sql, java, c, mongodb, tensorflow",10
+AI/ML,Software Engineer (General),"r, node, pandas, c, kubernetes, tensorflow",6
+Cybersecurity,Cyber Security,"python, html, javascript, r, node, java, c, tensorflow",8
+DevOps,DevOps Engineer,"css, html, r, react, java, c",6
+DevOps,DevOps Engineer,"javascript, r, node, java, c, tensorflow",6
+AI/ML,Software Engineer (General),"python, docker, r, c, kubernetes",5
+Web Dev,Web Developer,"html, javascript, r, java, pandas, c, kubernetes",7
+Data Science,Data Scientist,"css, javascript, r, java, c, tensorflow",6
+Cybersecurity,Cyber Security,"python, html, r, sql, java, pandas, tensorflow",7
+Web Dev,Web Developer,"css, r, pandas, c, kubernetes",5
+Web Dev,Web Developer,"html, javascript, r, node, sql, java, c, kubernetes",8
+Data Science,Data Scientist,"css, html, node, go, sql, pandas, c, mongodb",8
+Data Science,Data Scientist,"python, docker, r, node, go, c, mongodb",7
+Data Science,Data Scientist,"python, r, go, mongodb, kubernetes, tensorflow",6
+Web Dev,Web Developer,"css, python, html, node, pandas, c",6
+Data Science,Data Scientist,"python, r, react, java, c, tensorflow",6
+Data Science,Data Scientist,"javascript, r, react, java, c, kubernetes, tensorflow",7
+AI/ML,Software Engineer (General),"docker, r, go, react, sql, c, mongodb, kubernetes",8
+DevOps,DevOps Engineer,"docker, c, r, pandas",4
+Data Science,Data Scientist,"html, r, javascript, java, c, tensorflow",6
+Cybersecurity,Cyber Security,"docker, html, r, c, tensorflow",5
+DevOps,DevOps Engineer,"html, javascript, r, go, sql, java, c, mongodb",8
+Cybersecurity,Cyber Security,"html, java, pandas",3
+AI/ML,Software Engineer (General),"javascript, r, node, react, sql, java, c, kubernetes",8
+Web Dev,Web Developer,"html, r, node, go, react, java, sql, c, mongodb",9
+Web Dev,Web Developer,"css, docker, javascript, r, node, sql, java, c, tensorflow",9
+Data Science,Data Scientist,"python, r, go, mongodb, tensorflow",5
+Web Dev,Web Developer,"css, node, c, java",4
+Web Dev,Web Developer,"css, r, react, pandas, c, tensorflow",6
+Web Dev,Web Developer,"python, r, node, go, java, mongodb, kubernetes",7
+Web Dev,Web Developer,"r, node, go, sql, mongodb, kubernetes",6
+AI/ML,Software Engineer (General),"python, node, html",3
+Cybersecurity,Cyber Security,"docker, html, r, node, c",5
+DevOps,DevOps Engineer,"css, javascript, r, go, java, pandas, c, mongodb",8
+Data Science,Data Scientist,"html, r, react, sql, c",5
+Data Science,Data Scientist,"html, javascript, r, node, java, c, kubernetes",7
+DevOps,DevOps Engineer,"css, javascript, r, sql, java, pandas, c, kubernetes",8
+Web Dev,Web Developer,"python, docker, javascript, r, java, c",6
+AI/ML,Software Engineer (General),"css, html, javascript, r, java, pandas, c, tensorflow",8
+Data Science,Data Scientist,"kubernetes, python, node, r",4
+Cybersecurity,Cyber Security,"docker, html, javascript, r, java, pandas, c, tensorflow",8
+Web Dev,Web Developer,"css, docker, html, javascript, r, sql, java, c, tensorflow",9
+Data Science,Data Scientist,"r, go, java, c, mongodb, tensorflow",6
+AI/ML,Software Engineer (General),"css, docker, html, r, pandas, c, kubernetes",7
+Cybersecurity,Cyber Security,"python, docker, r, node, go, react, c, mongodb",8
+Web Dev,Web Developer,"python, go, c, mongodb",4
+DevOps,DevOps Engineer,"docker, html, r, node, c",5
+Web Dev,Web Developer,"css, node, go, c, mongodb",5
+Cybersecurity,Cyber Security,"css, sql, java, pandas, c",5
+Cybersecurity,Cyber Security,"javascript, r, go, react, java, c, mongodb, kubernetes",8
+Data Science,Data Scientist,"html, r, node, react, pandas, c, tensorflow",7
+DevOps,DevOps Engineer,"javascript, r, node, go, java, c, mongodb",7
+Web Dev,Web Developer,"docker, r, react, pandas, c, kubernetes",6
+Data Science,Data Scientist,"css, html, r, java, c, tensorflow",6
+AI/ML,Software Engineer (General),"python, r, react, sql, c",5
+DevOps,DevOps Engineer,"docker, javascript, r, node, go, react, java, c, mongodb",9
+AI/ML,Software Engineer (General),"python, html, r, node, react, c",6
+Web Dev,Web Developer,"docker, html, r, node, react, c, tensorflow",7
+DevOps,DevOps Engineer,"javascript, r, java, pandas, c, kubernetes, tensorflow",7
+Cybersecurity,Cyber Security,"css, docker, javascript, r, react, sql, java, c",8
+Web Dev,Web Developer,"python, javascript, r, node, java, c",6
+Data Science,Data Scientist,"html, r, java, pandas, kubernetes, tensorflow",6
+DevOps,DevOps Engineer,"html, javascript, r, node, sql, java, c, tensorflow",8
+Web Dev,Web Developer,"python, javascript, r, react, java, pandas, c, tensorflow",8
+DevOps,DevOps Engineer,"python, javascript, r, go, sql, java, c, mongodb, tensorflow",9
+Cybersecurity,Cyber Security,"python, javascript, r, node, react, java, c",7
+Data Science,Data Scientist,"python, css, docker, r, react, c, tensorflow",7
+DevOps,DevOps Engineer,"javascript, r, go, react, java, c, mongodb, kubernetes, tensorflow",9
+Data Science,Data Scientist,"react, c, html, r",4
+AI/ML,Software Engineer (General),"python, html, r, go, mongodb, kubernetes",6
+Data Science,Data Scientist,"html, javascript, r, sql, java, pandas, c, kubernetes, tensorflow",9
+Cybersecurity,Cyber Security,"css, docker, html, r, sql, c",6
+Cybersecurity,Cyber Security,"docker, r, node, react, sql, c",6
+Web Dev,Web Developer,"css, python, go, pandas, c, mongodb",6
+DevOps,DevOps Engineer,"r, react, c, java",4
+Data Science,Data Scientist,"python, html, r, go, sql, mongodb, kubernetes",7
+AI/ML,Software Engineer (General),"python, r, react, c, tensorflow",5
+Web Dev,Web Developer,"html, r, javascript, sql, java, c, tensorflow",7
+Data Science,Data Scientist,"r, react, java, pandas, c",5
+AI/ML,Software Engineer (General),"python, html, r, node, go, java, mongodb, kubernetes",8
+Cybersecurity,Cyber Security,"r, sql, java, pandas, tensorflow",5
+AI/ML,Software Engineer (General),"sql, html, java",3
+Web Dev,Web Developer,"python, docker, r, go, c, mongodb",6
+Web Dev,Web Developer,"css, python, r, node, java, c, kubernetes",7
+Web Dev,Web Developer,"javascript, r, java, pandas, c, tensorflow",6
+AI/ML,Software Engineer (General),"css, r, react, sql, c, kubernetes",6
+Cybersecurity,Cyber Security,"css, html, r, react, pandas, c, tensorflow",7
+Web Dev,Web Developer,"python, docker, r, java, c, kubernetes",6
+DevOps,DevOps Engineer,"r, go, c, mongodb, kubernetes, tensorflow",6
+Data Science,Data Scientist,"css, r, react, c, kubernetes",5
+DevOps,DevOps Engineer,"python, docker, javascript, r, sql, java, c",7
+Web Dev,Web Developer,"python, docker, html, r, node, react, c, tensorflow",8
+Data Science,Data Scientist,"docker, r, react, pandas, c, tensorflow",6
+Data Science,Data Scientist,"r, node, react, sql, pandas, c, kubernetes",7
+AI/ML,Software Engineer (General),"docker, html, r, react, pandas, c, kubernetes",7
+Web Dev,Web Developer,"html, javascript, r, react, java, c, kubernetes, tensorflow",8
+Cybersecurity,Cyber Security,"css, docker, javascript, r, go, sql, java, c, mongodb",9
+.NET Developer,Software Engineer (General),"testing, css, html, javascript, r, sql, java, git, c",9
+.NET Developer,Software Engineer (General),"css, html, javascript, r, sql, java, c",7
+.NET Developer,Software Engineer (General),"css, html, javascript, r, sql, java, git, c",8
+.NET Developer,Software Engineer (General),"css, html, r, sql, c",5
+.NET Developer,Software Engineer (General),"css, html, javascript, r, sql, java, c",7
+.NET Developer,Software Engineer (General),"git, c, sql, r",4
+.NET Developer,Software Engineer (General),"css, html, r, sql, c",5
+.NET Developer,Software Engineer (General),"c, sql, r",3
+.NET Developer,Software Engineer (General),"css, html, r, sql, c",5
+.NET Developer,Software Engineer (General),"git, c, sql, r",4
+AI Engineer - Fresher,AI Engineer,"python, r, nosql, go, sql, java, numpy, pandas, pytorch, c, mongodb, tensorflow",12
+AI Engineer - Fresher,AI Engineer,"python, r, go, sql, java, numpy, pandas, pytorch, c, mongodb, tensorflow",11
+AI Engineer - Fresher,AI Engineer,"python, r, go, sql, java, numpy, pandas, pytorch, c, mongodb, tensorflow",11
+AI Engineer - Fresher,AI Engineer,"python, r, go, sql, java, numpy, pandas, pytorch, c, mongodb, tensorflow",11
+AI Engineer - Fresher,AI Engineer,"python, r, go, sql, java, numpy, pandas, pytorch, c, mongodb, tensorflow",11
+AI Engineer - Fresher,AI Engineer,"python, r, go, sql, java, numpy, pandas, pytorch, c, mongodb, tensorflow",11
+AI Engineer - Fresher,AI Engineer,"python, r, go, sql, java, numpy, pandas, pytorch, c, mongodb, tensorflow",11
+AI Engineer - Fresher,AI Engineer,"python, r, go, sql, java, numpy, pandas, pytorch, c, mongodb, tensorflow",11
+AI Engineer - Fresher,AI Engineer,"python, r, go, sql, java, numpy, pandas, pytorch, c, mongodb, tensorflow",11
+AI Prompt Engineer,AI Engineer,"python, javascript, r, java, pytorch, c, tensorflow",7
+AI Prompt Engineer,AI Engineer,"python, javascript, r, java, pytorch, c, tensorflow",7
+AI Prompt Engineer,AI Engineer,"python, javascript, r, java, pytorch, c, tensorflow",7
+AI Prompt Engineer,AI Engineer,"python, javascript, r, java, pytorch, c, tensorflow",7
+AI Prompt Engineer,AI Engineer,"python, javascript, r, java, pytorch, c, tensorflow",7
+AI Prompt Engineer,AI Engineer,"python, javascript, r, java, pytorch, c, tensorflow",7
+AI Prompt Engineer,AI Engineer,"python, javascript, r, java, pytorch, c, tensorflow",7
+AI Prompt Engineer,AI Engineer,"python, javascript, r, java, pytorch, c, tensorflow",7
+AI Prompt Engineer,AI Engineer,"python, javascript, r, java, pytorch, c, tensorflow",7
+AI Prompt Engineer,AI Engineer,"python, javascript, r, java, pytorch, c, tensorflow",7
+Android Developer Intern,Android Developer,"android, api, r, sql, java, git, c, kotlin",8
+Junior Android Developer,Android Developer,"android, api, r, sql, java, git, kotlin",7
+Android App Developer Trainee,Android Developer,"android, api, r, sql, java, git, c, kotlin",8
+Entry-level Android Developer,Android Developer,"android, api, r, sql, java, git, kotlin",7
+Android Developer Intern,Android Developer,"android, api, r, sql, java, git, c, kotlin",8
+Associate Android Developer,Android Developer,"android, api, r, sql, java, git, kotlin",7
+Trainee Android App Developer,Android Developer,"android, api, r, sql, java, git, c, kotlin",8
+Junior Android Engineer,Android Developer,"android, api, r, sql, java, git, c, kotlin",8
+Android Development Intern,Android Developer,"android, api, r, sql, java, git, c, kotlin",8
+Android Developer Trainee,Android Developer,"android, api, r, sql, java, git, c, kotlin",8
+AR/VR Developer,Software Engineer (General),"r, c, javascript, java",4
+AR/VR Developer,Software Engineer (General),"r, c, javascript, java",4
+AR/VR Developer,Software Engineer (General),"r, c, javascript, java",4
+AR/VR Developer,Software Engineer (General),"r, c, javascript, java",4
+AR/VR Developer,Software Engineer (General),"r, c, javascript, java",4
+Backend Developer - Entry Level,Backend Developer,"python, api, r, node, graphql, go, flask, java, sql, django, git, c, mongodb, redis, express",15
+Backend Developer - Entry Level,Backend Developer,"python, docker, api, r, node, go, flask, java, sql, django, git, c, mongodb, express",14
+Backend Developer - Entry Level,Backend Developer,"python, api, r, node, graphql, go, flask, sql, django, git, c, mongodb, cloud, express",14
+Backend Developer - Entry Level,Backend Developer,"python, docker, api, r, node, go, flask, sql, django, git, c, mongodb, redis, cloud, express",15
+Backend Developer - Entry Level,Backend Developer,"agile, python, api, r, node, graphql, go, flask, java, sql, django, git, c, mongodb, express",15
+Backend Developer - Entry Level,Backend Developer,"python, docker, api, r, node, go, flask, java, sql, django, git, c, mongodb, express",14
+Backend Developer - Entry Level,Backend Developer,"python, docker, api, r, node, go, flask, sql, django, git, c, mongodb, cloud, express",14
+Backend Developer - Entry Level,Backend Developer,"agile, docker, python, api, r, node, go, flask, java, sql, django, git, c, mongodb, redis, express",16
+Backend Developer - Entry Level,Backend Developer,"python, docker, api, r, node, graphql, go, flask, sql, django, git, c, mongodb, cloud, express",15
+Backend Developer - Entry Level,Backend Developer,"agile, python, api, r, node, go, flask, java, sql, django, git, mongodb, redis, express",14
+Big Data Specialist,Software Engineer (General),"python, r, nosql, go, sql, java, spark, c, mongodb, scala, linux",11
+Big Data Specialist,Software Engineer (General),"python, r, nosql, sql, java, spark, c, linux, ios, scala",10
+Big Data Specialist,Software Engineer (General),"python, r, nosql, sql, java, spark, c, linux, scala",9
+Big Data Specialist,Software Engineer (General),"python, r, nosql, sql, java, spark, c, linux, ios, scala",10
+Big Data Specialist,Software Engineer (General),"python, r, nosql, sql, java, spark, c, linux, scala",9
+Big Data Specialist,Software Engineer (General),"python, r, nosql, sql, java, spark, c, linux, ios, scala",10
+Big Data Specialist,Software Engineer (General),"python, r, nosql, sql, java, spark, c, linux, scala",9
+Big Data Specialist,Software Engineer (General),"python, r, nosql, sql, java, spark, c, linux, ios, scala",10
+Big Data Specialist,Software Engineer (General),"python, r, nosql, sql, java, spark, c, linux, scala",9
+Big Data Specialist,Software Engineer (General),"python, r, nosql, sql, java, spark, c, linux, scala",9
+Blockchain Developer,Blockchain Developer,"testing, python, r, java, git, c",6
+Blockchain Developer,Blockchain Developer,"testing, python, r, java, git, c",6
+Blockchain Developer,Blockchain Developer,"python, r, java, git, c",5
+Blockchain Developer,Blockchain Developer,"python, r, java, git, c",5
+Blockchain Developer,Blockchain Developer,"python, r, java, git, c",5
+Blockchain Developer,Blockchain Developer,"python, r, java, git, c",5
+Blockchain Developer,Blockchain Developer,"testing, python, r, java, git, c",6
+Blockchain Developer,Blockchain Developer,"python, r, java, git, c",5
+Blockchain Developer,Blockchain Developer,"python, r, java, git, c",5
+Blockchain Developer,Blockchain Developer,"python, r, java, git, c",5
+Business Analyst,Software Engineer (General),"tableau, agile, r, sql, c",5
+Business Analyst,Software Engineer (General),"agile, c, sql, r",4
+Business Analyst,Software Engineer (General),"agile, c, sql, r",4
+Business Analyst,Software Engineer (General),"agile, c, sql, r",4
+Business Analyst,Software Engineer (General),"agile, c, sql, r",4
+BI Analyst - Fresher,Software Engineer (General),"tableau, c, sql, r",4
+BI Analyst - Fresher,Software Engineer (General),"tableau, c, sql, r",4
+BI Analyst - Fresher,Software Engineer (General),"tableau, c, sql, r",4
+BI Analyst - Fresher,Software Engineer (General),"tableau, c, sql, r",4
+BI Analyst - Fresher,Software Engineer (General),"tableau, c, sql, r",4
+BI Analyst - Fresher,Software Engineer (General),"tableau, c, sql, r",4
+BI Analyst - Fresher,Software Engineer (General),"tableau, c, sql, r",4
+BI Analyst - Fresher,Software Engineer (General),"tableau, c, sql, r",4
+BI Analyst - Fresher,Software Engineer (General),"tableau, c, sql, r",4
+Cloud Architect,Cloud Engineer,"security, python, docker, r, c, bash, azure, kubernetes, cloud, gcp, aws",11
+Cloud Solutions Associate,Cloud Engineer,"docker, r, terraform, java, c, linux, networking, cloud",8
+Junior Cloud Engineer,Cloud Engineer,"python, docker, r, c, kubernetes, networking, cloud",7
+Cloud Trainee,Cloud Engineer,"python, r, c, bash, networking, cloud",6
+Associate Cloud Architect,Cloud Engineer,"docker, r, database, c, azure, linux, cloud, aws",8
+Cloud Engineer - Fresher,Cloud Engineer,"python, docker, r, terraform, git, c, bash, azure, kubernetes, cloud, gcp, aws",12
+Cloud Engineer - Fresher,Cloud Engineer,"python, docker, r, terraform, git, c, bash, azure, kubernetes, cloud, gcp, aws",12
+Cloud Engineer - Fresher,Cloud Engineer,"python, docker, r, terraform, git, c, bash, azure, kubernetes, cloud, gcp, aws",12
+Cloud Engineer - Fresher,Cloud Engineer,"python, docker, r, terraform, git, c, bash, azure, kubernetes, cloud, gcp, aws",12
+Cloud Engineer - Fresher,Cloud Engineer,"python, docker, r, terraform, git, c, bash, azure, kubernetes, cloud, gcp, aws",12
+Cloud Engineer - Fresher,Cloud Engineer,"python, docker, r, terraform, git, c, bash, azure, kubernetes, cloud, gcp, aws",12
+Cloud Engineer - Fresher,Cloud Engineer,"python, docker, r, terraform, git, c, bash, azure, kubernetes, cloud, gcp, aws",12
+Cloud Engineer - Fresher,Cloud Engineer,"python, docker, r, terraform, git, c, bash, azure, kubernetes, cloud, gcp, aws",12
+Cloud Engineer - Fresher,Cloud Engineer,"python, docker, r, terraform, git, c, bash, azure, kubernetes, cloud, gcp, aws",12
+Content Writer,Technical Writer,"git, c, r",3
+Content Writer,Technical Writer,"c, r",2
+Content Writer,Technical Writer,"git, c, r",3
+Content Writer,Technical Writer,"git, c, r",3
+Content Writer,Technical Writer,"git, c, r",3
+Content Writer,Technical Writer,"git, c, r",3
+Copywriter,Technical Writer,"git, c, r",3
+Copywriter,Technical Writer,"c, r",2
+Copywriter,Technical Writer,"c, r",2
+Copywriter,Technical Writer,"c, r",2
+Copywriter,Technical Writer,"c, r",2
+Copywriter,Technical Writer,"c, r",2
+Cybersecurity Analyst,Cyber Security,"python, wireshark, r, c, linux",5
+Junior Security Analyst,Cyber Security,"wireshark, javascript, r, java, c, security",6
+Cybersecurity Intern,Cyber Security,"python, c, r, linux",4
+Associate Cybersecurity Analyst,Cyber Security,"wireshark, r, c, linux, security",5
+Entry-Level Security Analyst,Cyber Security,"security, c, r",3
+Trainee Security Analyst,Cyber Security,"python, network security, r, c, linux, security",6
+Cybersecurity Support Analyst,Cyber Security,"wireshark, c, r",3
+Graduate Security Analyst,Cyber Security,"python, c, r, linux",4
+Cybersecurity Trainee,Cyber Security,"wireshark, r, c, linux, security",5
+Information Security Analyst - Fresher,Cyber Security,"python, c, r",3
+Data Analyst - Fresher,Data Analyst,"tableau, python, testing, r, sql, pandas, spark, c",8
+Data Analyst - Fresher,Data Analyst,"tableau, python, r, sql, pandas, spark, c",7
+Data Analyst - Fresher,Data Analyst,"tableau, python, testing, r, sql, pandas, spark, c",8
+Data Analyst - Fresher,Data Analyst,"tableau, python, testing, r, sql, pandas, spark, c",8
+Data Analyst - Fresher,Data Analyst,"tableau, python, testing, r, sql, pandas, spark, c",8
+Data Analyst - Fresher,Data Analyst,"tableau, python, testing, r, sql, pandas, spark, c",8
+Data Analyst - Fresher,Data Analyst,"tableau, python, testing, r, sql, pandas, spark, c",8
+Data Analyst - Fresher,Data Analyst,"tableau, python, testing, r, sql, pandas, spark, c",8
+Data Analyst - Fresher,Data Analyst,"tableau, python, testing, r, sql, pandas, spark, c",8
+Data Engineer,Data Engineer,"python, r, go, sql, java, spark, c, azure, mongodb, aws",10
+Data Engineer,Data Engineer,"python, r, go, sql, spark, c, mongodb, scala, linux",9
+Data Engineer,Data Engineer,"python, r, go, sql, java, c, azure, mongodb, aws",9
+Data Engineer,Data Engineer,"python, r, go, sql, java, c, mongodb",7
+Data Engineer,Data Engineer,"python, r, go, sql, spark, c, mongodb, scala, aws",9
+Data Engineer,Data Engineer,"python, r, sql, java, c, linux, aws",7
+Data Engineer,Data Engineer,"python, r, go, sql, c, azure, mongodb, scala",8
+Data Engineer,Data Engineer,"python, r, mongodb, go, sql, java, c, linux, aws",9
+Data Engineer,Data Engineer,"python, r, go, sql, c, mongodb, cloud, aws",8
+Data Engineer,Data Engineer,"python, r, go, sql, java, spark, c, azure, mongodb",9
+Data Scientist - Entry Level,Data Scientist,"python, r, go, sql, pandas, numpy, c, mongodb",8
+Junior Data Scientist,Data Scientist,"python, r, sql, pandas, numpy, c",6
+Data Analyst / Data Scientist Intern,Data Scientist,"python, r, go, sql, pandas, numpy, c, mongodb",8
+Data Scientist - Fresher,Data Scientist,"python, r, go, sql, pandas, numpy, c",7
+Junior Machine Learning Engineer,Machine Learning Engineer,"python, r, go, sql, pandas, numpy, c, mongodb",8
+Entry Level Data Scientist,Data Scientist,"python, r, go, sql, pandas, numpy, c, mongodb",8
+Data Science Intern,Data Scientist,"python, r, sql, pandas, numpy, c",6
+Fresher Data Scientist,Data Scientist,"python, r, go, sql, pandas, numpy, c, mongodb",8
+Data Science Associate,Data Scientist,"python, r, sql, pandas, numpy, c",6
+DevOps Engineer - Fresher,DevOps Engineer,"python, docker, r, terraform, ansible, git, c, bash, azure, linux, kubernetes, gcp, aws",13
+DevOps Engineer - Fresher,DevOps Engineer,"python, docker, r, terraform, ansible, git, c, bash, azure, linux, kubernetes, gcp, aws",13
+DevOps Engineer - Fresher,DevOps Engineer,"python, docker, r, terraform, ansible, git, c, bash, azure, linux, kubernetes, gcp, aws",13
+DevOps Engineer - Fresher,DevOps Engineer,"python, docker, r, terraform, ansible, git, c, bash, azure, linux, kubernetes, gcp, aws",13
+DevOps Engineer - Fresher,DevOps Engineer,"python, docker, r, terraform, ansible, git, c, bash, azure, linux, kubernetes, gcp, aws",13
+DevOps Engineer - Fresher,DevOps Engineer,"python, docker, r, terraform, ansible, git, c, bash, azure, linux, kubernetes, gcp, aws",13
+DevOps Engineer - Fresher,DevOps Engineer,"python, docker, r, terraform, ansible, git, c, bash, azure, linux, kubernetes, gcp, aws",13
+DevOps Engineer - Fresher,DevOps Engineer,"python, docker, r, terraform, ansible, git, c, bash, azure, linux, kubernetes, gcp, aws",13
+DevOps Engineer - Fresher,DevOps Engineer,"python, docker, r, terraform, ansible, git, c, bash, azure, linux, kubernetes, gcp, aws",13
+Digital Marketing Specialist,Software Engineer (General),"go, c, r",3
+Digital Marketing Specialist,Software Engineer (General),"go, c, r",3
+Digital Marketing Specialist,Software Engineer (General),"go, automation, c, r",4
+Digital Marketing Specialist,Software Engineer (General),"git, go, c, r",4
+Digital Marketing Specialist,Software Engineer (General),"go, c, r",3
+Ethical Hacker,Cyber Security,"testing, python, wireshark, r, penetration, c, bash, linux, networking, security",10
+Ethical Hacker,Cyber Security,"testing, python, r, penetration, c, bash, linux, networking, security",9
+Ethical Hacker,Cyber Security,"testing, python, r, penetration, sql, c, bash, linux, networking, security",10
+Ethical Hacker,Cyber Security,"testing, python, wireshark, r, penetration, c, bash, linux, networking, security",10
+Ethical Hacker,Cyber Security,"testing, python, r, penetration, c, bash, linux, networking, security",9
+Fintech Engineer,Software Engineer (General),"python, api, javascript, r, sql, java, c, azure, security, aws",10
+Fintech Engineer,Software Engineer (General),"python, api, javascript, r, sql, java, c, azure, cloud, security, aws",11
+Fintech Engineer,Software Engineer (General),"python, api, javascript, r, sql, java, c, azure, security, aws",10
+Fintech Engineer,Software Engineer (General),"python, api, javascript, r, sql, java, c, azure, security, aws",10
+Fintech Engineer,Software Engineer (General),"python, api, javascript, r, sql, java, c, azure, security, aws",10
+Fintech Engineer,Software Engineer (General),"python, api, javascript, r, sql, java, c, azure, security, aws",10
+Fintech Engineer,Software Engineer (General),"python, api, javascript, r, sql, java, c, azure, security, aws",10
+Fintech Engineer,Software Engineer (General),"python, api, javascript, r, sql, java, c, azure, security, aws",10
+Fintech Engineer,Software Engineer (General),"python, api, javascript, r, sql, java, c, azure, security, aws",10
+Fintech Engineer,Software Engineer (General),"python, api, javascript, r, sql, java, c, azure, security, aws",10
+Frontend Developer - Entry Level,Frontend Developer,"angular, css, html, javascript, r, vue, react, java, tailwind, git, c",11
+Frontend Developer - Entry Level,Frontend Developer,"css, html, javascript, r, vue, react, java, tailwind, git, c",10
+Frontend Developer - Entry Level,Frontend Developer,"angular, css, html, javascript, r, react, java, tailwind, git, c",10
+Frontend Developer - Entry Level,Frontend Developer,"css, html, javascript, r, vue, react, java, tailwind, git, c",10
+Frontend Developer - Entry Level,Frontend Developer,"angular, css, html, javascript, r, react, java, tailwind, git, c",10
+Frontend Developer - Entry Level,Frontend Developer,"angular, css, html, javascript, r, vue, react, java, tailwind, git, c",11
+Frontend Developer - Entry Level,Frontend Developer,"css, html, javascript, r, vue, react, java, tailwind, git, c",10
+Frontend Developer - Entry Level,Frontend Developer,"angular, css, html, javascript, r, react, java, tailwind, git, c",10
+Frontend Developer - Entry Level,Frontend Developer,"css, html, javascript, r, vue, react, java, tailwind, git, c",10
+Frontend Developer - Entry Level,Frontend Developer,"angular, css, html, javascript, r, vue, react, java, tailwind, git, c",11
+Full Stack Developer - Entry Level,Full Stack Developer,"angular, css, python, html, javascript, r, node, nosql, go, flask, java, react, django, git, sql, vue, c",17
+Full Stack Developer - Entry Level,Full Stack Developer,"angular, css, html, javascript, r, node, vue, go, flask, java, react, git, sql, c, mongodb",15
+Full Stack Developer - Entry Level,Full Stack Developer,"css, html, javascript, r, node, nosql, go, react, java, sql, django, git, vue, c",14
+Full Stack Developer - Entry Level,Full Stack Developer,"angular, css, html, javascript, r, node, vue, go, flask, java, react, git, sql, c, mongodb",15
+Full Stack Developer - Entry Level,Full Stack Developer,"angular, css, html, javascript, r, node, nosql, go, flask, java, react, django, git, sql, vue, c",16
+Full Stack Developer - Entry Level,Full Stack Developer,"angular, css, html, javascript, r, node, vue, go, flask, java, react, django, git, sql, c, mongodb",16
+Full Stack Developer - Entry Level,Full Stack Developer,"angular, css, html, javascript, r, node, vue, go, react, java, sql, django, git, c, mongodb",15
+Full Stack Developer - Entry Level,Full Stack Developer,"angular, css, html, javascript, r, node, nosql, react, flask, java, sql, git, vue, c",14
+Full Stack Developer - Entry Level,Full Stack Developer,"angular, css, html, javascript, r, node, vue, go, flask, java, react, django, git, sql, c, mongodb",16
+Full Stack Developer - Entry Level,Full Stack Developer,"angular, css, html, javascript, r, node, nosql, go, flask, java, react, django, git, sql, vue, c",16
+Game Developer,Game Developer,"python, r, java, git, c",5
+Game Developer,Game Developer,"git, python, c, r",4
+Game Developer,Game Developer,"python, r, java, git, c",5
+Game Developer,Game Developer,"python, r, java, git, c",5
+Game Developer,Game Developer,"python, r, java, git, c",5
+Graphic Designer,UI/UX Designer,"css, html, r, c, figma",5
+Graphic Designer,UI/UX Designer,"c, r, figma",3
+Graphic Designer,UI/UX Designer,"c, r, figma",3
+Graphic Designer,UI/UX Designer,"c, r, figma",3
+Graphic Designer,UI/UX Designer,"c, r, figma",3
+Graphic Designer,UI/UX Designer,"c, r, figma",3
+Graphic Designer,UI/UX Designer,"c, r, figma",3
+iOS Mobile Developer,iOS Developer,"api, r, git, c, swift",5
+Junior iOS Developer,iOS Developer,"api, r, git, c, swift",5
+iOS App Developer Intern,iOS Developer,"git, c, swift",3
+Entry-level iOS Developer,iOS Developer,"c, swift, r",3
+Graduate iOS Developer,iOS Developer,"git, c, swift",3
+Trainee iOS Developer,iOS Developer,"swift, c, api, r",4
+Junior Swift Developer,Software Engineer (General),"git, c, swift",3
+iOS Developer Trainee,iOS Developer,"c, swift, r",3
+Associate iOS Engineer,iOS Developer,"api, r, git, c, swift",5
+iOS Junior Developer,iOS Developer,"c, swift, r",3
+IoT Engineer,Embedded Systems Engineer,"tableau, python, r, go, java, c, azure, cloud, aws",9
+IoT Engineer,Embedded Systems Engineer,"tableau, python, r, c, azure, cloud, aws",7
+IoT Engineer,Embedded Systems Engineer,"tableau, python, agile, r, c, azure, aws",7
+IoT Engineer,Embedded Systems Engineer,"tableau, python, r, go, java, c, azure, cloud, aws",9
+IoT Engineer,Embedded Systems Engineer,"tableau, agile, python, r, go, c, azure, cloud, aws",9
+JavaScript Developer,Software Engineer (General),"angular, css, api, html, javascript, r, vue, react, java, git, c",11
+JavaScript Developer,Software Engineer (General),"angular, css, api, html, javascript, r, vue, react, java, git, c",11
+JavaScript Developer,Software Engineer (General),"angular, css, api, html, javascript, r, vue, react, java, git, c",11
+JavaScript Developer,Software Engineer (General),"angular, css, api, html, javascript, r, vue, react, java, git, c",11
+JavaScript Developer,Software Engineer (General),"angular, css, api, html, javascript, r, vue, react, java, git, c",11
+Java Developer,Software Engineer (General),"r, java, git, c, networking",5
+Java Developer,Software Engineer (General),"css, html, api, javascript, r, sql, java, c",8
+Java Developer,Software Engineer (General),"c, r",2
+Java Developer,Software Engineer (General),"api, r, java, git, c",5
+Java Developer,Software Engineer (General),"r, database, sql, java, c",5
+Java Developer,Software Engineer (General),"c, java",2
+Java Developer,Software Engineer (General),"css, html, api, javascript, r, java, c",7
+Java Developer,Software Engineer (General),"git, c, sql, r",4
+Java Developer,Software Engineer (General),"c, r",2
+Java Developer,Software Engineer (General),"r, database, java, git, c",5
+Marketing Specialist,Software Engineer (General),"go, automation, c, r",4
+Marketing Specialist,Software Engineer (General),"go, c, r",3
+Marketing Specialist,Software Engineer (General),"git, automation, c, r",4
+Marketing Specialist,Software Engineer (General),"c, r",2
+Marketing Specialist,Software Engineer (General),"r, go, git, automation, c",5
+Market Research Analyst,Software Engineer (General),"c, r",2
+Market Research Analyst,Software Engineer (General),"c, r",2
+Market Research Analyst,Software Engineer (General),"c, r",2
+Market Research Analyst,Software Engineer (General),"c, r",2
+Market Research Analyst,Software Engineer (General),"c, r",2
+Market Research Analyst,Software Engineer (General),"c, r",2
+Market Research Analyst,Software Engineer (General),"c, r",2
+Machine Learning Engineer - Fresher,Machine Learning Engineer,"python, r, java, git, pytorch, c, tensorflow",7
+Junior Machine Learning Engineer,Machine Learning Engineer,"python, r, java, git, pytorch, c, tensorflow",7
+ML Engineer Intern,Machine Learning Engineer,"python, r, java, git, pytorch, c, tensorflow",7
+Fresher ML Engineer,Machine Learning Engineer,"python, r, java, git, pytorch, c, tensorflow",7
+Entry-Level ML Engineer,Machine Learning Engineer,"python, r, java, git, pytorch, c, tensorflow",7
+ML Engineer Trainee,Machine Learning Engineer,"python, r, java, git, pytorch, c, tensorflow",7
+Junior Network Engineer,Network Engineer,"wireshark, c, r",3
+Network Support Engineer,Network Engineer,"c, r",2
+Associate Network Engineer,Network Engineer,"ios, python, c, bash",4
+Trainee Network Engineer,Network Engineer,"ios, c, r",3
+Network Operations Center (NOC) Engineer,Network Engineer,"ios, c, r",3
+Junior Security & Network Engineer,Cyber Security,"wireshark, c, r",3
+Graduate Network Engineer,Network Engineer,"python, c, r",3
+Entry-Level Network Analyst,Network Engineer,"ios, wireshark, c, r",4
+Network Intern,Network Engineer,"ios, c",2
+IT Support - Networking Focus,Network Engineer,"c, r",2
+Operations Manager,Software Engineer (General),"c, r",2
+Operations Manager,Software Engineer (General),"c, r",2
+Operations Manager,Software Engineer (General),"c, r",2
+Operations Manager,Software Engineer (General),"c, r",2
+Product Designer,UI/UX Designer,"css, html, r, user research, c, figma",6
+Product Designer,UI/UX Designer,"css, html, r, c, figma",5
+Product Designer,UI/UX Designer,"javascript, r, java, c, figma",5
+Product Designer,UI/UX Designer,"user research, c, r, figma",4
+Product Designer,UI/UX Designer,"css, html, r, c, figma",5
+Product Designer,UI/UX Designer,"c, r, figma",3
+Product Designer,UI/UX Designer,"css, html, r, c, figma",5
+Product Designer,UI/UX Designer,"c, r, figma",3
+Product Designer,UI/UX Designer,"c, r, figma",3
+Product Designer,UI/UX Designer,"css, html, r, user research, c, figma",6
+Product Manager,Product Manager,"agile, r, go, c, figma",5
+Product Manager,Product Manager,"c, r, figma",3
+Product Manager,Product Manager,"agile, c, r, figma",4
+Product Manager,Product Manager,"agile, c, sql, r",4
+Product Manager,Product Manager,"agile, c, r, figma",4
+Project Manager,Software Engineer (General),"agile, c, r",3
+Project Manager,Software Engineer (General),"agile, c, r",3
+Project Manager,Software Engineer (General),"agile, c, r",3
+Project Manager,Software Engineer (General),"c, r",2
+Project Manager,Software Engineer (General),"agile, c, r",3
+Python Developer,Software Engineer (General),"css, python, html, javascript, r, go, flask, java, numpy, django, git, pandas, sql, c, mongodb",15
+Python Developer,Software Engineer (General),"python, api, r, go, flask, sql, numpy, django, git, pandas, c, mongodb, fastapi",13
+Python Developer,Software Engineer (General),"python, api, r, go, flask, sql, numpy, django, git, pandas, c, mongodb, fastapi",13
+Python Developer,Software Engineer (General),"python, api, r, go, flask, sql, numpy, django, git, pandas, c, mongodb, fastapi",13
+Python Developer,Software Engineer (General),"python, api, r, go, flask, sql, numpy, django, git, pandas, c, mongodb, fastapi",13
+Python Developer,Software Engineer (General),"python, api, r, go, flask, sql, numpy, django, git, pandas, c, mongodb, fastapi",13
+Python Developer,Software Engineer (General),"python, api, r, go, flask, sql, numpy, django, git, pandas, c, mongodb, fastapi",13
+Python Developer,Software Engineer (General),"python, api, r, go, flask, sql, numpy, django, git, pandas, c, mongodb, fastapi",13
+Python Developer,Software Engineer (General),"python, api, r, go, flask, sql, numpy, django, git, pandas, c, mongodb, fastapi",13
+Python Developer,Software Engineer (General),"python, api, r, go, flask, sql, numpy, django, git, pandas, c, mongodb, fastapi",13
+QA Engineer - Fresher,QA Engineer,"testing, appium, python, javascript, r, java, postman, c, selenium",9
+QA Engineer - Fresher,QA Engineer,"testing, appium, python, javascript, r, java, postman, automation, c, selenium",10
+QA Engineer - Fresher,QA Engineer,"testing, appium, python, javascript, r, java, postman, automation, c, selenium",10
+QA Engineer - Fresher,QA Engineer,"testing, appium, python, javascript, r, java, postman, automation, c, selenium",10
+QA Engineer - Fresher,QA Engineer,"testing, appium, python, javascript, r, java, postman, automation, c, selenium",10
+QA Engineer - Fresher,QA Engineer,"testing, appium, python, javascript, r, java, postman, automation, c, selenium",10
+QA Engineer - Fresher,QA Engineer,"testing, appium, python, javascript, r, java, postman, automation, c, selenium",10
+QA Engineer - Fresher,QA Engineer,"testing, appium, python, javascript, r, java, postman, automation, c, selenium",10
+QA Engineer - Fresher,QA Engineer,"testing, appium, python, javascript, r, java, postman, automation, c, selenium",10
+QA Engineer - Fresher,QA Engineer,"testing, appium, python, javascript, r, java, postman, automation, c, selenium",10
+Robotics Engineer,Embedded Systems Engineer,"python, c, r",3
+Robotics Engineer,Embedded Systems Engineer,"python, c, r",3
+Robotics Engineer,Embedded Systems Engineer,"python, c, r",3
+Robotics Engineer,Embedded Systems Engineer,"python, c, r",3
+Robotics Engineer,Embedded Systems Engineer,"python, c, r",3
+Sales Executive,Software Engineer (General),"git, automation, c, r",4
+Sales Executive,Software Engineer (General),"git, c, r",3
+Sales Executive,Software Engineer (General),"git, c, r",3
+Sales Executive,Software Engineer (General),"git, c, r",3
+Sales Executive,Software Engineer (General),"git, c, r",3
+Sales Executive,Software Engineer (General),"git, c, r",3
+Sales Executive,Software Engineer (General),"git, c, r",3
+SEO Specialist,Software Engineer (General),"css, html, javascript, r, go, java, c",7
+SEO Specialist,Software Engineer (General),"go, c, r",3
+SEO Specialist,Software Engineer (General),"css, html, r, go, c",5
+SEO Specialist,Software Engineer (General),"css, html, r, go, c",5
+Site Reliability Engineer,Software Engineer (General),"python, docker, r, kubernetes, c, bash, azure, linux, ios, networking, cloud, gcp, aws",13
+Site Reliability Engineer,Software Engineer (General),"python, docker, r, automation, c, azure, bash, linux, kubernetes, networking, cloud, gcp, aws",13
+Site Reliability Engineer,Software Engineer (General),"python, docker, r, kubernetes, c, bash, linux, ios, networking, cloud",10
+Site Reliability Engineer,Software Engineer (General),"python, docker, r, c, azure, linux, kubernetes, networking, cloud, gcp, aws",11
+Site Reliability Engineer,Software Engineer (General),"python, docker, r, kubernetes, c, bash, azure, linux, ios, networking, cloud, gcp, aws",13
+Software Developer - Entry Level,Software Engineer (General),"css, python, html, javascript, r, sql, java, git, c",9
+Software Developer - Entry Level,Software Engineer (General),"css, python, html, javascript, r, sql, java, git, c",9
+Software Developer - Entry Level,Software Engineer (General),"css, python, html, javascript, r, sql, java, git, c",9
+Software Developer - Entry Level,Software Engineer (General),"css, python, html, javascript, r, sql, java, git, c",9
+Software Developer - Entry Level,Software Engineer (General),"css, python, html, javascript, r, sql, java, git, c",9
+Software Developer - Entry Level,Software Engineer (General),"angular, python, javascript, r, nosql, react, sql, java, git, c",10
+Software Developer - Entry Level,Software Engineer (General),"android, r, nosql, sql, java, git, c, swift, kotlin",9
+Software Developer - Entry Level,Software Engineer (General),"python, r, sql, pandas, git, c",6
+Software Developer - Entry Level,Software Engineer (General),"python, r, nosql, sql, java, git, c, azure, aws",9
+Software Engineer - Entry Level,Software Engineer (General),"python, javascript, r, go, react, java, sql, git, c",9
+Software Engineer - Entry Level,Software Engineer (General),"api, r, sql, java, git",5
+Software Engineer - Entry Level,Software Engineer (General),"css, api, html, javascript, r, vue, java, git, c, figma",10
+Software Engineer - Entry Level,Software Engineer (General),"python, r, go, sql, django, git, c",7
+Software Engineer - Entry Level,Software Engineer (General),"git, c",2
+Software Engineer - Entry Level,Software Engineer (General),"python, r, java, git, c, security",6
+Software Engineer - Entry Level,Software Engineer (General),"api, node, go, git, postman, c, mongodb",7
+Software Engineer - Entry Level,Software Engineer (General),"python, api, r, git, c, azure",6
+Software Engineer - Entry Level,Software Engineer (General),"angular, css, html, javascript, r, java, c, figma",8
+Software Engineer - Entry Level,Software Engineer (General),"docker, r, git, c, rust",5
+Software Tester (SDET),QA Engineer,"testing, agile, python, api, r, java, postman, c, selenium",9
+Software Tester (SDET),QA Engineer,"testing, python, api, r, java, postman, c, selenium",8
+Software Tester (SDET),QA Engineer,"testing, agile, python, api, r, java, postman, c, selenium",9
+Software Tester (SDET),QA Engineer,"testing, python, agile, api, r, java, c, selenium",8
+Software Tester (SDET),QA Engineer,"testing, python, api, r, java, postman, c, selenium",8
+Software Tester (SDET),QA Engineer,"testing, python, api, r, java, postman, c, selenium",8
+Software Tester (SDET),QA Engineer,"testing, python, api, r, java, postman, c, selenium",8
+Software Tester (SDET),QA Engineer,"testing, python, api, r, java, postman, c, selenium",8
+Software Tester (SDET),QA Engineer,"testing, python, api, r, java, postman, c, selenium",8
+Software Tester (SDET),QA Engineer,"testing, python, api, r, java, postman, c, selenium",8
+Solutions Architect,Software Architect,"python, docker, javascript, r, go, java, c, azure, kubernetes, cloud, aws",11
+Solutions Architect,Software Architect,"security, python, docker, r, java, c, azure, kubernetes, gcp, aws",10
+Solutions Architect,Software Architect,"python, r, java, c, azure, security, aws",7
+Solutions Architect,Software Architect,"python, docker, r, node, java, c, azure, kubernetes, gcp, aws",10
+Solutions Architect,Software Architect,"python, docker, r, java, c, azure, kubernetes, security, aws",9
+Solutions Architect,Software Architect,"python, docker, r, java, c, azure, kubernetes, gcp, aws",9
+Solutions Architect,Software Architect,"python, docker, r, node, java, c, azure, kubernetes, security, aws",10
+Solutions Architect,Software Architect,"python, docker, r, java, c, azure, kubernetes, gcp, aws",9
+Solutions Architect,Software Architect,"python, docker, r, java, c, azure, kubernetes, aws",8
+Solutions Architect,Software Architect,"python, docker, r, node, java, c, azure, kubernetes, gcp, aws",10
+System Engineer,Software Engineer (General),"python, r, c, linux, networking",5
+Junior System Engineer,Software Engineer (General),"r, c, bash, linux, aws",5
+System Engineer Trainee,Software Engineer (General),"python, r, c, azure, networking",5
+Associate System Engineer,Software Engineer (General),"cloud, c, r, linux",4
+System Engineer - Entry Level,Software Engineer (General),"python, networking, c, r",4
+Junior System Engineer,Software Engineer (General),"python, c, r, linux",4
+System Engineer Intern,Software Engineer (General),"r, c, linux, networking, cloud",5
+Technical Writer,Technical Writer,"css, c, html, r",4
+Technical Writer,Technical Writer,"c, html, r",3
+Technical Writer,Technical Writer,"css, c, html, r",4
+Technical Writer,Technical Writer,"css, c, html, r",4
+Technical Writer,Technical Writer,"css, c, html, r",4
+Technical Writer,Technical Writer,"css, c, html, r",4
+Technical Writer,Technical Writer,"css, c, html, r",4
+Test Automation Engineer - Fresher,Software Engineer (General),"testing, appium, python, javascript, r, java, postman, c, selenium",9
+Test Automation Engineer - Fresher,Software Engineer (General),"testing, python, r, java, postman, c, selenium",7
+Test Automation Engineer - Fresher,Software Engineer (General),"testing, python, r, java, postman, c, selenium",7
+Test Automation Engineer - Fresher,Software Engineer (General),"testing, appium, javascript, r, java, postman, c, selenium",8
+Test Automation Engineer - Fresher,Software Engineer (General),"testing, python, r, java, postman, c, selenium",7
+Test Automation Engineer - Fresher,Software Engineer (General),"testing, python, r, java, postman, c, selenium",7
+Test Automation Engineer - Fresher,Software Engineer (General),"testing, appium, python, r, java, postman, c, selenium",8
+Test Automation Engineer - Fresher,Software Engineer (General),"testing, javascript, r, java, postman, c, selenium",7
+Test Automation Engineer - Fresher,Software Engineer (General),"testing, python, r, java, postman, c, selenium",7
+Test Automation Engineer - Fresher,Software Engineer (General),"testing, appium, python, r, java, postman, c, selenium",8
+UI Designer,UI/UX Designer,"css, html, r, c, figma",5
+UI Designer,UI/UX Designer,"c, r, figma",3
+UI Designer,UI/UX Designer,"css, c, html, r",4
+UI Designer,UI/UX Designer,"c, r, figma",3
+UI Designer,UI/UX Designer,"c, r, figma",3
+UI Designer,UI/UX Designer,"css, c, html, r",4
+UI Designer,UI/UX Designer,"c, r, figma",3
+UI Designer,UI/UX Designer,r,1
+UI Designer,UI/UX Designer,"c, r, figma",3
+UI Designer,UI/UX Designer,"css, html, r, c, figma",5
+UX Designer,UI/UX Designer,"css, html, r, user research, c, figma",6
+Junior UX Designer,UI/UX Designer,"testing, c, r, figma",4
+Associate UX Designer,UI/UX Designer,"user research, c, r, figma",4
+Trainee UX Designer,UI/UX Designer,"css, html, r, c, figma",5
+UX Intern,UI/UX Designer,"testing, c, r, figma",4
+Junior Interaction Designer,UI/UX Designer,"user research, c, r, figma",4
+Junior UX Analyst,UI/UX Designer,"user research, c, r, figma",4
+UX Apprentice,UI/UX Designer,"c, r, figma",3
+UX Trainee Designer,UI/UX Designer,"r, figma",2
+UX Design Intern,UI/UX Designer,"c, r, figma",3
+Vibe Coder,Software Engineer (General),"css, python, html, javascript, r, react, java, c",8
+Vibe Coder,Software Engineer (General),"css, python, html, javascript, r, vue, java, c",8
+Vibe Coder,Software Engineer (General),"css, python, html, javascript, r, react, java, c",8
+Vibe Coder,Software Engineer (General),"css, python, html, javascript, r, vue, java, c",8
+Vibe Coder,Software Engineer (General),"css, python, html, javascript, r, react, java, c",8
+Web Developer,Web Developer,"angular, css, api, html, javascript, r, node, go, react, java, sql, git, c, mongodb, php",15
+Web Developer,Web Developer,"css, python, html, api, javascript, r, node, vue, sql, java, git, c",12
+Web Developer,Web Developer,"angular, css, api, html, javascript, r, node, react, sql, java, git, c",12
+Web Developer,Web Developer,"css, html, javascript, r, node, go, react, java, git, c, mongodb, php",12
+Web Developer,Web Developer,"css, html, api, javascript, r, node, vue, sql, java, git, c",11
+Web Developer,Web Developer,"angular, css, python, api, html, javascript, r, node, sql, java, git, c",12
+Web Developer,Web Developer,"css, api, html, javascript, r, node, go, react, java, git, c, mongodb",12
+Web Developer,Web Developer,"angular, css, api, html, javascript, r, node, sql, java, git, c, php",12
+Web Developer,Web Developer,"css, html, api, javascript, r, node, react, sql, java, git, c",11
+Web Developer,Web Developer,"css, api, html, javascript, r, node, vue, go, java, git, c, mongodb",12
