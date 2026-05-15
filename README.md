@@ -258,7 +258,9 @@ Match Categories (berdasarkan coverage):
 
 ## Tim
 
-**Team Artificial Intelligence** — Coding Camp DBS 2026
+**ID Tim Capstone**: CC26-PSU387
+
+**Email Google Group**: CC26-PSU387@student.devacademy.id
 
 ## Lisensi
 
