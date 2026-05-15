@@ -17,33 +17,33 @@ User Skills (self-declare / CV parsing)
         │
         ▼
 ┌─────────────────────────┐
-│  Multi-Hot Encoding      │  (80 dimensi skill vocabulary)
+│  Multi-Hot Encoding     │  (80 dimensi skill vocabulary)
 └────────────┬────────────┘
              │
              ▼
 ┌─────────────────────────┐
-│  Siamese Neural Network  │  (TensorFlow Functional API)
-│                           │
-│  Shared Encoder:          │
-│    Dense(128) → BN → DO  │
-│    Dense(64)  → BN → DO  │
-│    Dense(32)             │
-│                           │
-│  Custom DistanceLayer     │
-│  Classifier → Sigmoid    │
+│  Siamese Neural Network │  (TensorFlow Functional API)
+│                         │
+│  Shared Encoder:        │
+│    Dense(128) → BN → DO │
+│    Dense(64)  → BN → DO │
+│    Dense(32)            │
+│                         │
+│  Custom DistanceLayer   │
+│  Classifier → Sigmoid   │
 └────────────┬────────────┘
              │
              ▼
 ┌─────────────────────────┐
-│  Hybrid Scoring           │
-│  final = 0.4*model_score  │
-│        + 0.6*coverage     │
+│  Hybrid Scoring         │
+│  final = 0.4*model_score│
+│        + 0.6*coverage   │
 └────────────┬────────────┘
              │
              ▼
 ┌─────────────────────────┐
-│  Ranking + Gap Analysis   │
-│  + Roadmap Suggestion     │
+│  Ranking + Gap Analysis │
+│  + Roadmap Suggestion   │
 └─────────────────────────┘
 ```
 
@@ -258,7 +258,9 @@ Match Categories (berdasarkan coverage):
 
 ## Tim
 
-**Team Artificial Intelligence** — Coding Camp DBS 2026
+**ID Tim Capstone**: CC26-PSU387
+
+**Email Google Group**: CC26-PSU387@student.devacademy.id
 
 ## Lisensi
 
