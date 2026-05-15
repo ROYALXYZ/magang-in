@@ -43,6 +43,27 @@ print("GPU available:", len(tf.config.list_physical_devices('GPU')) > 0)
 print()
 
 # =============================================================================
+# PATH AUTO-DETECT: Support both Colab (flat) and VPS (subfolder) structure
+# =============================================================================
+if os.path.exists('data'):
+    # VPS / local structured folder
+    VOCAB_PATH = 'data/skill_vocabulary.csv'
+    PAIRS_PATH = 'data/training_pairs.csv'
+    MODEL_DIR = 'model'
+    DOCS_DIR = 'docs'
+else:
+    # Google Colab (flat structure)
+    VOCAB_PATH = 'skill_vocabulary.csv'
+    PAIRS_PATH = 'training_pairs.csv'
+    MODEL_DIR = '.'
+    DOCS_DIR = '.'
+
+# Pastikan output directories ada
+os.makedirs(MODEL_DIR, exist_ok=True)
+os.makedirs(DOCS_DIR, exist_ok=True)
+os.makedirs('logs', exist_ok=True)
+
+# =============================================================================
 # SECTION 1: LOAD DATA & ENCODE
 # =============================================================================
 print("=" * 60)
@@ -50,7 +71,7 @@ print("SECTION 1: Loading Data & Encoding")
 print("=" * 60)
 
 # --- 1.1 Load Skill Vocabulary ---
-vocab_df = pd.read_csv('data/skill_vocabulary.csv')
+vocab_df = pd.read_csv(VOCAB_PATH)
 skill_list = vocab_df['skill'].tolist()
 skill_to_idx = {skill: idx for idx, skill in enumerate(skill_list)}
 VOCAB_SIZE = len(skill_list)
@@ -58,7 +79,7 @@ VOCAB_SIZE = len(skill_list)
 print(f"Skill vocabulary loaded: {VOCAB_SIZE} skills")
 
 # --- 1.2 Load Training Pairs ---
-pairs_df = pd.read_csv('data/training_pairs.csv')
+pairs_df = pd.read_csv(PAIRS_PATH)
 print(f"Training pairs loaded: {len(pairs_df)} pairs")
 print(f"Label distribution:\n{pairs_df['label'].value_counts().to_string()}")
 print()
@@ -540,7 +561,7 @@ print(f"\nClassification Report:")
 print(classification_report(y_val, y_pred_binary, target_names=['Tidak Cocok', 'Cocok']))
 
 # Save evaluation report
-report_path = 'docs/evaluation_report.txt'
+report_path = os.path.join(DOCS_DIR, 'evaluation_report.txt')
 with open(report_path, 'w') as f:
     f.write("=" * 60 + "\n")
     f.write("SIAMESE NETWORK - EVALUATION REPORT\n")
@@ -580,20 +601,20 @@ print("SECTION 6: Exporting Model")
 print("=" * 60)
 
 # Save dalam format .keras (Main Quest 3)
-model_path = 'model/siamese_model.keras'
+model_path = os.path.join(MODEL_DIR, 'siamese_model.keras')
 model.save(model_path)
 print(f"Model saved to: {model_path}")
 
 # Save juga optimal threshold untuk inference
-threshold_path = 'model/model_threshold.txt'
+threshold_path = os.path.join(MODEL_DIR, 'model_threshold.txt')
 with open(threshold_path, 'w') as f:
     f.write(f"{best_threshold}")
 print(f"Optimal threshold saved to: {threshold_path}")
 
 # Save training history
 history_df = pd.DataFrame(training_history)
-history_df.to_csv('docs/training_history.csv', index=False)
-print(f"Training history saved to: docs/training_history.csv")
+history_df.to_csv(os.path.join(DOCS_DIR, 'training_history.csv'), index=False)
+print(f"Training history saved to: {DOCS_DIR}/training_history.csv")
 
 print()
 print("=" * 60)

@@ -30,8 +30,23 @@ import numpy as np
 import pandas as pd
 import tensorflow as tf
 from tensorflow import keras
+import os
 import warnings
 warnings.filterwarnings('ignore')
+
+# =============================================================================
+# PATH AUTO-DETECT: Support both Colab (flat) and VPS (subfolder) structure
+# =============================================================================
+if os.path.exists('data'):
+    _VOCAB_PATH = 'data/skill_vocabulary.csv'
+    _JOBS_PATH = 'data/magangin_jobs_cleaned.csv'
+    _MODEL_PATH = 'model/siamese_model.keras'
+    _THRESHOLD_PATH = 'model/model_threshold.txt'
+else:
+    _VOCAB_PATH = 'skill_vocabulary.csv'
+    _JOBS_PATH = 'magangin_jobs_cleaned.csv'
+    _MODEL_PATH = 'siamese_model.keras'
+    _THRESHOLD_PATH = 'model_threshold.txt'
 
 
 # =============================================================================
@@ -165,10 +180,10 @@ class SkillMatcher:
     }
 
     def __init__(self,
-                 model_path='model/siamese_model.keras',
-                 vocab_path='data/skill_vocabulary.csv',
-                 threshold_path='model/model_threshold.txt',
-                 jobs_path='data/magangin_jobs_cleaned.csv'):
+                 model_path=_MODEL_PATH,
+                 vocab_path=_VOCAB_PATH,
+                 threshold_path=_THRESHOLD_PATH,
+                 jobs_path=_JOBS_PATH):
         """Load model, vocabulary, threshold, dan data lowongan."""
         print("Loading Skill Matcher...")
 

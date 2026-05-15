@@ -26,6 +26,7 @@ import numpy as np
 from math import ceil
 from itertools import combinations
 import random
+import os
 import warnings
 warnings.filterwarnings('ignore')
 
@@ -34,15 +35,25 @@ random.seed(42)
 np.random.seed(42)
 
 # =============================================================================
+# PATH AUTO-DETECT: Support both Colab (flat) and VPS (subfolder) structure
+# =============================================================================
+if os.path.exists('data'):
+    DATA_PATH = 'data/magangin_jobs_cleaned.csv'
+    OUTPUT_PAIRS_PATH = 'data/training_pairs.csv'
+    OUTPUT_VOCAB_PATH = 'data/skill_vocabulary.csv'
+else:
+    DATA_PATH = 'magangin_jobs_cleaned.csv'
+    OUTPUT_PAIRS_PATH = 'training_pairs.csv'
+    OUTPUT_VOCAB_PATH = 'skill_vocabulary.csv'
+
+# =============================================================================
 # STEP 1: Load Dataset
 # =============================================================================
 print("=" * 60)
 print("STEP 1: Loading Dataset")
 print("=" * 60)
 
-# Ganti path ini sesuai lokasi file di Colab
-# Di Colab biasanya: '/content/magangin_jobs_cleaned.csv'
-df = pd.read_csv('data/magangin_jobs_cleaned.csv')
+df = pd.read_csv(DATA_PATH)
 
 print(f"Total lowongan: {len(df)}")
 print(f"Kolom: {list(df.columns)}")
@@ -379,7 +390,7 @@ df_pairs['n_user_skills'] = df_pairs['user_skills'].apply(len)
 df_pairs['n_job_skills'] = df_pairs['job_skills'].apply(len)
 
 # Save
-output_path = 'data/training_pairs.csv'
+output_path = OUTPUT_PAIRS_PATH
 df_pairs[['user_skills_str', 'job_skills_str', 'job_title', 'job_idx',
            'n_user_skills', 'n_job_skills', 'overlap_pct', 'label']].to_csv(output_path, index=False)
 
@@ -462,7 +473,7 @@ print("STEP 9: Saving Skill Vocabulary")
 print("=" * 60)
 
 # Simpan daftar semua unique skills sebagai referensi
-skill_vocab_path = 'data/skill_vocabulary.csv'
+skill_vocab_path = OUTPUT_VOCAB_PATH
 skill_vocab_df = pd.DataFrame({'skill': all_skills, 'index': range(len(all_skills))})
 skill_vocab_df.to_csv(skill_vocab_path, index=False)
 print(f"Saved skill vocabulary to: {skill_vocab_path}")

@@ -31,10 +31,11 @@ from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel, Field
 from typing import Optional
 from contextlib import asynccontextmanager
+import os
 import time
 
 # Import SkillMatcher dari inference script
-from inference_siamese import SkillMatcher
+from inference_siamese import SkillMatcher, _VOCAB_PATH
 # Import CVParser dari OCR pipeline
 from ocr_pipeline import CVParser
 
@@ -54,7 +55,7 @@ async def lifespan(app: FastAPI):
     print("Starting Magang-in AI API...")
     start_time = time.time()
     matcher = SkillMatcher()
-    cv_parser = CVParser(vocab_path='data/skill_vocabulary.csv')
+    cv_parser = CVParser()
     load_time = time.time() - start_time
     print(f"Model loaded in {load_time:.2f}s")
     yield

@@ -25,6 +25,12 @@ import pandas as pd
 import numpy as np
 from typing import Optional
 
+# PATH AUTO-DETECT
+if os.path.exists('data'):
+    _VOCAB_PATH = 'data/skill_vocabulary.csv'
+else:
+    _VOCAB_PATH = 'skill_vocabulary.csv'
+
 # PDF text extraction
 try:
     import fitz  # PyMuPDF
@@ -181,7 +187,7 @@ class CVParser:
         'sistem operasi linux': 'linux',
     }
 
-    def __init__(self, vocab_path='data/skill_vocabulary.csv',
+    def __init__(self, vocab_path=_VOCAB_PATH,
                  fuzzy_threshold=None):
         """
         Initialize CVParser.
