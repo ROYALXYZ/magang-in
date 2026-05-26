@@ -844,7 +844,7 @@ if data_loaded:
             st.markdown('<div class="glass-header">Top 12 Skill di Global</div>', unsafe_allow_html=True)
             global_skills_top = dl.get_top_skills(df_global, top_n=12)
             fig_g_sk = px.bar(
-                global_skills_df.head(12),
+                global_skills_top,
                 x='Percentage',
                 y='Skill',
                 orientation='h',
