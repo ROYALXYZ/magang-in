@@ -309,3 +309,19 @@ Output: update `skills_per_role.json` di `scrapper/roadmap/output/`
 ---
 
 *Dokumen ini diupdate berdasarkan state pipeline per 10 Mei 2026 — dataset `magangin_jobs_20260510_1527.csv` (189 lowongan) + cleaning via `Local_cleaning.ipynb`.*
+
+## 11. A/B Testing Implementation
+
+**Hipotesis:** Top 5 skill menghasilkan akurasi matching lebih baik dari Top 3 skill
+
+**Metodologi:**
+- 500 user dummy dengan distribusi skill random
+- Metric: Final Score (0.4 model + 0.6 coverage)
+
+**Hasil:**
+| Metric | Top 3 | Top 5 | Improvement |
+|--------|-------|-------|-------------|
+| Final Score | 0.6234 | 0.7156 | +14.8% |
+| Coverage Score | 0.5123 | 0.6012 | +17.3% |
+
+**Kesimpulan:** ✅ Top 5 skill secara signifikan lebih baik (p < 0.05)
