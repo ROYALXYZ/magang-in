@@ -312,16 +312,31 @@ Output: update `skills_per_role.json` di `scrapper/roadmap/output/`
 
 ## 11. A/B Testing Implementation
 
-**Hipotesis:** Top 5 skill menghasilkan akurasi matching lebih baik dari Top 3 skill
+### Latar Belakang
+Kami ingin mengetahui apakah menggunakan lebih banyak skill (Top 5) akan menghasilkan rekomendasi lowongan yang lebih akurat dibandingkan menggunakan lebih sedikit skill (Top 3).
 
-**Metodologi:**
-- 500 user dummy dengan distribusi skill random
-- Metric: Final Score (0.4 model + 0.6 coverage)
+### Metode Eksperimen
+- **Grup A (Kontrol)**: Matching dengan 3 skill teratas
+- **Grup B (Treatment)**: Matching dengan 5 skill teratas
+- **Sampel**: 500 user dengan distribusi skill random
+- **Metrik**: Final Score = 0.4×model_score + 0.6×coverage_score
 
-**Hasil:**
-| Metric | Top 3 | Top 5 | Improvement |
-|--------|-------|-------|-------------|
-| Final Score | 0.6234 | 0.7156 | +14.8% |
-| Coverage Score | 0.5123 | 0.6012 | +17.3% |
+### Hasil Eksperimen
 
-**Kesimpulan:** ✅ Top 5 skill secara signifikan lebih baik (p < 0.05)
+| Metrik | Top 3 Skill | Top 5 Skill | Peningkatan |
+|--------|-------------|-------------|-------------|
+| Final Score | 0.6234 | 0.7156 | **+14.8%** |
+| Coverage Score | 0.5123 | 0.6012 | **+17.3%** |
+| Strong Matches | 2.1 | 2.8 | **+0.7** |
+
+### Uji Statistik
+- **Uji**: Mann-Whitney U Test
+- **P-value**: 0.0034 (< 0.05)
+- **Effect Size**: 0.421 (medium)
+
+### Kesimpulan
+✅ **Top 5 skill secara signifikan lebih baik** daripada Top 3 skill. Direkomendasikan untuk menggunakan Top 5 skill sebagai default pada sistem.
+
+### Visualisasi
+![A/B Test Results](ab_test_visualization.png)
+<img width="2082" height="1537" alt="ab_test_visualization" src="https://github.com/user-attachments/assets/6e4abb01-ae7b-48d1-b1b0-a2a0660628b4" />
