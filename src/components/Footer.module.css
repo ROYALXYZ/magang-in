@@ -1,0 +1,164 @@
+.footer {
+    background: #0f172a;
+    padding: 64px 24px 32px;
+    margin-top: auto;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.top {
+    display: grid;
+    grid-template-columns: 1.5fr repeat(3, 1fr);
+    gap: 48px;
+    padding-bottom: 48px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+/* Brand */
+.brand {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+}
+
+.logoText {
+    color: white;
+}
+
+.logoAccent {
+    color: var(--primary-light);
+}
+
+.brandDesc {
+    font-size: 14px;
+    color: var(--text);
+    line-height: 1.7;
+    max-width: 260px;
+}
+
+.socials {
+    display: flex;
+    gap: 10px;
+}
+
+.socialIcon {
+    width: 34px;
+    height: 34px;
+    background: rgba(255, 255, 255, 0.06);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--text);
+    transition: background 0.2s, color 0.2s;
+}
+
+.socialIcon:hover {
+    background: rgba(79, 70, 229, 0.3);
+    color: var(--primary-light);
+}
+
+/* Link groups */
+.linkGroup {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.linkGroupTitle {
+    font-size: 13px;
+    font-weight: 600;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+}
+
+.linkList {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.link {
+    font-size: 14px;
+    color: var(--text);
+    transition: color 0.2s;
+}
+
+.link:hover {
+    color: #94a3b8;
+}
+
+/* Bottom */
+.bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 28px;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.copyright {
+    font-size: 13px;
+    color: var(--text);
+}
+
+.bottomRight {
+    display: flex;
+    gap: 20px;
+}
+
+.lang {
+    font-size: 13px;
+    color: var(--text);
+    cursor: pointer;
+    transition: color 0.2s;
+}
+
+.lang:hover {
+    color: #94a3b8;
+}
+
+
+@media (max-width: 1024px) {
+    .top {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .brand {
+        grid-column: 1 / -1;
+    }
+}
+
+@media (max-width: 768px) {
+    .footer {
+        padding: 60px 20px 32px;
+    }
+
+    .top {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+
+    .bottom {
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
+
+    .bottomRight {
+        justify-content: center;
+    }
+}

@@ -1,0 +1,386 @@
+.page {
+    min-height: 100vh;
+    background: var(--bg-page);
+    padding: 40px 24px;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.step {
+    font-size: 13px;
+    color: #6366f1;
+    font-weight: 600;
+    margin: 0 0 8px;
+}
+
+.title {
+    font-size: 26px;
+    font-weight: 700;
+    color: var(--text-dark);
+    margin: 0 0 8px;
+}
+
+.subtitle {
+    font-size: 14px;
+    color: var(--text);
+    margin: 0 0 14px;
+}
+
+.userSkills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 6px;
+    margin-bottom: 12px;
+}
+
+.userSkillChip {
+    padding: 4px 10px;
+    background: #eef2ff;
+    color: #6366f1;
+    border-radius: 14px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.changeBtn {
+    background: none;
+    border: 1.5px solid #e2e8f0;
+    padding: 8px 20px;
+    border-radius: 8px;
+    font-size: 13px;
+    color: var(--text);
+    cursor: pointer;
+}
+
+.changeBtn:hover {
+    border-color: #6366f1;
+    color: #6366f1;
+}
+
+/* Loading */
+.loading {
+    text-align: center;
+    padding: 60px 0;
+    color: var(--text);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.spinner {
+    width: 36px;
+    height: 36px;
+    border: 3px solid #e5e7eb;
+    border-top-color: #6366f1;
+    border-radius: 50%;
+    animation: spin 0.8s linear infinite;
+}
+
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.errorBox {
+    text-align: center;
+    padding: 40px;
+    color: #ef4444;
+}
+
+.retryBtn {
+    margin-top: 12px;
+    padding: 10px 24px;
+    background: #6366f1;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.empty {
+    text-align: center;
+    padding: 60px 0;
+    color: var(--text);
+}
+
+.emptySub {
+    font-size: 13px;
+    margin-top: 4px;
+}
+
+/* Results */
+.results {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-left: 4px solid;
+    border-radius: 12px;
+    padding: 20px;
+    transition: box-shadow 0.2s;
+}
+
+.card:hover {
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
+}
+
+.cardLeft {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+    min-width: 60px;
+}
+
+.rank {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--text-dark);
+}
+
+.badge {
+    padding: 3px 8px;
+    border-radius: 10px;
+    font-size: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.cardContent {
+    flex: 1;
+}
+
+.cardTitle {
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--text-dark);
+    margin: 0 0 4px;
+}
+
+.cardCompany {
+    font-size: 13px;
+    color: var(--text);
+    margin: 0 0 8px;
+}
+
+.missingSkills {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 6px;
+}
+
+.missingLabel {
+    font-size: 12px;
+    color: #94a3b8;
+}
+
+.missingChip {
+    padding: 3px 8px;
+    background: #fef2f2;
+    color: #ef4444;
+    border-radius: 10px;
+    font-size: 11px;
+    font-weight: 500;
+}
+
+.cardRight {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    min-width: 80px;
+}
+
+.score {
+    font-size: 28px;
+    font-weight: 700;
+    color: var(--text-dark);
+}
+
+.detailBtn {
+    padding: 6px 16px;
+    background: #6366f1;
+    color: white;
+    border-radius: 8px;
+    font-size: 12px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.detailBtn:hover {
+    background: #4f46e5;
+}
+
+/* Footer */
+.footerActions {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    margin-top: 32px;
+}
+
+.browseBtn {
+    padding: 10px 24px;
+    border: 1.5px solid #e2e8f0;
+    border-radius: 10px;
+    font-size: 14px;
+    color: var(--text);
+    text-decoration: none;
+}
+
+.browseBtn:hover {
+    border-color: #6366f1;
+    color: #6366f1;
+}
+
+.dashboardBtn {
+    padding: 10px 24px;
+    background: #6366f1;
+    color: white;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.dashboardBtn:hover {
+    background: #4f46e5;
+}
+
+.matchedSkills {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-bottom: 6px;
+}
+
+.matchedLabel {
+    font-size: 12px;
+    color: #94a3b8;
+}
+
+.matchedChip {
+    padding: 3px 8px;
+    background: #dcfce7;
+    color: #16a34a;
+    border-radius: 10px;
+    font-size: 11px;
+    font-weight: 500;
+}
+
+.roadmapLink {
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 12px;
+    font-weight: 600;
+    color: #6366f1;
+    text-decoration: none;
+}
+
+.roadmapLink:hover {
+    text-decoration: underline;
+}
+
+
+/* Responsive - Tablet */
+@media (max-width: 1024px) {
+    .container {
+        max-width: 100%;
+    }
+}
+
+/* Responsive - Mobile */
+@media (max-width: 768px) {
+    .page {
+        padding: 24px 16px;
+    }
+
+    .title {
+        font-size: 22px;
+    }
+
+    .card {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 12px;
+        padding: 16px;
+    }
+
+    .cardLeft {
+        flex-direction: row;
+        width: 100%;
+        justify-content: flex-start;
+        gap: 12px;
+        min-width: unset;
+    }
+
+    .cardRight {
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+        min-width: unset;
+        padding-top: 12px;
+        border-top: 1px solid var(--border);
+    }
+
+    .score {
+        font-size: 22px;
+    }
+
+    .cardTitle {
+        font-size: 15px;
+    }
+
+    .footerActions {
+        flex-direction: column;
+    }
+
+    .browseBtn,
+    .dashboardBtn {
+        width: 100%;
+        text-align: center;
+        min-height: 48px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .userSkills {
+        gap: 4px;
+    }
+
+    .userSkillChip {
+        font-size: 11px;
+        padding: 3px 8px;
+    }
+
+    .changeBtn {
+        min-height: 44px;
+    }
+
+    .missingSkills,
+    .matchedSkills {
+        margin-top: 4px;
+    }
+}
