@@ -338,5 +338,4 @@ Kami ingin mengetahui apakah menggunakan lebih banyak skill (Top 5) akan menghas
 ✅ **Top 5 skill secara signifikan lebih baik** daripada Top 3 skill. Direkomendasikan untuk menggunakan Top 5 skill sebagai default pada sistem.
 
 ### Visualisasi
-![A/B Test Results](ab_test_visualization.png)
 <img width="2082" height="1537" alt="ab_test_visualization" src="https://github.com/user-attachments/assets/6e4abb01-ae7b-48d1-b1b0-a2a0660628b4" />
