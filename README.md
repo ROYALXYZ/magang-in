@@ -312,17 +312,20 @@ Output: update `skills_per_role.json` di `scrapper/roadmap/output/`
 
 ## 11. A/B Testing Implementation
 
-## A/B Testing: Top 3 vs Top 5 Skill Matching
+# Magang-in AI — Skill Matching Engine
 
-### Hipotesis
-Top 5 skill menghasilkan akurasi matching lebih baik dari Top 3 skill
+Platform pencocokan skill mahasiswa dengan lowongan magang teknologi di Pulau Jawa.
 
-### Hasil
-- **Final Score**: +15.94% (0.4479 → 0.5193)
-- **Coverage Score**: +54.86% (0.2880 → 0.4459)
-- **P-value**: 0.000000 (< 0.05)
+## 📊 Hasil A/B Testing
 
-### Kesimpulan
-✅ **Top 5 skill secara signifikan lebih baik** dari Top 3 skill. Direkomendasikan untuk menggunakan Top 5 skill sebagai default.
+| Metric | Top 3 | Top 5 | Improvement |
+|--------|-------|-------|-------------|
+| Final Score | 0.4479 | 0.5193 | **+15.94%** |
+| Coverage Score | 0.2880 | 0.4459 | **+54.86%** |
 
-<img width="2083" height="1475" alt="ab_test_visualization" src="https://github.com/user-attachments/assets/22b1a780-ff1b-4617-96d0-3454edae976d" />
+**Kesimpulan:** Top 5 skill lebih baik dari Top 3 skill (p < 0.05)
+
+<img width="2083" height="1475" alt="ab_test_visualization" src="https://github.com/user-attachments/assets/77147167-a087-4761-9aa5-4f75266bcc06" />
+
+
+
