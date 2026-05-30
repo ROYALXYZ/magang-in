@@ -1,0 +1,210 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --primary: #4f46e5;
+  --primary-dark: #3730a3;
+  --primary-light: #818cf8;
+  --dark: #0f172a;
+  --dark-navy: #1e293b;
+  --text: #64748b;
+  --text-dark: #1e293b;
+  --text-light: #94a3b8;
+  --white: #ffffff;
+  --bg-light: #f8fafc;
+  --bg-page: #ffffff;
+  --bg-card: #ffffff;
+  --bg-sidebar: #1e1b4b;
+  --border: #e2e8f0;
+  --shadow: rgba(0, 0, 0, 0.05);
+  --sans: 'Inter', system-ui, -apple-system, sans-serif;
+
+  /* Responsive spacing scale */
+  --spacing-xs: 4px;
+  --spacing-sm: 8px;
+  --spacing-md: 12px;
+  --spacing-lg: 16px;
+  --spacing-xl: 24px;
+  --spacing-2xl: 32px;
+  --spacing-3xl: 40px;
+  --spacing-4xl: 48px;
+
+  /* Responsive section padding */
+  --section-padding-x: 16px;
+  --section-padding-y: 24px;
+
+  /* Tap target minimum */
+  --tap-target-min: 44px;
+  --tap-spacing-min: 8px;
+
+  /* Container max-width */
+  --container-max: 1200px;
+}
+
+/* Dark theme */
+[data-theme="dark"] {
+  --primary: #818cf8;
+  --primary-dark: #6366f1;
+  --primary-light: #a5b4fc;
+  --dark: #f8fafc;
+  --dark-navy: #f1f5f9;
+  --text: #cbd5e1;
+  --text-dark: #f1f5f9;
+  --text-light: #94a3b8;
+  --white: #0f172a;
+  --bg-light: #1e293b;
+  --bg-page: #0f172a;
+  --bg-card: #1e293b;
+  --bg-sidebar: #0f0e2a;
+  --border: #334155;
+  --shadow: rgba(0, 0, 0, 0.3);
+}
+
+@media (min-width: 768px) {
+  :root {
+    --section-padding-x: 24px;
+    --section-padding-y: 48px;
+  }
+}
+
+@media (min-width: 1024px) {
+  :root {
+    --section-padding-x: 24px;
+    --section-padding-y: 64px;
+  }
+}
+
+body {
+  font-family: var(--sans);
+  color: var(--text);
+  background: var(--bg-page);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+#root {
+  width: 100%;
+  max-width: 100%;
+  margin: 0;
+  text-align: left;
+  min-height: 100svh;
+  display: flex;
+  flex-direction: column;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+  font-family: var(--sans);
+}
+
+/* ===== Global Dark Mode Overrides ===== */
+[data-theme="dark"] body {
+  background: var(--bg-page);
+  color: var(--text);
+}
+
+[data-theme="dark"] * {
+  border-color: var(--border);
+}
+
+[data-theme="dark"] h1,
+[data-theme="dark"] h2,
+[data-theme="dark"] h3,
+[data-theme="dark"] h4,
+[data-theme="dark"] h5 {
+  color: var(--text-dark);
+}
+
+[data-theme="dark"] p {
+  color: var(--text);
+}
+
+[data-theme="dark"] input,
+[data-theme="dark"] select,
+[data-theme="dark"] textarea {
+  background-color: var(--bg-card);
+  border-color: var(--border);
+  color: var(--text-dark);
+}
+
+[data-theme="dark"] input::placeholder,
+[data-theme="dark"] textarea::placeholder {
+  color: var(--text-light);
+}
+
+[data-theme="dark"] table {
+  color: var(--text);
+}
+
+[data-theme="dark"] th {
+  color: var(--text-light) !important;
+  border-color: var(--border) !important;
+}
+
+[data-theme="dark"] td {
+  color: var(--text) !important;
+  border-color: var(--border) !important;
+}
+
+[data-theme="dark"] tr {
+  border-color: var(--border);
+}
+
+/* Force dark background on main content areas */
+[data-theme="dark"] main {
+  background: var(--bg-page) !important;
+}
+
+/* Page wrappers that have white bg */
+[data-theme="dark"] div[class*="page"],
+[data-theme="dark"] div[class*="container"],
+[data-theme="dark"] div[class*="wrapper"] {
+  background-color: transparent !important;
+}
+
+/* All divs that still show white */
+[data-theme="dark"] div {
+  --local-bg: inherit;
+}
+
+/* Specific fix: any element with inline background white */
+[data-theme="dark"] [style*="background: white"],
+[data-theme="dark"] [style*="background:white"],
+[data-theme="dark"] [style*="background: rgb(255"],
+[data-theme="dark"] [style*="background-color: white"] {
+  background: var(--bg-card) !important;
+}
+
+/* Fix cards and panels that use background: var(--bg-card) already but nested ones might not */
+[data-theme="dark"] div[class*="Card"],
+[data-theme="dark"] div[class*="card"] {
+  background-color: var(--bg-card) !important;
+  border-color: var(--border) !important;
+}
+
+/* Fix section backgrounds */
+[data-theme="dark"] section {
+  background-color: var(--bg-page) !important;
+}
+
+/* Fix footer */
+[data-theme="dark"] footer {
+  background-color: var(--bg-card) !important;
+  color: var(--text) !important;
+}
+
+/* Fix modals */
+[data-theme="dark"] [role="dialog"],
+[data-theme="dark"] div[class*="modal"],
+[data-theme="dark"] div[class*="Modal"] {
+  background-color: var(--bg-card) !important;
+}

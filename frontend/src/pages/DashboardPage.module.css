@@ -1,0 +1,397 @@
+.header {
+    margin-bottom: 28px;
+}
+
+.title {
+    font-size: 28px;
+    font-weight: 800;
+    color: var(--text-dark);
+    margin: 0 0 4px;
+}
+
+.subtitle {
+    font-size: 14px;
+    color: var(--text);
+    margin: 0;
+}
+
+/* Stats */
+.stats {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+    margin-bottom: 32px;
+}
+
+.statCard {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 20px;
+    transition: background-color 0.3s;
+}
+
+.statIcon {
+    width: 44px;
+    height: 44px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.statLabel {
+    display: block;
+    font-size: 11px;
+    font-weight: 600;
+    color: #94a3b8;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.statValue {
+    display: block;
+    font-size: 28px;
+    font-weight: 800;
+    color: var(--text-dark);
+    line-height: 1.2;
+}
+
+/* Grid */
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    gap: 24px;
+}
+
+.section {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 20px;
+    transition: background-color 0.3s;
+}
+
+.sectionHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.sectionTitle {
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--text-dark);
+    margin: 0;
+}
+
+.seeAll {
+    font-size: 13px;
+    color: #6366f1;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.seeAll:hover {
+    text-decoration: underline;
+}
+
+/* Match Cards */
+.matchCards {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.matchCard {
+    display: block;
+    padding: 16px;
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    text-decoration: none;
+    transition: border-color 0.15s, box-shadow 0.15s;
+}
+
+.matchCard:hover {
+    border-color: #6366f1;
+    box-shadow: 0 2px 8px rgba(99, 102, 241, 0.1);
+}
+
+.matchScore {
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 700;
+    color: #22c55e;
+    margin-bottom: 6px;
+}
+
+.matchTitle {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--text-dark);
+    margin: 0 0 2px;
+}
+
+.matchCompany {
+    font-size: 12px;
+    color: var(--text);
+    margin: 0 0 8px;
+}
+
+.matchTags {
+    display: flex;
+    gap: 6px;
+}
+
+.matchTag {
+    padding: 3px 8px;
+    background: var(--bg-light);
+    color: var(--text);
+    border-radius: 6px;
+    font-size: 11px;
+}
+
+/* Table */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table th {
+    text-align: left;
+    font-size: 12px;
+    font-weight: 600;
+    color: #94a3b8;
+    padding: 10px 12px;
+    border-bottom: 1px solid var(--border);
+}
+
+.table td {
+    font-size: 13px;
+    color: var(--text);
+    padding: 12px;
+    border-bottom: 1px solid var(--border);
+}
+
+/* Badges */
+.badgeGreen {
+    padding: 4px 10px;
+    background: #ecfdf5;
+    color: #059669;
+    border-radius: 12px;
+    font-size: 11px;
+    font-weight: 600;
+}
+
+.badgeRed {
+    padding: 4px 10px;
+    background: #fef2f2;
+    color: #ef4444;
+    border-radius: 12px;
+    font-size: 11px;
+    font-weight: 600;
+}
+
+.badgeGray {
+    padding: 4px 10px;
+    background: var(--bg-light);
+    color: var(--text);
+    border-radius: 12px;
+    font-size: 11px;
+    font-weight: 600;
+}
+
+/* Match Card Enhancements */
+.matchCardHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.matchIcon {
+    width: 32px;
+    height: 32px;
+    background: #1e293b;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.matchScoreBadge {
+    font-size: 11px;
+    font-weight: 700;
+    color: #6366f1;
+    background: #eef2ff;
+    padding: 2px 8px;
+    border-radius: 8px;
+}
+
+/* Table Enhancements */
+.tableWrapper {
+    overflow-x: auto;
+}
+
+.posTitle {
+    font-weight: 600;
+    color: var(--text-dark);
+    font-size: 14px;
+}
+
+.posSub {
+    font-size: 11px;
+    color: #94a3b8;
+}
+
+.filterText {
+    font-size: 12px;
+    color: var(--text);
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    cursor: pointer;
+}
+
+.emptyTable {
+    text-align: center;
+    padding: 30px;
+    color: #94a3b8;
+    font-size: 13px;
+}
+
+/* Promo Banner */
+.promoBanner {
+    margin-top: 24px;
+    background: linear-gradient(135deg, #4f46e5 0%, #3730a3 100%);
+    border-radius: 16px;
+    padding: 24px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.promoBanner::after {
+    content: '';
+    position: absolute;
+    right: -20px;
+    bottom: -20px;
+    width: 120px;
+    height: 120px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+}
+
+.promoContent {
+    flex: 1;
+    z-index: 1;
+}
+
+.promoTitle {
+    font-size: 16px;
+    font-weight: 700;
+    margin: 0 0 8px;
+}
+
+.promoDesc {
+    font-size: 13px;
+    opacity: 0.9;
+    margin: 0 0 16px;
+    max-width: 400px;
+    line-height: 1.5;
+}
+
+.progressContainer {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.progressBar {
+    flex: 1;
+    max-width: 250px;
+    height: 8px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 4px;
+}
+
+.progressFill {
+    height: 100%;
+    background: var(--bg-card);
+    border-radius: 4px;
+}
+
+.progressText {
+    font-size: 11px;
+    font-weight: 600;
+}
+
+.promoBtn {
+    background: var(--bg-card);
+    color: #4f46e5;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 13px;
+    font-weight: 700;
+    cursor: pointer;
+    white-space: nowrap;
+    z-index: 1;
+    transition: transform 0.2s;
+}
+
+.promoBtn:hover {
+    transform: scale(1.05);
+}
+
+@media (max-width: 1024px) {
+    .grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 768px) {
+    .header {
+        margin-bottom: 20px;
+    }
+
+    .title {
+        font-size: 22px;
+    }
+
+    .stats {
+        grid-template-columns: 1fr;
+        gap: 12px;
+    }
+
+    .statCard {
+        padding: 16px;
+    }
+
+    .statValue {
+        font-size: 24px;
+    }
+
+    .promoBanner {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+        padding: 20px;
+    }
+
+    .progressBar {
+        max-width: 100%;
+    }
+
+    .promoBtn {
+        width: 100%;
+    }
+}

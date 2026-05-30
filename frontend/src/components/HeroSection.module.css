@@ -1,0 +1,157 @@
+.hero {
+    background: var(--white);
+    padding: 100px 24px 120px;
+}
+
+.container {
+    max-width: 860px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 28px;
+}
+
+.badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: #eff6ff;
+    color: var(--primary);
+    font-size: 13px;
+    font-weight: 500;
+    padding: 6px 16px;
+    border-radius: 20px;
+    border: 1px solid #dbeafe;
+}
+
+.badgeDot {
+    width: 6px;
+    height: 6px;
+    background: var(--primary);
+    border-radius: 50%;
+    flex-shrink: 0;
+}
+
+.heading {
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 1.12;
+    color: var(--text-dark);
+    letter-spacing: -2px;
+}
+
+.headingAccent {
+    color: var(--primary);
+}
+
+.subheading {
+    font-size: 18px;
+    color: var(--text);
+    line-height: 1.75;
+    max-width: 580px;
+}
+
+.actions {
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.btnPrimary {
+    background: var(--primary);
+    color: white;
+    border: none;
+    padding: 13px 32px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    transition: background 0.2s, transform 0.1s;
+}
+
+.btnPrimary:hover {
+    background: var(--primary-dark);
+    transform: translateY(-1px);
+}
+
+.btnSecondary {
+    background: var(--bg-card);
+    color: var(--text-dark);
+    border: 1.5px solid var(--border);
+    padding: 13px 32px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    transition: border-color 0.2s, color 0.2s;
+}
+
+.btnSecondary:hover {
+    border-color: var(--primary);
+    color: var(--primary);
+}
+
+.socialProof {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    justify-content: center;
+}
+
+.avatarGroup {
+    display: flex;
+}
+
+.avatar {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    border: 2px solid white;
+    margin-left: -8px;
+}
+
+.avatar:first-child {
+    margin-left: 0;
+}
+
+.socialText {
+    font-size: 14px;
+    color: var(--text);
+}
+
+.socialText strong {
+    color: var(--text-dark);
+}
+
+@media (max-width: 1024px) {
+    .heading {
+        font-size: 48px;
+        letter-spacing: -1.5px;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero {
+        padding: 80px 20px 100px;
+    }
+
+    .heading {
+        font-size: 36px;
+        letter-spacing: -1px;
+    }
+
+    .subheading {
+        font-size: 16px;
+    }
+
+    .actions {
+        flex-direction: column;
+        width: 100%;
+        gap: 12px;
+    }
+
+    .btnPrimary, .btnSecondary {
+        width: 100%;
+    }
+}
