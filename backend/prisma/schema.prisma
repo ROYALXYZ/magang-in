@@ -1,0 +1,163 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+model User {
+  id        String   @id @default(uuid())
+  email     String   @unique
+  password  String?
+  provider  String?
+  providerId String?
+  name      String?
+  role      String   @default("pengguna") // 'admin', 'mitra', 'pengguna'
+  
+  // Mitra verification
+  mitraStatus   String?  // 'pending', 'approved', 'rejected' — null = belum request
+  companyName   String?  // Nama perusahaan (diisi saat request mitra)
+  companyDesc   String?  @db.Text // Deskripsi perusahaan
+  companyIndustry String? // Industri perusahaan
+  companySize   String?  // Ukuran perusahaan
+  companyWebsite String? // Website
+  companyLinkedin String? // LinkedIn URL
+  companyYear   String?  // Tahun berdiri
+  
+  phone     String?
+  address   String?
+  education String?  // SMK, S1, D3, D4, S2
+  institution String? // Nama sekolah/kampus
+  profileImage String? // URL Foto Profil
+
+  
+  skills       UserSkill[]
+  internships  Internship[]  // Untuk Role Mitra
+  applications Application[] // Untuk Role Pengguna
+  articles     Article[]     // Untuk Role Admin
+  
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+// Master Tabel untuk Lokasi
+model MasterLocation {
+  id    String @id @default(uuid())
+  name  String @unique
+}
+
+// Master Tabel untuk Program Studi / Jurusan
+model MasterMajor {
+  id    String @id @default(uuid())
+  name  String @unique
+}
+
+// Master Tabel untuk daftar Teknologi/Skill yang ada
+model Skill {
+  id            String             @id @default(uuid())
+  name          String             @unique
+  category      String?            // Frontend, Backend, Data Science, AI
+  
+  userSkills    UserSkill[]
+  internSkills  InternshipSkill[]
+}
+
+// Relasi Many-to-Many antara User dan Skill (Self Declaration)
+model UserSkill {
+  id        String   @id @default(uuid())
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  userId    String
+  
+  skill     Skill    @relation(fields: [skillId], references: [id], onDelete: Cascade)
+  skillId   String
+  
+  proficiency String? // Beginner, Intermediate, Advanced
+  
+  @@unique([userId, skillId])
+}
+
+// Model Lowongan Magang
+model Internship {
+  id          String   @id @default(uuid())
+  title       String
+  company     String
+  location    String
+  type        String?
+  duration    String?
+  level       String?
+  major       String?
+  requirements String? @db.Text
+  skillsRequired String?
+  benefits    String?  @db.Text
+  description String   @db.Text
+  isClosed    Boolean  @default(false)
+  
+  mitra       User     @relation(fields: [mitraId], references: [id])
+  mitraId     String
+  
+  skills       InternshipSkill[]
+  roadmaps     Roadmap[]
+  applications Application[]
+  
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+}
+
+// Relasi Many-to-Many Skill dengan Lowongan
+model InternshipSkill {
+  id           String     @id @default(uuid())
+  internship   Internship @relation(fields: [internshipId], references: [id], onDelete: Cascade)
+  internshipId String
+  
+  skill        Skill      @relation(fields: [skillId], references: [id], onDelete: Cascade)
+  skillId      String
+  
+  @@unique([internshipId, skillId])
+}
+
+// Model Roadmap Refrensi Belajar per Lowongan
+model Roadmap {
+  id           String     @id @default(uuid())
+  internship   Internship @relation(fields: [internshipId], references: [id], onDelete: Cascade)
+  internshipId String
+  
+  title        String
+  contentUrl   String?
+  orderIndex   Int
+}
+
+// Model Pendaftaran / Pelamaran Magang
+model Application {
+  id            String     @id @default(uuid())
+  
+  internship    Internship @relation(fields: [internshipId], references: [id], onDelete: Cascade)
+  internshipId  String
+  
+  applicant     User       @relation(fields: [userId], references: [id], onDelete: Cascade)
+  userId        String
+  
+  attachmentUrl String?    // URL lampiran file/CV
+  coverLetter   String?    @db.Text
+  
+  status        String     @default("pending") // 'pending', 'accepted', 'rejected'
+  
+  createdAt     DateTime   @default(now())
+  updatedAt     DateTime   @updatedAt
+  
+  @@unique([userId, internshipId]) // Hanya boleh apply 1 kali di posisi yang sama
+}
+
+// Model Artikel / Blog yang dikelola Admin
+model Article {
+  id          String   @id @default(uuid())
+  title       String
+  content     String   @db.Text
+  thumbnailUrl String?
+  
+  author      User     @relation(fields: [authorId], references: [id])
+  authorId    String
+  
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+}
