@@ -1,0 +1,7 @@
+services:
+  magangin-demo:
+    build: .
+    container_name: magangin-demo
+    ports:
+      - "8002:80"
+    restart: unless-stopped
