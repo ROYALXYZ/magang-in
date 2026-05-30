@@ -1,0 +1,126 @@
+Internship_Domain,role,raw_skills,skills_cleaned,skills_count
+Data Science,data scientist,"MongoDB, SQL, Docker, HTML, Pandas","docker, html, mongodb, pandas, sql",5
+AI/ML,ai/ml,"Kubernetes, Python, C++, MongoDB","cpp, kubernetes, mongodb, python",4
+Data Science,data scientist,"SQL, Node.js, CSS, Docker, C++","cpp, css, docker, node, sql",5
+Data Science,data scientist,"React, HTML, Pandas, CSS, Python","css, html, pandas, python, react",5
+AI/ML,ai/ml,"HTML, Kubernetes, JavaScript, C++","cpp, html, javascript, kubernetes",4
+AI/ML,ai/ml,"JavaScript, CSS, MongoDB","css, javascript, mongodb",3
+Data Science,data scientist,"C++, React, MongoDB","cpp, mongodb, react",3
+AI/ML,ai/ml,"Node.js, Docker, Pandas, Java, Python, React","docker, java, node, pandas, python, react",6
+AI/ML,ai/ml,"Docker, C++, JavaScript, Pandas","cpp, docker, javascript, pandas",4
+Data Science,data scientist,"MongoDB, TensorFlow, Kubernetes, React, Node.js","kubernetes, mongodb, node, react, tensorflow",5
+Data Science,data scientist,"Java, TensorFlow, JavaScript","java, javascript, tensorflow",3
+AI/ML,ai/ml,"Node.js, SQL, HTML, Kubernetes, Java","html, java, kubernetes, node, sql",5
+Data Science,data scientist,"JavaScript, Node.js, Python, MongoDB","javascript, mongodb, node, python",4
+AI/ML,ai/ml,"Node.js, MongoDB, React, CSS, Pandas","css, mongodb, node, pandas, react",5
+Data Science,data scientist,"Python, JavaScript, Docker, TensorFlow","docker, javascript, python, tensorflow",4
+Data Science,data scientist,"MongoDB, Docker, CSS, SQL, Java","css, docker, java, mongodb, sql",5
+AI/ML,ai/ml,"HTML, Python, C++, CSS, React, Kubernetes","cpp, css, html, kubernetes, python, react",6
+Data Science,data scientist,"HTML, Python, MongoDB","html, mongodb, python",3
+Data Science,data scientist,"CSS, MongoDB, TensorFlow, Kubernetes, SQL","css, kubernetes, mongodb, sql, tensorflow",5
+AI/ML,ai/ml,"CSS, Python, JavaScript, HTML, Pandas, Kubernetes","css, html, javascript, kubernetes, pandas, python",6
+AI/ML,ai/ml,"Pandas, Kubernetes, CSS","css, kubernetes, pandas",3
+AI/ML,ai/ml,"SQL, Java, TensorFlow, Node.js","java, node, sql, tensorflow",4
+AI/ML,ai/ml,"Kubernetes, CSS, HTML, React, TensorFlow, C++","cpp, css, html, kubernetes, react, tensorflow",6
+AI/ML,ai/ml,"MongoDB, Java, Pandas, Kubernetes, CSS, TensorFlow","css, java, kubernetes, mongodb, pandas, tensorflow",6
+Data Science,data scientist,"MongoDB, React, TensorFlow, Kubernetes, Node.js","kubernetes, mongodb, node, react, tensorflow",5
+AI/ML,ai/ml,"CSS, JavaScript, Java, Python, C++, SQL","cpp, css, java, javascript, python, sql",6
+AI/ML,ai/ml,"JavaScript, SQL, Node.js","javascript, node, sql",3
+AI/ML,ai/ml,"Pandas, Python, SQL, CSS","css, pandas, python, sql",4
+Data Science,data scientist,"Docker, Python, Java, C++","cpp, docker, java, python",4
+AI/ML,ai/ml,"Python, Docker, JavaScript, TensorFlow","docker, javascript, python, tensorflow",4
+Data Science,data scientist,"Java, Python, CSS, React, TensorFlow","css, java, python, react, tensorflow",5
+AI/ML,ai/ml,"C++, TensorFlow, React","cpp, react, tensorflow",3
+AI/ML,ai/ml,"Pandas, MongoDB, SQL, Node.js, React, Java","java, mongodb, node, pandas, react, sql",6
+Data Science,data scientist,"Python, React, Docker, HTML, C++, TensorFlow","cpp, docker, html, python, react, tensorflow",6
+AI/ML,ai/ml,"SQL, MongoDB, TensorFlow, Pandas","mongodb, pandas, sql, tensorflow",4
+AI/ML,ai/ml,"MongoDB, TensorFlow, Pandas","mongodb, pandas, tensorflow",3
+AI/ML,ai/ml,"HTML, MongoDB, Kubernetes, React, CSS","css, html, kubernetes, mongodb, react",5
+AI/ML,ai/ml,"Kubernetes, React, Docker, TensorFlow","docker, kubernetes, react, tensorflow",4
+Data Science,data scientist,"React, CSS, Kubernetes","css, kubernetes, react",3
+Data Science,data scientist,"Java, Python, Docker, Pandas","docker, java, pandas, python",4
+Data Science,data scientist,"Docker, MongoDB, React, SQL","docker, mongodb, react, sql",4
+Data Science,data scientist,"Kubernetes, Python, Node.js, Java, MongoDB, SQL","java, kubernetes, mongodb, node, python, sql",6
+Data Science,data scientist,"JavaScript, Docker, Java, Pandas","docker, java, javascript, pandas",4
+AI/ML,ai/ml,"Pandas, Python, CSS, TensorFlow","css, pandas, python, tensorflow",4
+Data Science,data scientist,"TensorFlow, Docker, Pandas","docker, pandas, tensorflow",3
+Data Science,data scientist,"React, Kubernetes, JavaScript","javascript, kubernetes, react",3
+AI/ML,ai/ml,"Java, Kubernetes, Node.js, CSS, React, MongoDB","css, java, kubernetes, mongodb, node, react",6
+Data Science,data scientist,"SQL, CSS, Java, Python, JavaScript, Kubernetes","css, java, javascript, kubernetes, python, sql",6
+AI/ML,ai/ml,"Python, Pandas, C++","cpp, pandas, python",3
+AI/ML,ai/ml,"React, CSS, Kubernetes, SQL","css, kubernetes, react, sql",4
+AI/ML,ai/ml,"Docker, Pandas, HTML, React, SQL, MongoDB","docker, html, mongodb, pandas, react, sql",6
+AI/ML,ai/ml,"TensorFlow, HTML, SQL, JavaScript, Pandas","html, javascript, pandas, sql, tensorflow",5
+Data Science,data scientist,"CSS, TensorFlow, Pandas, HTML, Docker, Python","css, docker, html, pandas, python, tensorflow",6
+AI/ML,ai/ml,"Pandas, CSS, React, SQL, Node.js","css, node, pandas, react, sql",5
+AI/ML,ai/ml,"Java, CSS, Python","css, java, python",3
+Data Science,data scientist,"React, Java, MongoDB","java, mongodb, react",3
+Data Science,data scientist,"CSS, Node.js, C++","cpp, css, node",3
+AI/ML,ai/ml,"Node.js, Java, MongoDB","java, mongodb, node",3
+AI/ML,ai/ml,"Python, Docker, Node.js, C++, Kubernetes, HTML","cpp, docker, html, kubernetes, node, python",6
+Data Science,data scientist,"C++, SQL, Java, TensorFlow, CSS, Python","cpp, css, java, python, sql, tensorflow",6
+Data Science,data scientist,"SQL, Pandas, C++, CSS","cpp, css, pandas, sql",4
+AI/ML,ai/ml,"HTML, React, Pandas, JavaScript, Docker","docker, html, javascript, pandas, react",5
+Data Science,data scientist,"Node.js, Pandas, React, C++","cpp, node, pandas, react",4
+Data Science,data scientist,"HTML, Docker, JavaScript, CSS, Python, Java","css, docker, html, java, javascript, python",6
+AI/ML,ai/ml,"MongoDB, C++, TensorFlow, Python, CSS","cpp, css, mongodb, python, tensorflow",5
+AI/ML,ai/ml,"MongoDB, Docker, Node.js, TensorFlow","docker, mongodb, node, tensorflow",4
+AI/ML,ai/ml,"SQL, C++, Kubernetes, Java, MongoDB","cpp, java, kubernetes, mongodb, sql",5
+AI/ML,ai/ml,"TensorFlow, Python, HTML, SQL, CSS, JavaScript","css, html, javascript, python, sql, tensorflow",6
+AI/ML,ai/ml,"Kubernetes, CSS, Docker","css, docker, kubernetes",3
+Data Science,data scientist,"HTML, SQL, C++","cpp, html, sql",3
+AI/ML,ai/ml,"CSS, Node.js, MongoDB","css, mongodb, node",3
+Data Science,data scientist,"Node.js, Kubernetes, JavaScript","javascript, kubernetes, node",3
+AI/ML,ai/ml,"Java, TensorFlow, Node.js, HTML, JavaScript, C++","cpp, html, java, javascript, node, tensorflow",6
+AI/ML,ai/ml,"C++, MongoDB, CSS, HTML","cpp, css, html, mongodb",4
+Data Science,data scientist,"React, Python, C++, Java, Kubernetes, Node.js","cpp, java, kubernetes, node, python, react",6
+AI/ML,ai/ml,"C++, Docker, TensorFlow","cpp, docker, tensorflow",3
+Data Science,data scientist,"C++, Node.js, HTML, CSS, Python, JavaScript","cpp, css, html, javascript, node, python",6
+AI/ML,ai/ml,"CSS, SQL, React, HTML, C++, Pandas","cpp, css, html, pandas, react, sql",6
+Data Science,data scientist,"Docker, Node.js, Java, Kubernetes, HTML, Pandas","docker, html, java, kubernetes, node, pandas",6
+AI/ML,ai/ml,"HTML, Python, C++, TensorFlow","cpp, html, python, tensorflow",4
+AI/ML,ai/ml,"Kubernetes, MongoDB, Python","kubernetes, mongodb, python",3
+AI/ML,ai/ml,"React, CSS, Python","css, python, react",3
+Data Science,data scientist,"Pandas, MongoDB, CSS, React, Docker","css, docker, mongodb, pandas, react",5
+AI/ML,ai/ml,"React, Python, MongoDB, CSS, Kubernetes, Node.js","css, kubernetes, mongodb, node, python, react",6
+Data Science,data scientist,"CSS, C++, Python, JavaScript, Kubernetes, MongoDB","cpp, css, javascript, kubernetes, mongodb, python",6
+AI/ML,ai/ml,"Docker, TensorFlow, Pandas","docker, pandas, tensorflow",3
+Data Science,data scientist,"Kubernetes, HTML, CSS, React, Java","css, html, java, kubernetes, react",5
+AI/ML,ai/ml,"C++, TensorFlow, Kubernetes, Node.js, Pandas","cpp, kubernetes, node, pandas, tensorflow",5
+AI/ML,ai/ml,"Kubernetes, Python, Docker","docker, kubernetes, python",3
+Data Science,data scientist,"CSS, JavaScript, TensorFlow","css, javascript, tensorflow",3
+Data Science,data scientist,"HTML, CSS, Pandas, MongoDB, SQL, Node.js","css, html, mongodb, node, pandas, sql",6
+Data Science,data scientist,"Docker, Python, MongoDB, Node.js","docker, mongodb, node, python",4
+Data Science,data scientist,"TensorFlow, MongoDB, Kubernetes, Python","kubernetes, mongodb, python, tensorflow",4
+Data Science,data scientist,"C++, Python, Java, React, TensorFlow","cpp, java, python, react, tensorflow",5
+Data Science,data scientist,"JavaScript, TensorFlow, Kubernetes, React","javascript, kubernetes, react, tensorflow",4
+AI/ML,ai/ml,"SQL, Docker, C++, MongoDB, Kubernetes, React","cpp, docker, kubernetes, mongodb, react, sql",6
+Data Science,data scientist,"JavaScript, TensorFlow, C++, HTML","cpp, html, javascript, tensorflow",4
+AI/ML,ai/ml,"JavaScript, Java, SQL, Kubernetes, React, Node.js","java, javascript, kubernetes, node, react, sql",6
+Data Science,data scientist,"Python, MongoDB, TensorFlow","mongodb, python, tensorflow",3
+AI/ML,ai/ml,"HTML, Python, Node.js","html, node, python",3
+Data Science,data scientist,"HTML, React, C++, SQL","cpp, html, react, sql",4
+Data Science,data scientist,"Node.js, Kubernetes, Java, HTML, JavaScript","html, java, javascript, kubernetes, node",5
+AI/ML,ai/ml,"CSS, Pandas, HTML, JavaScript, TensorFlow, Java","css, html, java, javascript, pandas, tensorflow",6
+Data Science,data scientist,"Kubernetes, Node.js, Python","kubernetes, node, python",3
+Data Science,data scientist,"Java, TensorFlow, MongoDB, C++","cpp, java, mongodb, tensorflow",4
+AI/ML,ai/ml,"HTML, Pandas, Docker, CSS, Kubernetes, C++","cpp, css, docker, html, kubernetes, pandas",6
+Data Science,data scientist,"Pandas, C++, Node.js, HTML, React, TensorFlow","cpp, html, node, pandas, react, tensorflow",6
+Data Science,data scientist,"HTML, Java, CSS, TensorFlow","css, html, java, tensorflow",4
+AI/ML,ai/ml,"Python, React, SQL","python, react, sql",3
+AI/ML,ai/ml,"Python, HTML, Node.js, React","html, node, python, react",4
+Data Science,data scientist,"HTML, TensorFlow, Pandas, Kubernetes, Java","html, java, kubernetes, pandas, tensorflow",5
+Data Science,data scientist,"TensorFlow, C++, CSS, Python, Docker, React","cpp, css, docker, python, react, tensorflow",6
+Data Science,data scientist,"React, HTML, C++","cpp, html, react",3
+AI/ML,ai/ml,"Python, Kubernetes, MongoDB, HTML","html, kubernetes, mongodb, python",4
+Data Science,data scientist,"Kubernetes, JavaScript, TensorFlow, Pandas, SQL, HTML","html, javascript, kubernetes, pandas, sql, tensorflow",6
+Data Science,data scientist,"Python, SQL, Kubernetes, MongoDB, HTML","html, kubernetes, mongodb, python, sql",5
+AI/ML,ai/ml,"TensorFlow, C++, React, Python","cpp, python, react, tensorflow",4
+Data Science,data scientist,"React, Java, Pandas","java, pandas, react",3
+AI/ML,ai/ml,"HTML, MongoDB, Java, Node.js, Kubernetes, Python","html, java, kubernetes, mongodb, node, python",6
+AI/ML,ai/ml,"HTML, SQL, Java","html, java, sql",3
+AI/ML,ai/ml,"React, SQL, Kubernetes, CSS, C++","cpp, css, kubernetes, react, sql",5
+Data Science,data scientist,"Kubernetes, CSS, React","css, kubernetes, react",3
+Data Science,data scientist,"Docker, Pandas, React, TensorFlow","docker, pandas, react, tensorflow",4
+Data Science,data scientist,"Pandas, Node.js, SQL, Kubernetes, React","kubernetes, node, pandas, react, sql",5
+AI/ML,ai/ml,"Pandas, Docker, C++, HTML, React, Kubernetes","cpp, docker, html, kubernetes, pandas, react",6
